@@ -12,12 +12,15 @@ from app.schemas.baseline import (
     BaselineRequest, BaselineResponse,
     BaselineCompareRequest, BaselineCompareResponse,
 )
+from app.schemas.anomaly import AnomalyRequest, AnomalyResponse
 from app.services.historical_service import (
     run_historical, run_get_baseline, run_compare_baseline,
 )
+from app.services.anomaly_service import AnomalyService
 from typing import Dict, Any
 
 router = APIRouter()
+anomaly_service = AnomalyService()
 
 
 @router.post("/prepare")
@@ -197,4 +200,18 @@ def compare_with_baseline(request: BaselineCompareRequest):
         raise HTTPException(status_code=400, detail=str(exc))
     except Exception as exc:
         raise HTTPException(status_code=500, detail=f"Baseline comparison failed: {exc}")
+
+# ──────────────────────────────────────────────────────────────
+#  Prompt 08 — AI Anomaly Detection Engine
+# ──────────────────────────────────────────────────────────────
+
+@router.post("/anomaly", response_model=AnomalyResponse)
+async def detect_anomalies(request: AnomalyRequest):
+    """
+    Execute AI anomaly detection using two-stage robust statistical dev + Isolation Forest.
+    """
+    try:
+        return await anomaly_service.detect_anomalies(request)
+    except Exception as exc:
+        raise HTTPException(status_code=500, detail=f"Anomaly detection failed: {exc}")
 

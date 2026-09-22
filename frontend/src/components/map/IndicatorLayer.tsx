@@ -1,5 +1,5 @@
 import React from 'react';
-import { useAnalysisStore } from '../../../store/analysisStore';
+import { useAnalysisStore } from '../../store/analysisStore';
 
 // Color palettes for each indicator (as CSS gradients for the legend)
 const INDICATOR_CONFIG: Record<string, {

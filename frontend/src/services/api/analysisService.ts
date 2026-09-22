@@ -171,6 +171,28 @@ export const analysisService = {
       throw error;
     }
   },
+
+  detectAnomalies: async (request: import('../../types/analysis').AnomalyRequest): Promise<import('../../types/analysis').AnomalyResponse> => {
+    try {
+      const response = await fetch(`${API_BASE}/analysis/anomaly`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(request),
+      });
+
+      if (!response.ok) {
+        const errorBody = await response.json().catch(() => ({}));
+        throw new Error(errorBody.detail || 'Failed to detect anomalies');
+      }
+
+      return await response.json();
+    } catch (error) {
+      console.error('Anomaly detection error:', error);
+      throw error;
+    }
+  },
 };
 
 

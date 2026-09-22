@@ -52,6 +52,14 @@ interface AnalysisState {
   setHistoricalResult: (result: HistoricalResponse | null) => void;
   setHistoricalLookback: (v: '1yr' | '2yr') => void;
 
+  // Prompt 08 actions
+  anomalyStatus: 'idle' | 'loading' | 'done' | 'error';
+  anomalyResult: import('../types/analysis').AnomalyResponse | null;
+  selectedZoneResult: import('../types/analysis').AnomalyZoneResult | null;
+  setAnomalyStatus: (status: 'idle' | 'loading' | 'done' | 'error') => void;
+  setAnomalyResult: (result: import('../types/analysis').AnomalyResponse | null) => void;
+  setSelectedZoneResult: (result: import('../types/analysis').AnomalyZoneResult | null) => void;
+
   resetPipeline: () => void;
 }
 
@@ -79,6 +87,10 @@ export const useAnalysisStore = create<AnalysisState>((set, get) => ({
   historicalStatus: 'idle',
   historicalResult: null,
   historicalLookback: '2yr',
+
+  anomalyStatus: 'idle',
+  anomalyResult: null,
+  selectedZoneResult: null,
 
   setSelectedWaterBody: (name) => {
     // We get the name from the selector, find the corresponding ID
@@ -115,6 +127,10 @@ export const useAnalysisStore = create<AnalysisState>((set, get) => ({
   setHistoricalResult: (result) => set({ historicalResult: result }),
   setHistoricalLookback: (v) => set({ historicalLookback: v }),
 
+  setAnomalyStatus: (status) => set({ anomalyStatus: status }),
+  setAnomalyResult: (result) => set({ anomalyResult: result }),
+  setSelectedZoneResult: (result) => set({ selectedZoneResult: result }),
+
   resetPipeline: () => set({
     sceneSearchStatus: 'idle',
     sceneSearchResult: null,
@@ -128,6 +144,9 @@ export const useAnalysisStore = create<AnalysisState>((set, get) => ({
     activeMapLayer: 'water_mask',
     historicalStatus: 'idle',
     historicalResult: null,
+    anomalyStatus: 'idle',
+    anomalyResult: null,
+    selectedZoneResult: null,
     analysisReady: false,
   }),
 

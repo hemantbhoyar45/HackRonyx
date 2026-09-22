@@ -1,6 +1,6 @@
 import React from 'react';
 import { GeoJSON } from 'react-leaflet';
-import { useAnalysisStore } from '../../../store/analysisStore';
+import { useAnalysisStore } from '../../store/analysisStore';
 
 export function WaterMaskLayer() {
   const result = useAnalysisStore(state => state.waterMaskResult);

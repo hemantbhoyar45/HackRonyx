@@ -252,4 +252,52 @@ export interface BaselineCompareResponse {
   deviation: DeviationResult;
 }
 
+// ──────────────────────────────────────────────────────────────
+// Prompt 08 — Anomaly Detection
+// ──────────────────────────────────────────────────────────────
+
+export interface AnomalyRequest {
+  water_body_id: string;
+  scene_id: string;
+  current_date: string;
+  zones?: string[];
+}
+
+export interface AnomalyFeature {
+  indicator_name: string;
+  current_value: number;
+  baseline_median: number;
+  absolute_deviation: number;
+  relative_deviation: number;
+  robust_deviation: number;
+  valid_percentage?: number;
+}
+
+export interface MLAnomaly {
+  model: string;
+  status: string;
+  prediction?: number;
+  anomaly_score?: number;
+}
+
+export interface AnomalyZoneResult {
+  zone_id: string;
+  indicators: Record<string, AnomalyFeature>;
+  statistical_anomaly: boolean;
+  statistical_threshold: number;
+  ml: MLAnomaly;
+  combined_status: 'POTENTIAL_ANOMALY' | 'NO_ANOMALY_SIGNAL' | 'MIXED_EVIDENCE' | 'LOW_QUALITY_OBSERVATION' | 'INSUFFICIENT_HISTORY' | 'INSUFFICIENT_DATA';
+  anomaly_score: number;
+  quality: Record<string, number>;
+  affected_area?: number;
+  affected_percentage?: number;
+}
+
+export interface AnomalyResponse {
+  water_body_id: string;
+  scene_id: string;
+  acquisition_date: string;
+  results: AnomalyZoneResult[];
+}
+
 

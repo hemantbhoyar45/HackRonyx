@@ -8,6 +8,8 @@ import PreprocessingStatus from '../../components/dashboard/PreprocessingStatus'
 import { WaterDetectionStatus } from '../../components/dashboard/WaterDetectionStatus';
 import { SpectralIndicatorsPanel } from '../../components/dashboard/SpectralIndicatorsPanel';
 import { HistoricalAnalysisPanel } from '../../components/dashboard/HistoricalAnalysisPanel';
+import { AnomalySummaryPanel } from '../../components/dashboard/AnomalySummaryPanel';
+import { ZoneDetailView } from '../../components/dashboard/ZoneDetailView';
 import { AlertTriangle, Activity, Info, CheckCircle2 } from 'lucide-react';
 import { useAnalysisStore } from '../../store/analysisStore';
 import { analysisService } from '../../services/api/analysisService';
@@ -41,6 +43,12 @@ export default function Dashboard() {
     setHistoricalResult,
     historicalLookback,
     setHistoricalLookback,
+    anomalyStatus,
+    setAnomalyStatus,
+    anomalyResult,
+    setAnomalyResult,
+    selectedZoneResult,
+    setSelectedZoneResult,
     resetPipeline
   } = useAnalysisStore();
   
@@ -145,6 +153,23 @@ export default function Dashboard() {
               });
               setHistoricalResult(histResponse);
               setHistoricalStatus('done');
+
+              // 7. Anomaly Detection
+              setAnomalyStatus('loading');
+              try {
+                const anomalyResponse = await analysisService.detectAnomalies({
+                  water_body_id: request.waterBodyId,
+                  scene_id: bestScene.scene_id,
+                  current_date: request.endDate,
+                  zones: ['zone-main']
+                });
+                setAnomalyResult(anomalyResponse);
+                setAnomalyStatus('done');
+              } catch (anomErr: any) {
+                console.error('Anomaly analysis error:', anomErr);
+                setAnomalyStatus('error');
+              }
+
             } catch (histErr: any) {
               console.error('Historical analysis error:', histErr);
               setHistoricalStatus('error');
@@ -246,10 +271,26 @@ export default function Dashboard() {
             onLookbackChange={setHistoricalLookback}
           />
 
-          {indicatorsStatus === 'idle' && waterDetectionStatus === 'idle' && (
+          <AnomalySummaryPanel 
+            data={anomalyResult}
+            status={anomalyStatus}
+          />
+
+          {selectedZoneResult && (
+            <div className="fixed inset-0 z-[2000] flex items-center justify-center bg-slate-900/40 backdrop-blur-sm p-4">
+              <div className="w-full max-w-2xl max-h-screen">
+                <ZoneDetailView 
+                  zone={selectedZoneResult} 
+                  onClose={() => setSelectedZoneResult(null)} 
+                />
+              </div>
+            </div>
+          )}
+
+          {anomalyStatus === 'idle' && (
             <div className="opacity-50 pointer-events-none mt-4 border-t border-slate-200 pt-4">
               <h3 className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-3">Future Processing Stages</h3>
-              <div className="text-sm text-slate-500 italic">Anomaly detection &amp; alert generation (Prompts 08–09).</div>
+              <div className="text-sm text-slate-500 italic">Multi-indicator evidence fusion &amp; alerts (Prompts 09–10).</div>
             </div>
           )}
 

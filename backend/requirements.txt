@@ -6,3 +6,5 @@ pytest
 httpx
 earthengine-api
 shapely
+scikit-learn
+pandas
