@@ -171,3 +171,85 @@ export interface IndicatorsResponse {
   zones: ZoneIndicatorResult[];
 }
 
+// ──────────────────────────────────────────────────────────
+//  Prompt 07 — Historical Baseline & Time-Series
+// ──────────────────────────────────────────────────────────
+
+export interface HistoricalRequest {
+  water_body_id: string;
+  aoi?: GeoJSON.Feature | GeoJSON.FeatureCollection | null;
+  start_date: string;
+  end_date: string;
+  zone_id?: string;
+  max_cloud_pct?: number;
+  min_valid_water_pixels?: number;
+}
+
+export interface HistoricalObservationRecord {
+  scene_id: string;
+  acquisition_date: string;
+  sensor: string;
+  water_area_km2: number;
+  valid_pixel_count: number;
+  observation_status: string;
+  ndti_median: number;
+  ndci_median: number;
+  fai_median: number;
+  suspended_sediment_median: number;
+}
+
+export interface TimeSeriesPoint {
+  date: string;
+  scene_id: string;
+  median: number;
+  mean: number;
+  std: number;
+  observation_status: string;
+}
+
+export interface HistoricalResponse {
+  status: string;
+  data_source_mode: string;
+  water_body_id: string;
+  zone_id: string;
+  start_date: string;
+  end_date: string;
+  total_scenes_found: number;
+  valid_observations: number;
+  rejected_observations: number;
+  observations: HistoricalObservationRecord[];
+  time_series: Record<string, TimeSeriesPoint[]>;
+  message: string;
+}
+
+export interface BaselineStats {
+  month: number;
+  observation_count: number;
+  median: number | null;
+  mean: number | null;
+  std: number | null;
+  mad: number | null;
+  p10: number | null;
+  p25: number | null;
+  p75: number | null;
+  p90: number | null;
+  baseline_status: "available" | "insufficient_history";
+}
+
+export interface DeviationResult {
+  absolute: number | null;
+  relative: number | null;
+  robust: number | null;
+}
+
+export interface BaselineCompareResponse {
+  water_body_id: string;
+  zone_id: string;
+  indicator: string;
+  current_value: number;
+  current_date: string;
+  baseline: BaselineStats;
+  deviation: DeviationResult;
+}
+
+

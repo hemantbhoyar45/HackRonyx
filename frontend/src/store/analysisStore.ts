@@ -1,6 +1,6 @@
 import { create } from 'zustand';
 import { WATER_BODIES_REGISTRY } from '../data/waterBodies';
-import type { AnalysisRequest, SceneSearchResponse, PreprocessingResult, WaterMaskResult, IndicatorsResponse } from '../types/analysis';
+import type { AnalysisRequest, SceneSearchResponse, PreprocessingResult, WaterMaskResult, IndicatorsResponse, HistoricalResponse } from '../types/analysis';
 
 interface AnalysisState {
   selectedWaterBody: string;
@@ -22,6 +22,11 @@ interface AnalysisState {
   indicatorsStatus: 'idle' | 'processing' | 'done' | 'error';
   indicatorsResult: IndicatorsResponse | null;
   activeMapLayer: string | null; // e.g., 'water_mask', 'ndti', 'fai'
+
+  // Prompt 07 — Historical Baseline
+  historicalStatus: 'idle' | 'loading' | 'done' | 'error';
+  historicalResult: HistoricalResponse | null;
+  historicalLookback: '1yr' | '2yr'; // selector UI state
   
   // Actions
   setSelectedWaterBody: (name: string) => void;
@@ -41,7 +46,12 @@ interface AnalysisState {
   setIndicatorsStatus: (status: 'idle' | 'processing' | 'done' | 'error') => void;
   setIndicatorsResult: (result: IndicatorsResponse | null) => void;
   setActiveMapLayer: (layerId: string | null) => void;
-  
+
+  // Prompt 07 actions
+  setHistoricalStatus: (status: 'idle' | 'loading' | 'done' | 'error') => void;
+  setHistoricalResult: (result: HistoricalResponse | null) => void;
+  setHistoricalLookback: (v: '1yr' | '2yr') => void;
+
   resetPipeline: () => void;
 }
 
@@ -65,6 +75,10 @@ export const useAnalysisStore = create<AnalysisState>((set, get) => ({
   indicatorsStatus: 'idle',
   indicatorsResult: null,
   activeMapLayer: 'water_mask',
+
+  historicalStatus: 'idle',
+  historicalResult: null,
+  historicalLookback: '2yr',
 
   setSelectedWaterBody: (name) => {
     // We get the name from the selector, find the corresponding ID
@@ -96,7 +110,11 @@ export const useAnalysisStore = create<AnalysisState>((set, get) => ({
   setIndicatorsStatus: (status) => set({ indicatorsStatus: status }),
   setIndicatorsResult: (result) => set({ indicatorsResult: result }),
   setActiveMapLayer: (layerId) => set({ activeMapLayer: layerId }),
-  
+
+  setHistoricalStatus: (status) => set({ historicalStatus: status }),
+  setHistoricalResult: (result) => set({ historicalResult: result }),
+  setHistoricalLookback: (v) => set({ historicalLookback: v }),
+
   resetPipeline: () => set({
     sceneSearchStatus: 'idle',
     sceneSearchResult: null,
@@ -108,6 +126,8 @@ export const useAnalysisStore = create<AnalysisState>((set, get) => ({
     indicatorsStatus: 'idle',
     indicatorsResult: null,
     activeMapLayer: 'water_mask',
+    historicalStatus: 'idle',
+    historicalResult: null,
     analysisReady: false,
   }),
 

@@ -7,6 +7,7 @@ import SatelliteDataStatus from '../../components/dashboard/SatelliteDataStatus'
 import PreprocessingStatus from '../../components/dashboard/PreprocessingStatus';
 import { WaterDetectionStatus } from '../../components/dashboard/WaterDetectionStatus';
 import { SpectralIndicatorsPanel } from '../../components/dashboard/SpectralIndicatorsPanel';
+import { HistoricalAnalysisPanel } from '../../components/dashboard/HistoricalAnalysisPanel';
 import { AlertTriangle, Activity, Info, CheckCircle2 } from 'lucide-react';
 import { useAnalysisStore } from '../../store/analysisStore';
 import { analysisService } from '../../services/api/analysisService';
@@ -34,6 +35,12 @@ export default function Dashboard() {
     setIndicatorsResult,
     activeMapLayer,
     setActiveMapLayer,
+    historicalStatus,
+    setHistoricalStatus,
+    historicalResult,
+    setHistoricalResult,
+    historicalLookback,
+    setHistoricalLookback,
     resetPipeline
   } = useAnalysisStore();
   
@@ -118,6 +125,30 @@ export default function Dashboard() {
 
           if (indicatorsResponse.status === 'success') {
             setIndicatorsStatus('done');
+
+            // 6. Historical Baseline & Time-Series
+            setHistoricalStatus('loading');
+            try {
+              // Lookback period: 1yr or 2yr before the selected start date
+              const endHist = request.startDate;
+              const lookbackYears = historicalLookback === '1yr' ? 1 : 2;
+              const startHist = new Date(request.startDate);
+              startHist.setFullYear(startHist.getFullYear() - lookbackYears);
+              const startHistStr = startHist.toISOString().split('T')[0];
+
+              const histResponse = await analysisService.getHistorical({
+                water_body_id: request.waterBodyId,
+                aoi: request.aoi,
+                start_date: startHistStr,
+                end_date: endHist,
+                zone_id: 'zone-main',
+              });
+              setHistoricalResult(histResponse);
+              setHistoricalStatus('done');
+            } catch (histErr: any) {
+              console.error('Historical analysis error:', histErr);
+              setHistoricalStatus('error');
+            }
           } else {
             setIndicatorsStatus('error');
             setStatusMessage({ type: 'error', text: indicatorsResponse.message });
@@ -208,10 +239,17 @@ export default function Dashboard() {
             onLayerToggle={(layerId) => setActiveMapLayer(layerId)}
           />
 
+          <HistoricalAnalysisPanel
+            data={historicalResult}
+            status={historicalStatus}
+            lookback={historicalLookback}
+            onLookbackChange={setHistoricalLookback}
+          />
+
           {indicatorsStatus === 'idle' && waterDetectionStatus === 'idle' && (
             <div className="opacity-50 pointer-events-none mt-4 border-t border-slate-200 pt-4">
               <h3 className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-3">Future Processing Stages</h3>
-              <div className="text-sm text-slate-500 italic">Historical baseline &amp; anomaly detection (Prompts 07–09).</div>
+              <div className="text-sm text-slate-500 italic">Anomaly detection &amp; alert generation (Prompts 08–09).</div>
             </div>
           )}
 

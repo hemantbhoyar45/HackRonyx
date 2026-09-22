@@ -7,6 +7,14 @@ from app.schemas.water_mask import WaterMaskRequest, WaterMaskResult
 from app.services.water_detection_service import run_water_detection
 from app.schemas.indicators import IndicatorsRequest, IndicatorsResponse
 from app.services.indicator_service import run_indicators
+from app.schemas.baseline import (
+    HistoricalRequest, HistoricalResponse,
+    BaselineRequest, BaselineResponse,
+    BaselineCompareRequest, BaselineCompareResponse,
+)
+from app.services.historical_service import (
+    run_historical, run_get_baseline, run_compare_baseline,
+)
 from typing import Dict, Any
 
 router = APIRouter()
@@ -143,4 +151,50 @@ def compute_indicators(request: IndicatorsRequest):
         raise HTTPException(status_code=503, detail=str(exc))
     except Exception as exc:
         raise HTTPException(status_code=500, detail="An unexpected error occurred during indicator calculation.")
+
+
+# ──────────────────────────────────────────────────────────────
+#  Prompt 07 — Historical Baseline & Time-Series
+# ──────────────────────────────────────────────────────────────
+
+@router.post("/historical", response_model=HistoricalResponse)
+def historical_observations(request: HistoricalRequest):
+    """
+    Retrieve (or generate demo) historical Sentinel-2 observations for a water body.
+    Persists observations to the baseline repository and returns indicator time-series.
+    """
+    try:
+        return run_historical(request)
+    except ValueError as exc:
+        raise HTTPException(status_code=400, detail=str(exc))
+    except Exception as exc:
+        raise HTTPException(status_code=500, detail=f"Historical analysis failed: {exc}")
+
+
+@router.post("/baseline", response_model=BaselineResponse)
+def get_indicator_baseline(request: BaselineRequest):
+    """
+    Compute seasonal (month-of-year) baseline statistics for a single indicator.
+    Returns median, MAD, percentile band, and baseline status.
+    """
+    try:
+        return run_get_baseline(request)
+    except ValueError as exc:
+        raise HTTPException(status_code=400, detail=str(exc))
+    except Exception as exc:
+        raise HTTPException(status_code=500, detail=f"Baseline computation failed: {exc}")
+
+
+@router.post("/baseline/compare", response_model=BaselineCompareResponse)
+def compare_with_baseline(request: BaselineCompareRequest):
+    """
+    Compare a single current indicator value against its seasonal baseline.
+    Returns absolute, relative, and MAD-normalized (robust) deviations.
+    """
+    try:
+        return run_compare_baseline(request)
+    except ValueError as exc:
+        raise HTTPException(status_code=400, detail=str(exc))
+    except Exception as exc:
+        raise HTTPException(status_code=500, detail=f"Baseline comparison failed: {exc}")
 

@@ -129,5 +129,49 @@ export const analysisService = {
       throw error;
     }
   },
+
+  getHistorical: async (request: import('../../types/analysis').HistoricalRequest): Promise<import('../../types/analysis').HistoricalResponse> => {
+    try {
+      const response = await fetch(`${API_BASE}/analysis/historical`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(request),
+      });
+      if (!response.ok) {
+        const errorBody = await response.json().catch(() => ({}));
+        throw new Error(errorBody.detail || 'Failed to retrieve historical observations');
+      }
+      return await response.json();
+    } catch (error) {
+      console.error('Historical error:', error);
+      throw error;
+    }
+  },
+
+  compareBaseline: async (
+    water_body_id: string,
+    zone_id: string,
+    indicator: string,
+    current_value: number,
+    current_date: string,
+  ): Promise<import('../../types/analysis').BaselineCompareResponse> => {
+    try {
+      const response = await fetch(`${API_BASE}/analysis/baseline/compare`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ water_body_id, zone_id, indicator, current_value, current_date }),
+      });
+      if (!response.ok) {
+        const errorBody = await response.json().catch(() => ({}));
+        throw new Error(errorBody.detail || 'Baseline comparison failed');
+      }
+      return await response.json();
+    } catch (error) {
+      console.error('Baseline compare error:', error);
+      throw error;
+    }
+  },
 };
+
+
 
