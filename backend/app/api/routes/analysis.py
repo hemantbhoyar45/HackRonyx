@@ -5,6 +5,8 @@ from app.services.analysis_service import run_scene_search
 from app.services.preprocessing_service import run_preprocessing
 from app.schemas.water_mask import WaterMaskRequest, WaterMaskResult
 from app.services.water_detection_service import run_water_detection
+from app.schemas.indicators import IndicatorsRequest, IndicatorsResponse
+from app.services.indicator_service import run_indicators
 from typing import Dict, Any
 
 router = APIRouter()
@@ -117,4 +119,28 @@ def detect_water_mask(request: WaterMaskRequest):
         raise HTTPException(status_code=503, detail=str(exc))
     except Exception as exc:
         raise HTTPException(status_code=500, detail="An unexpected error occurred during water detection.")
+
+
+@router.post("/indicators", response_model=IndicatorsResponse)
+def compute_indicators(request: IndicatorsRequest):
+    """
+    Execute the Spectral Indicator Engine:
+    - Calculates NDTI, NDCI, FAI, Suspended Sediment Proxy
+    - Restricts calculation strictly to valid + water pixels
+    - Returns median, mean, std, and percentiles for AOI/Zones
+    """
+    if not request.aoi:
+        raise HTTPException(status_code=400, detail="Invalid AOI geometry.")
+        
+    if not request.scene_id:
+        raise HTTPException(status_code=400, detail="Scene ID is required.")
+
+    try:
+        return run_indicators(request)
+    except ValueError as exc:
+        raise HTTPException(status_code=400, detail=str(exc))
+    except RuntimeError as exc:
+        raise HTTPException(status_code=503, detail=str(exc))
+    except Exception as exc:
+        raise HTTPException(status_code=500, detail="An unexpected error occurred during indicator calculation.")
 

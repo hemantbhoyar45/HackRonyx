@@ -6,6 +6,7 @@ import AOIInfoPanel from '../../components/dashboard/AOIInfoPanel';
 import SatelliteDataStatus from '../../components/dashboard/SatelliteDataStatus';
 import PreprocessingStatus from '../../components/dashboard/PreprocessingStatus';
 import { WaterDetectionStatus } from '../../components/dashboard/WaterDetectionStatus';
+import { SpectralIndicatorsPanel } from '../../components/dashboard/SpectralIndicatorsPanel';
 import { AlertTriangle, Activity, Info, CheckCircle2 } from 'lucide-react';
 import { useAnalysisStore } from '../../store/analysisStore';
 import { analysisService } from '../../services/api/analysisService';
@@ -27,6 +28,12 @@ export default function Dashboard() {
     setWaterDetectionStatus,
     waterMaskResult,
     setWaterMaskResult,
+    indicatorsStatus,
+    setIndicatorsStatus,
+    indicatorsResult,
+    setIndicatorsResult,
+    activeMapLayer,
+    setActiveMapLayer,
     resetPipeline
   } = useAnalysisStore();
   
@@ -96,6 +103,25 @@ export default function Dashboard() {
         
         if (waterResponse.status === 'success') {
           setWaterDetectionStatus('done');
+
+          // 5. Spectral Indicator Engine
+          setIndicatorsStatus('processing');
+          const indicatorsRequest = {
+            water_body_id: request.waterBodyId,
+            scene_id: bestScene.scene_id,
+            aoi: request.aoi,
+            indicators: ['ndti', 'suspended_sediment', 'ndci', 'fai']
+          };
+
+          const indicatorsResponse = await analysisService.calculateIndicators(indicatorsRequest);
+          setIndicatorsResult(indicatorsResponse);
+
+          if (indicatorsResponse.status === 'success') {
+            setIndicatorsStatus('done');
+          } else {
+            setIndicatorsStatus('error');
+            setStatusMessage({ type: 'error', text: indicatorsResponse.message });
+          }
         } else {
           setWaterDetectionStatus('error');
           setStatusMessage({ type: 'error', text: waterResponse.message });
@@ -111,8 +137,10 @@ export default function Dashboard() {
         setSceneSearchStatus('error');
       } else if (preprocessingStatus === 'processing') {
         setPreprocessingStatus('error');
-      } else {
+      } else if (waterDetectionStatus === 'processing') {
         setWaterDetectionStatus('error');
+      } else {
+        setIndicatorsStatus('error');
       }
       setStatusMessage({ type: 'error', text: err.message || 'An error occurred during analysis.' });
     } finally {
@@ -173,10 +201,19 @@ export default function Dashboard() {
             status={waterDetectionStatus}
           />
 
-          <div className="opacity-50 pointer-events-none mt-4 border-t border-slate-200 pt-4">
-            <h3 className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-3">Future Processing Stages</h3>
-            <div className="text-sm text-slate-500 italic">Spectral analysis placeholders removed until subsequent implementation stages.</div>
-          </div>
+          <SpectralIndicatorsPanel
+            data={indicatorsResult}
+            status={indicatorsStatus}
+            activeLayer={activeMapLayer}
+            onLayerToggle={(layerId) => setActiveMapLayer(layerId)}
+          />
+
+          {indicatorsStatus === 'idle' && waterDetectionStatus === 'idle' && (
+            <div className="opacity-50 pointer-events-none mt-4 border-t border-slate-200 pt-4">
+              <h3 className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-3">Future Processing Stages</h3>
+              <div className="text-sm text-slate-500 italic">Historical baseline &amp; anomaly detection (Prompts 07–09).</div>
+            </div>
+          )}
 
         </div>
       </div>

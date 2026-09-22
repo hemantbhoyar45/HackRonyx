@@ -140,3 +140,48 @@ def test_otsu_calculation():
     flat_hist = [[1.0, 100.0]]
     assert calculate_otsu_threshold(flat_hist) is None
 
+
+def test_indicators_success_demo():
+    payload = {
+        "scene_id": "DEMO_S2A_20260115T053131",
+        "water_body_id": "gosikhurd-reservoir",
+        "indicators": ["ndti", "suspended_sediment", "ndci", "fai"],
+        "aoi": {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [[[79.62, 20.87], [79.64, 20.87], [79.64, 20.85], [79.62, 20.85], [79.62, 20.87]]]
+            }
+        }
+    }
+    
+    response = client.post("/api/analysis/indicators", json=payload)
+    assert response.status_code == 200
+    data = response.json()
+    assert data["status"] == "success"
+    assert data["data_source_mode"] == "demo"
+    assert "global_indicators" in data
+    assert "ndti" in data["global_indicators"]
+    assert "ndci" in data["global_indicators"]
+    assert "fai" in data["global_indicators"]
+    assert "suspended_sediment" in data["global_indicators"]
+    
+    ndti_data = data["global_indicators"]["ndti"]
+    assert ndti_data["statistics"]["mean"] > 0
+    assert ndti_data["statistics"]["valid_pixel_count"] > 0
+    
+    assert "zones" in data
+    assert len(data["zones"]) > 0
+
+def test_indicators_missing_aoi():
+    payload = {
+        "scene_id": "DEMO_S2A_20260115T053131",
+        "water_body_id": "test",
+        "indicators": ["ndti"],
+        "aoi": None
+    }
+    response = client.post("/api/analysis/indicators", json=payload)
+    assert response.status_code == 400
+    assert "Invalid AOI" in response.json()["detail"]
+

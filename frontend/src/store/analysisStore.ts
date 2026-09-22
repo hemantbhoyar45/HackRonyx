@@ -1,6 +1,6 @@
 import { create } from 'zustand';
 import { WATER_BODIES_REGISTRY } from '../data/waterBodies';
-import type { AnalysisRequest, SceneSearchResponse, PreprocessingResult, WaterMaskResult } from '../types/analysis';
+import type { AnalysisRequest, SceneSearchResponse, PreprocessingResult, WaterMaskResult, IndicatorsResponse } from '../types/analysis';
 
 interface AnalysisState {
   selectedWaterBody: string;
@@ -19,6 +19,9 @@ interface AnalysisState {
   preprocessingResult: PreprocessingResult | null;
   waterDetectionStatus: 'idle' | 'processing' | 'done' | 'error';
   waterMaskResult: WaterMaskResult | null;
+  indicatorsStatus: 'idle' | 'processing' | 'done' | 'error';
+  indicatorsResult: IndicatorsResponse | null;
+  activeMapLayer: string | null; // e.g., 'water_mask', 'ndti', 'fai'
   
   // Actions
   setSelectedWaterBody: (name: string) => void;
@@ -35,6 +38,9 @@ interface AnalysisState {
   setPreprocessingResult: (result: PreprocessingResult | null) => void;
   setWaterDetectionStatus: (status: 'idle' | 'processing' | 'done' | 'error') => void;
   setWaterMaskResult: (result: WaterMaskResult | null) => void;
+  setIndicatorsStatus: (status: 'idle' | 'processing' | 'done' | 'error') => void;
+  setIndicatorsResult: (result: IndicatorsResponse | null) => void;
+  setActiveMapLayer: (layerId: string | null) => void;
   
   resetPipeline: () => void;
 }
@@ -56,6 +62,9 @@ export const useAnalysisStore = create<AnalysisState>((set, get) => ({
   preprocessingResult: null,
   waterDetectionStatus: 'idle',
   waterMaskResult: null,
+  indicatorsStatus: 'idle',
+  indicatorsResult: null,
+  activeMapLayer: 'water_mask',
 
   setSelectedWaterBody: (name) => {
     // We get the name from the selector, find the corresponding ID
@@ -84,6 +93,9 @@ export const useAnalysisStore = create<AnalysisState>((set, get) => ({
   setPreprocessingResult: (result) => set({ preprocessingResult: result }),
   setWaterDetectionStatus: (status) => set({ waterDetectionStatus: status }),
   setWaterMaskResult: (result) => set({ waterMaskResult: result }),
+  setIndicatorsStatus: (status) => set({ indicatorsStatus: status }),
+  setIndicatorsResult: (result) => set({ indicatorsResult: result }),
+  setActiveMapLayer: (layerId) => set({ activeMapLayer: layerId }),
   
   resetPipeline: () => set({
     sceneSearchStatus: 'idle',
@@ -93,6 +105,9 @@ export const useAnalysisStore = create<AnalysisState>((set, get) => ({
     preprocessingResult: null,
     waterDetectionStatus: 'idle',
     waterMaskResult: null,
+    indicatorsStatus: 'idle',
+    indicatorsResult: null,
+    activeMapLayer: 'water_mask',
     analysisReady: false,
   }),
 

@@ -9,6 +9,7 @@ import iconShadow from 'leaflet/dist/images/marker-shadow.png';
 import WaterBodyLayer from './WaterBodyLayer';
 import CustomAOITool from './CustomAOITool';
 import { WaterMaskLayer } from './WaterMaskLayer';
+import { IndicatorLayer } from './IndicatorLayer';
 import { useAnalysisStore } from '../../store/analysisStore';
 
 let DefaultIcon = L.icon({
@@ -43,6 +44,7 @@ export default function MapView() {
       <div className="absolute bottom-4 left-4 z-[1000] bg-white/90 backdrop-blur-sm px-3 py-1.5 rounded shadow text-xs font-semibold text-slate-700 border border-slate-200">
         Demo Map View (Mock Data)
       </div>
+      <IndicatorLayer />
     </div>
   );
 }

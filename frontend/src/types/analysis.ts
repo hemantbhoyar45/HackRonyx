@@ -113,3 +113,61 @@ export interface WaterMaskResult {
   data_source_mode: "live" | "demo";
 }
 
+
+export interface IndicatorStatistics {
+  mean: number;
+  median: number;
+  min: number;
+  max: number;
+  std: number;
+  percentile_10: number;
+  percentile_25: number;
+  percentile_75: number;
+  percentile_90: number;
+  valid_pixel_count: number;
+}
+
+export interface IndicatorResult {
+  indicator_name: string;
+  indicator_type: string;
+  formula: string;
+  bands_used: string[];
+  units: string;
+  calibration_status: string;
+  statistics: IndicatorStatistics;
+  valid_percentage: number;
+  raster_reference?: string;
+}
+
+export interface ZoneIndicatorResult {
+  zone_id: string;
+  water_area_km2: number;
+  valid_pixel_count: number;
+  geometry: GeoJSON.Feature | GeoJSON.FeatureCollection | null;
+  indicators: Record<string, IndicatorResult>;
+}
+
+export interface QualityMetadata {
+  total_water_pixels: number;
+  acquisition_date?: string;
+  sensor: string;
+  scene_id: string;
+  water_body_id: string;
+}
+
+export interface IndicatorsRequest {
+  water_body_id: string;
+  scene_id: string;
+  aoi: GeoJSON.Feature | GeoJSON.FeatureCollection | null;
+  indicators?: string[];
+}
+
+export interface IndicatorsResponse {
+  status: "success" | "error";
+  message: string;
+  data_source_mode: "live" | "demo";
+  quality_metadata: QualityMetadata;
+  global_indicators: Record<string, IndicatorResult>;
+  zones: ZoneIndicatorResult[];
+}
+

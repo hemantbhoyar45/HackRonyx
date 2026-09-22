@@ -107,5 +107,27 @@ export const analysisService = {
       throw error;
     }
   },
+
+  calculateIndicators: async (request: import('../../types/analysis').IndicatorsRequest): Promise<import('../../types/analysis').IndicatorsResponse> => {
+    try {
+      const response = await fetch(`${API_BASE}/analysis/indicators`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(request),
+      });
+
+      if (!response.ok) {
+        const errorBody = await response.json().catch(() => ({}));
+        throw new Error(errorBody.detail || 'Failed to calculate spectral indicators');
+      }
+
+      return await response.json();
+    } catch (error) {
+      console.error('Indicators error:', error);
+      throw error;
+    }
+  },
 };
 
