@@ -8,6 +8,7 @@ import icon from 'leaflet/dist/images/marker-icon.png';
 import iconShadow from 'leaflet/dist/images/marker-shadow.png';
 import WaterBodyLayer from './WaterBodyLayer';
 import CustomAOITool from './CustomAOITool';
+import { WaterMaskLayer } from './WaterMaskLayer';
 import { useAnalysisStore } from '../../store/analysisStore';
 
 let DefaultIcon = L.icon({
@@ -34,6 +35,7 @@ export default function MapView() {
         />
         <WaterBodyLayer />
         <CustomAOITool />
+        <WaterMaskLayer />
         {/* Placeholders for future AOILayer, HotspotLayer etc. */}
       </MapContainer>
       

@@ -1,0 +1,17 @@
+# Environment secrets
+.env
+*.env
+
+# Service account key files
+*-service-account*.json
+*-credentials*.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# IDE
+.vscode/
+.idea/

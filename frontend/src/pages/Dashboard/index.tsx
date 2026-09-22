@@ -3,16 +3,38 @@ import WaterBodySelector from '../../components/dashboard/WaterBodySelector';
 import DateRangeSelector from '../../components/dashboard/DateRangeSelector';
 import MapView from '../../components/map/MapView';
 import AOIInfoPanel from '../../components/dashboard/AOIInfoPanel';
+import SatelliteDataStatus from '../../components/dashboard/SatelliteDataStatus';
+import PreprocessingStatus from '../../components/dashboard/PreprocessingStatus';
+import { WaterDetectionStatus } from '../../components/dashboard/WaterDetectionStatus';
 import { AlertTriangle, Activity, Info, CheckCircle2 } from 'lucide-react';
 import { useAnalysisStore } from '../../store/analysisStore';
 import { analysisService } from '../../services/api/analysisService';
 
 export default function Dashboard() {
-  const { getAnalysisRequest, isAnalyzing, setIsAnalyzing } = useAnalysisStore();
+  const { 
+    getAnalysisRequest, 
+    isAnalyzing, 
+    setIsAnalyzing,
+    sceneSearchStatus,
+    setSceneSearchStatus,
+    sceneSearchResult,
+    setSceneSearchResult,
+    preprocessingStatus,
+    setPreprocessingStatus,
+    preprocessingResult,
+    setPreprocessingResult,
+    waterDetectionStatus,
+    setWaterDetectionStatus,
+    waterMaskResult,
+    setWaterMaskResult,
+    resetPipeline
+  } = useAnalysisStore();
+  
   const [statusMessage, setStatusMessage] = useState<{type: 'error' | 'success', text: string} | null>(null);
 
   const handleAnalyze = async () => {
     setStatusMessage(null);
+    resetPipeline();
     const request = getAnalysisRequest();
     
     if (!request) {
@@ -26,11 +48,73 @@ export default function Dashboard() {
     }
 
     setIsAnalyzing(true);
+    setSceneSearchStatus('searching');
+    
     try {
-      await analysisService.prepareAnalysis(request);
-      setStatusMessage({ type: 'success', text: 'AOI and date range are ready for satellite analysis.' });
-    } catch (err) {
-      setStatusMessage({ type: 'error', text: 'Unable to prepare the analysis request. Please try again.' });
+      // 1. Scene Discovery
+      const sceneResponse = await analysisService.searchScenes(request);
+      setSceneSearchResult(sceneResponse);
+      
+      if (sceneResponse.scene_count === 0) {
+        setSceneSearchStatus('done');
+        setPreprocessingStatus('idle');
+        return;
+      }
+      
+      setSceneSearchStatus('done');
+      
+      // 2. Select lowest-cloud scene
+      const bestScene = [...sceneResponse.scenes].sort((a, b) => 
+        (a.cloud_percentage || 100) - (b.cloud_percentage || 100)
+      )[0];
+      
+      // 3. Preprocessing Pipeline
+      setPreprocessingStatus('processing');
+      
+      const preprocessRequest = {
+        ...request,
+        scene_id: bestScene.scene_id
+      };
+      
+      const prepResponse = await analysisService.preprocessScene(preprocessRequest);
+      setPreprocessingResult(prepResponse);
+      
+      if (prepResponse.status === 'success') {
+        setPreprocessingStatus('done');
+        
+        // 4. Water Body Detection
+        setWaterDetectionStatus('processing');
+        const waterMaskRequest = {
+          ...request,
+          scene_id: bestScene.scene_id,
+          method: 'combined', // Default MVP
+          threshold_method: 'otsu'
+        };
+        
+        const waterResponse = await analysisService.detectWater(waterMaskRequest);
+        setWaterMaskResult(waterResponse);
+        
+        if (waterResponse.status === 'success') {
+          setWaterDetectionStatus('done');
+        } else {
+          setWaterDetectionStatus('error');
+          setStatusMessage({ type: 'error', text: waterResponse.message });
+        }
+      } else {
+        setPreprocessingStatus('error');
+        setStatusMessage({ type: 'error', text: prepResponse.message });
+      }
+      
+    } catch (err: any) {
+      console.error(err);
+      if (sceneSearchStatus === 'searching') {
+        setSceneSearchStatus('error');
+      } else if (preprocessingStatus === 'processing') {
+        setPreprocessingStatus('error');
+      } else {
+        setWaterDetectionStatus('error');
+      }
+      setStatusMessage({ type: 'error', text: err.message || 'An error occurred during analysis.' });
     } finally {
       setIsAnalyzing(false);
     }
@@ -72,52 +156,26 @@ export default function Dashboard() {
         <div className="flex-1 flex flex-col gap-4 overflow-y-auto pr-1">
           <AOIInfoPanel />
 
-          {/* Status Card */}
-          <div className="bg-white p-5 rounded-xl shadow-sm border border-slate-200">
-            <h3 className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-3">Current Status</h3>
-            <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-full bg-amber-100 flex items-center justify-center text-amber-600">
-                <AlertTriangle className="w-5 h-5" />
-              </div>
-              <div>
-                <div className="text-lg font-bold text-slate-800">Potential Anomaly</div>
-                <div className="text-sm text-slate-500">Based on satellite observation</div>
-              </div>
-            </div>
-          </div>
+          <SatelliteDataStatus 
+            data={sceneSearchResult} 
+            status={sceneSearchStatus} 
+            errorMessage={statusMessage?.text}
+          />
 
-          {/* Metrics Grid */}
-          <div className="grid grid-cols-2 gap-4">
-            <div className="bg-white p-4 rounded-xl shadow-sm border border-slate-200">
-              <h3 className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-1">Priority Score</h3>
-              <div className="text-2xl font-bold text-red-600">75<span className="text-sm text-slate-400 font-normal">/100</span></div>
-            </div>
-            <div className="bg-white p-4 rounded-xl shadow-sm border border-slate-200">
-              <h3 className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-1">Confidence</h3>
-              <div className="text-2xl font-bold text-slate-700">82%</div>
-            </div>
-          </div>
+          <PreprocessingStatus 
+            data={preprocessingResult} 
+            status={preprocessingStatus} 
+            errorMessage={statusMessage?.text} 
+          />
 
-          {/* Indicators */}
-          <div className="bg-white p-5 rounded-xl shadow-sm border border-slate-200">
-            <h3 className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-4 flex items-center justify-between">
-              Indicator Summary
-              <Info className="w-4 h-4 text-slate-300" />
-            </h3>
-            <div className="space-y-3">
-              <div className="flex items-center justify-between">
-                <span className="text-sm font-medium text-slate-600">Turbidity Estimate</span>
-                <span className="px-2 py-0.5 rounded text-xs font-semibold bg-red-100 text-red-700">High</span>
-              </div>
-              <div className="flex items-center justify-between">
-                <span className="text-sm font-medium text-slate-600">Suspended Sediment</span>
-                <span className="px-2 py-0.5 rounded text-xs font-semibold bg-amber-100 text-amber-700">Elevated</span>
-              </div>
-              <div className="flex items-center justify-between">
-                <span className="text-sm font-medium text-slate-600">Chlorophyll-a Index</span>
-                <span className="px-2 py-0.5 rounded text-xs font-semibold bg-green-100 text-green-700">Normal</span>
-              </div>
-            </div>
+          <WaterDetectionStatus
+            data={waterMaskResult}
+            status={waterDetectionStatus}
+          />
+
+          <div className="opacity-50 pointer-events-none mt-4 border-t border-slate-200 pt-4">
+            <h3 className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-3">Future Processing Stages</h3>
+            <div className="text-sm text-slate-500 italic">Spectral analysis placeholders removed until subsequent implementation stages.</div>
           </div>
 
         </div>

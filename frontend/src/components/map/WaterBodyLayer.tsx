@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { GeoJSON, useMap } from 'react-leaflet';
-import { useAnalysisStore } from '../../../store/analysisStore';
-import { WATER_BODIES_REGISTRY } from '../../../data/waterBodies';
+import { useAnalysisStore } from '../../store/analysisStore';
+import { WATER_BODIES_REGISTRY } from '../../data/waterBodies';
 import L from 'leaflet';
 
 export default function WaterBodyLayer() {

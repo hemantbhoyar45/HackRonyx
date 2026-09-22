@@ -4,7 +4,7 @@ import { FeatureGroup, useMap } from 'react-leaflet';
 import { EditControl } from 'react-leaflet-draw';
 import L from 'leaflet';
 import 'leaflet-draw/dist/leaflet.draw.css';
-import { useAnalysisStore } from '../../../store/analysisStore';
+import { useAnalysisStore } from '../../store/analysisStore';
 
 export default function CustomAOITool() {
   const map = useMap();

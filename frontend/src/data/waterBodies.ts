@@ -1,4 +1,4 @@
-import { WaterBodyConfig } from "../types/analysis";
+import type { WaterBodyConfig } from "../types/analysis";
 
 export const WATER_BODIES_REGISTRY: Record<string, WaterBodyConfig> = {
   "gosikhurd-reservoir": {
