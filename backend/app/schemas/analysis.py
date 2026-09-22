@@ -1,12 +1,14 @@
 from pydantic import BaseModel
-from typing import Optional, List
+from typing import Optional, List, Dict, Any
 from datetime import date
 
 class AnalysisRequest(BaseModel):
     water_body_id: str
+    water_body_name: str
     start_date: date
     end_date: date
-    custom_aoi: Optional[dict] = None
+    custom_aoi: Optional[Dict[str, Any]] = None
+    aoi: Optional[Dict[str, Any]] = None
 
 class IndicatorResult(BaseModel):
     name: str

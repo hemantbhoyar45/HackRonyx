@@ -6,6 +6,9 @@ import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
 import icon from 'leaflet/dist/images/marker-icon.png';
 import iconShadow from 'leaflet/dist/images/marker-shadow.png';
+import WaterBodyLayer from './WaterBodyLayer';
+import CustomAOITool from './CustomAOITool';
+import { useAnalysisStore } from '../../store/analysisStore';
 
 let DefaultIcon = L.icon({
     iconUrl: icon,
@@ -14,6 +17,8 @@ let DefaultIcon = L.icon({
 L.Marker.prototype.options.icon = DefaultIcon;
 
 export default function MapView() {
+  const { customAOI, selectedWaterBody } = useAnalysisStore();
+
   return (
     <div className="w-full h-full rounded-lg overflow-hidden border border-slate-300 shadow-sm relative z-0">
       <MapContainer 
@@ -27,11 +32,13 @@ export default function MapView() {
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
+        <WaterBodyLayer />
+        <CustomAOITool />
         {/* Placeholders for future AOILayer, HotspotLayer etc. */}
       </MapContainer>
       
       {/* Overlay Mock Badge */}
-      <div className="absolute top-4 right-4 z-[1000] bg-white/90 backdrop-blur-sm px-3 py-1.5 rounded shadow text-xs font-semibold text-slate-700 border border-slate-200">
+      <div className="absolute bottom-4 left-4 z-[1000] bg-white/90 backdrop-blur-sm px-3 py-1.5 rounded shadow text-xs font-semibold text-slate-700 border border-slate-200">
         Demo Map View (Mock Data)
       </div>
     </div>

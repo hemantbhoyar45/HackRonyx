@@ -1,10 +1,41 @@
-import React from 'react';
+import React, { useState } from 'react';
 import WaterBodySelector from '../../components/dashboard/WaterBodySelector';
 import DateRangeSelector from '../../components/dashboard/DateRangeSelector';
 import MapView from '../../components/map/MapView';
-import { AlertTriangle, Activity, CheckCircle2, Info } from 'lucide-react';
+import AOIInfoPanel from '../../components/dashboard/AOIInfoPanel';
+import { AlertTriangle, Activity, Info, CheckCircle2 } from 'lucide-react';
+import { useAnalysisStore } from '../../store/analysisStore';
+import { analysisService } from '../../services/api/analysisService';
 
 export default function Dashboard() {
+  const { getAnalysisRequest, isAnalyzing, setIsAnalyzing } = useAnalysisStore();
+  const [statusMessage, setStatusMessage] = useState<{type: 'error' | 'success', text: string} | null>(null);
+
+  const handleAnalyze = async () => {
+    setStatusMessage(null);
+    const request = getAnalysisRequest();
+    
+    if (!request) {
+      setStatusMessage({ type: 'error', text: 'Please complete your selection and ensure a valid AOI is selected.' });
+      return;
+    }
+
+    if (new Date(request.startDate) > new Date(request.endDate)) {
+      setStatusMessage({ type: 'error', text: 'Start date must be earlier than or equal to the end date.' });
+      return;
+    }
+
+    setIsAnalyzing(true);
+    try {
+      await analysisService.prepareAnalysis(request);
+      setStatusMessage({ type: 'success', text: 'AOI and date range are ready for satellite analysis.' });
+    } catch (err) {
+      setStatusMessage({ type: 'error', text: 'Unable to prepare the analysis request. Please try again.' });
+    } finally {
+      setIsAnalyzing(false);
+    }
+  };
+
   return (
     <div className="flex flex-col h-full gap-4">
       {/* Top Controls */}
@@ -15,10 +46,21 @@ export default function Dashboard() {
         <div className="w-[400px]">
           <DateRangeSelector />
         </div>
-        <button className="h-[38px] px-6 bg-brand-600 hover:bg-brand-700 text-white text-sm font-semibold rounded-md shadow-sm transition-colors ml-auto">
-          Analyze Area
+        <button 
+          onClick={handleAnalyze}
+          disabled={isAnalyzing}
+          className="h-[38px] px-6 bg-brand-600 hover:bg-brand-700 disabled:bg-brand-400 text-white text-sm font-semibold rounded-md shadow-sm transition-colors ml-auto flex items-center justify-center min-w-[120px]"
+        >
+          {isAnalyzing ? "Preparing..." : "Analyze Area"}
         </button>
       </div>
+      
+      {statusMessage && (
+        <div className={`p-4 rounded-lg shadow-sm text-sm font-semibold flex items-center gap-2 ${statusMessage.type === 'error' ? 'bg-red-50 text-red-700 border border-red-200' : 'bg-green-50 text-green-700 border border-green-200'}`}>
+          {statusMessage.type === 'error' ? <AlertTriangle className="w-5 h-5" /> : <CheckCircle2 className="w-5 h-5" />}
+          {statusMessage.text}
+        </div>
+      )}
 
       <div className="flex flex-1 gap-4 min-h-0">
         {/* Main Map Area */}
@@ -28,6 +70,8 @@ export default function Dashboard() {
 
         {/* Right Info Panels */}
         <div className="flex-1 flex flex-col gap-4 overflow-y-auto pr-1">
+          <AOIInfoPanel />
+
           {/* Status Card */}
           <div className="bg-white p-5 rounded-xl shadow-sm border border-slate-200">
             <h3 className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-3">Current Status</h3>
@@ -54,11 +98,6 @@ export default function Dashboard() {
             </div>
           </div>
 
-          <div className="bg-white p-4 rounded-xl shadow-sm border border-slate-200">
-            <h3 className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-1">Affected Area</h3>
-            <div className="text-xl font-bold text-slate-700">12.4 <span className="text-sm text-slate-500 font-medium">km²</span></div>
-          </div>
-
           {/* Indicators */}
           <div className="bg-white p-5 rounded-xl shadow-sm border border-slate-200">
             <h3 className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-4 flex items-center justify-between">
@@ -79,20 +118,6 @@ export default function Dashboard() {
                 <span className="px-2 py-0.5 rounded text-xs font-semibold bg-green-100 text-green-700">Normal</span>
               </div>
             </div>
-          </div>
-
-          {/* Historical Baseline */}
-          <div className="bg-white p-5 rounded-xl shadow-sm border border-slate-200 flex-1">
-             <h3 className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-4 flex items-center justify-between">
-              Historical Comparison
-              <Activity className="w-4 h-4 text-slate-300" />
-            </h3>
-            <div className="h-32 bg-slate-50 rounded-lg border border-slate-100 flex items-center justify-center text-sm text-slate-400 font-medium">
-              [ Mock Chart Placeholder ]
-            </div>
-            <p className="text-xs text-slate-500 mt-3 leading-relaxed">
-              Current observation deviates significantly from the 3-year historical baseline for this date range.
-            </p>
           </div>
 
         </div>
