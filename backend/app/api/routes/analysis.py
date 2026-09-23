@@ -215,3 +215,99 @@ async def detect_anomalies(request: AnomalyRequest):
     except Exception as exc:
         raise HTTPException(status_code=500, detail=f"Anomaly detection failed: {exc}")
 
+
+# ──────────────────────────────────────────────────────────────
+#  Prompt 09 — Multi-Indicator Evidence Fusion & Priority Score
+# ──────────────────────────────────────────────────────────────
+
+from app.schemas.priority import PriorityRequestSchema, PriorityResponseSchema, PriorityResultSchema
+from app.intelligence.fusion.service import MultiIndicatorFusionService
+
+@router.post("/priority", response_model=PriorityResponseSchema)
+def calculate_priority(request: PriorityRequestSchema):
+    """
+    Execute Multi-Indicator Evidence Fusion & Investigation Priority Scoring.
+    Consumes Prompt 08 Anomaly detection results.
+    """
+    try:
+        water_body_id = request.water_body_id
+        scene_id = request.scene_id or "SENTINEL2_LIVE"
+        acquisition_date = request.acquisition_date or "2026-09-22"
+
+        zone_results_raw = []
+
+        if request.anomaly_result:
+            water_body_id = request.anomaly_result.get("water_body_id", water_body_id)
+            scene_id = request.anomaly_result.get("scene_id", scene_id)
+            acquisition_date = request.anomaly_result.get("acquisition_date", acquisition_date)
+            
+            if "results" in request.anomaly_result and isinstance(request.anomaly_result["results"], list):
+                zone_results_raw = request.anomaly_result["results"]
+            else:
+                zone_results_raw = [request.anomaly_result]
+        elif request.results:
+            zone_results_raw = request.results
+
+        # Fallback if no zone results were provided in request: create default zone structure
+        if not zone_results_raw:
+            zone_results_raw = [{
+                "zone_id": "zone-main",
+                "indicators": {},
+                "statistical_anomaly": False,
+                "combined_status": "NO_ANOMALY_SIGNAL",
+                "quality": {"valid_percentage": 90.0}
+            }]
+
+        processed_zones = []
+        for zone_data in zone_results_raw:
+            z_id = zone_data.get("zone_id", "zone-main")
+            res_trace = MultiIndicatorFusionService.process_zone_anomaly(
+                water_body_id=water_body_id,
+                zone_id=z_id,
+                scene_id=scene_id,
+                analysis_date=acquisition_date,
+                zone_anomaly_data=zone_data
+            )
+            processed_zones.append(res_trace)
+
+        # Sort multi-zone results by investigation_priority_score DESC
+        processed_zones.sort(key=lambda x: x["investigation_priority_score"], reverse=True)
+
+        return PriorityResponseSchema(
+            water_body_id=water_body_id,
+            scene_id=scene_id,
+            acquisition_date=acquisition_date,
+            results=[PriorityResultSchema(**z) for z in processed_zones]
+        )
+    except Exception as exc:
+        raise HTTPException(status_code=500, detail=f"Priority calculation failed: {exc}")
+
+
+# ──────────────────────────────────────────────────────────────
+#  Prompt 10 — Explainability & Alert System
+# ──────────────────────────────────────────────────────────────
+
+from app.schemas.alert import AlertRequestSchema, AlertResponseSchema
+from app.intelligence.explainability.service import ExplainabilityService
+from app.database.repositories.alert_repository import AlertRepository
+
+@router.post("/alert", response_model=AlertResponseSchema)
+def generate_alerts(request: AlertRequestSchema):
+    """
+    Execute Explainability & Alert System to deterministically convert Priority results
+    into actionable natural language alerts.
+    """
+    try:
+        alerts = ExplainabilityService.generate_alerts(request.results)
+        
+        # Persist alerts to repository
+        repo = AlertRepository()
+        for alert in alerts:
+            repo.save_alert(alert.model_dump())
+            
+        return AlertResponseSchema(alerts=alerts)
+    except Exception as exc:
+        raise HTTPException(status_code=500, detail=f"Alert generation failed: {exc}")
+
+
+

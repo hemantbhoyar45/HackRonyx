@@ -300,4 +300,112 @@ export interface AnomalyResponse {
   results: AnomalyZoneResult[];
 }
 
+// ──────────────────────────────────────────────────────────────
+// Prompt 09 — Multi-Indicator Evidence Fusion & Priority Score
+// ──────────────────────────────────────────────────────────────
 
+export interface IndicatorEvidence {
+  indicator_name: string;
+  current_value: number | null;
+  baseline_value: number | null;
+  absolute_deviation: number | null;
+  relative_deviation: number | null;
+  robust_deviation: number | null;
+  direction: 'INCREASE' | 'DECREASE' | 'STABLE' | 'UNKNOWN';
+  evidence_score: number;
+  weight: number;
+  weighted_contribution: number;
+  available: boolean;
+}
+
+export interface PriorityResult {
+  water_body_id: string;
+  zone_id: string;
+  scene_id: string;
+  analysis_date: string;
+  combined_status?: string;
+  combined_evidence: number;
+  indicator_agreement_score: number;
+  quality_factor: number;
+  indicator_completeness: number;
+  historical_support: number;
+  model_agreement_score: number | null;
+  severity: 'LOW' | 'MODERATE-LOW' | 'MODERATE' | 'HIGH' | 'VERY HIGH';
+  severity_normalized?: number;
+  confidence: number;
+  confidence_normalized?: number;
+  investigation_priority_score: number;
+  priority_band: 'LOW PRIORITY' | 'MEDIUM PRIORITY' | 'HIGH PRIORITY' | 'VERY HIGH PRIORITY';
+  primary_driver: string | null;
+  supporting_indicators: string[];
+  indicators: IndicatorEvidence[];
+  evidence_trace?: Record<string, any>;
+  affected_area?: number;
+}
+
+export interface PriorityRequest {
+  water_body_id: string;
+  scene_id?: string;
+  acquisition_date?: string;
+  anomaly_result?: AnomalyResponse | Record<string, any>;
+  results?: AnomalyZoneResult[] | Record<string, any>[];
+}
+
+export interface PriorityResponse {
+  water_body_id: string;
+  scene_id: string;
+  acquisition_date: string;
+  results: PriorityResult[];
+}
+
+
+
+// --------------------------------------------------------------
+// Prompt 10 � Explainability & Alert System
+// --------------------------------------------------------------
+
+export interface AlertEvidence {
+  indicator: string;
+  description: string;
+  significance: 'LOW' | 'MODERATE' | 'HIGH';
+}
+
+export interface AlertRecommendation {
+  action: string;
+  urgency: 'LOW' | 'MODERATE' | 'HIGH' | 'IMMEDIATE';
+}
+
+export interface Alert {
+  alert_id: string;
+  water_body_id: string;
+  zone_id: string;
+  scene_id: string;
+  analysis_date: string;
+  
+  title: string;
+  summary: string;
+  
+  status: string;
+  investigation_priority_score: number;
+  priority_band: string;
+  severity: string;
+  confidence: number;
+  
+  primary_reason: string;
+  evidence_statements: AlertEvidence[];
+  recommended_actions: AlertRecommendation[];
+  
+  created_at: string;
+  updated_at: string;
+}
+
+export interface AlertRequest {
+  water_body_id: string;
+  scene_id: string;
+  acquisition_date: string;
+  results: PriorityResult[] | Record<string, any>[];
+}
+
+export interface AlertResponse {
+  alerts: Alert[];
+}

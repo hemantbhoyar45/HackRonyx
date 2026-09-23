@@ -1,6 +1,6 @@
 import React from 'react';
 import { ShieldAlert, X, AlertTriangle, CheckCircle2, Info, Activity } from 'lucide-react';
-import { AnomalyZoneResult } from '../../../types/analysis';
+import type { AnomalyZoneResult } from '../../../types/analysis';
 
 interface Props {
   zone: AnomalyZoneResult;

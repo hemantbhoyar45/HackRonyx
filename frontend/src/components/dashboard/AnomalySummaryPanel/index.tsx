@@ -1,6 +1,6 @@
 import React from 'react';
 import { ShieldAlert, Info, AlertTriangle, AlertCircle, CheckCircle2 } from 'lucide-react';
-import { AnomalyResponse } from '../../../types/analysis';
+import type { AnomalyResponse } from '../../../types/analysis';
 
 interface Props {
   data: AnomalyResponse | null;

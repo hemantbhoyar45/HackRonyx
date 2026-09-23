@@ -60,6 +60,20 @@ interface AnalysisState {
   setAnomalyResult: (result: import('../types/analysis').AnomalyResponse | null) => void;
   setSelectedZoneResult: (result: import('../types/analysis').AnomalyZoneResult | null) => void;
 
+  // Prompt 09 actions
+  priorityStatus: 'idle' | 'loading' | 'done' | 'error';
+  priorityResult: import('../types/analysis').PriorityResponse | null;
+  selectedZonePriority: import('../types/analysis').PriorityResult | null;
+  setPriorityStatus: (status: 'idle' | 'loading' | 'done' | 'error') => void;
+  setPriorityResult: (result: import('../types/analysis').PriorityResponse | null) => void;
+  setSelectedZonePriority: (result: import('../types/analysis').PriorityResult | null) => void;
+
+  // Prompt 10 actions
+  alertStatus: 'idle' | 'loading' | 'done' | 'error';
+  alertResult: import('../types/analysis').AlertResponse | null;
+  setAlertStatus: (status: 'idle' | 'loading' | 'done' | 'error') => void;
+  setAlertResult: (result: import('../types/analysis').AlertResponse | null) => void;
+
   resetPipeline: () => void;
 }
 
@@ -91,6 +105,13 @@ export const useAnalysisStore = create<AnalysisState>((set, get) => ({
   anomalyStatus: 'idle',
   anomalyResult: null,
   selectedZoneResult: null,
+
+  priorityStatus: 'idle',
+  priorityResult: null,
+  selectedZonePriority: null,
+
+  alertStatus: 'idle',
+  alertResult: null,
 
   setSelectedWaterBody: (name) => {
     // We get the name from the selector, find the corresponding ID
@@ -131,6 +152,13 @@ export const useAnalysisStore = create<AnalysisState>((set, get) => ({
   setAnomalyResult: (result) => set({ anomalyResult: result }),
   setSelectedZoneResult: (result) => set({ selectedZoneResult: result }),
 
+  setPriorityStatus: (status) => set({ priorityStatus: status }),
+  setPriorityResult: (result) => set({ priorityResult: result }),
+  setSelectedZonePriority: (result) => set({ selectedZonePriority: result }),
+
+  setAlertStatus: (status) => set({ alertStatus: status }),
+  setAlertResult: (result) => set({ alertResult: result }),
+
   resetPipeline: () => set({
     sceneSearchStatus: 'idle',
     sceneSearchResult: null,
@@ -147,6 +175,11 @@ export const useAnalysisStore = create<AnalysisState>((set, get) => ({
     anomalyStatus: 'idle',
     anomalyResult: null,
     selectedZoneResult: null,
+    priorityStatus: 'idle',
+    priorityResult: null,
+    selectedZonePriority: null,
+    alertStatus: 'idle',
+    alertResult: null,
     analysisReady: false,
   }),
 
@@ -172,3 +205,4 @@ export const useAnalysisStore = create<AnalysisState>((set, get) => ({
     };
   }
 }));
+

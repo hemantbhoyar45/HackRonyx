@@ -3,7 +3,7 @@ import {
   LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip,
   ResponsiveContainer, ReferenceLine, Area, AreaChart, Legend
 } from 'recharts';
-import { HistoricalResponse, TimeSeriesPoint } from '../../../types/analysis';
+import type { HistoricalResponse, TimeSeriesPoint } from '../../../types/analysis';
 import { Activity, Clock, Database, TrendingUp, TrendingDown, Minus, AlertCircle } from 'lucide-react';
 
 // ─────────────────────────────────────────────────────────────
@@ -181,7 +181,7 @@ const MiniChart: React.FC<MiniChartProps> = ({ points, config, currentValue }) =
           />
           <Tooltip
             contentStyle={{ fontSize: 11, borderRadius: 6, borderColor: '#e2e8f0' }}
-            formatter={(val: number) => [val.toFixed(5), config.label]}
+            formatter={(val) => [typeof val === 'number' ? val.toFixed(5) : String(val ?? ''), config.label]}
             labelFormatter={l => `Date: ${l}`}
           />
           {/* P25–P75 variability band */}

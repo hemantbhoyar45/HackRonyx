@@ -1,0 +1,1826 @@
+[
+  {
+    "water_body_id": "jaikwadi-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20240905_0000",
+    "acquisition_date": "2024-09-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.939,
+    "valid_pixel_count": 16393,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.1923,
+      "mean": 0.19615,
+      "std": 0.01923,
+      "valid_pixel_count": 14001
+    },
+    "ndci": {
+      "median": 0.07492,
+      "mean": 0.07567,
+      "std": 0.00899,
+      "valid_pixel_count": 14811
+    },
+    "fai": {
+      "median": 0.01258,
+      "mean": 0.01296,
+      "std": 0.00189,
+      "valid_pixel_count": 15599
+    },
+    "suspended_sediment": {
+      "median": 0.26674,
+      "mean": 0.27207,
+      "std": 0.02401,
+      "valid_pixel_count": 17315
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 11.0
+    }
+  },
+  {
+    "water_body_id": "jaikwadi-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20240920_0001",
+    "acquisition_date": "2024-09-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.712,
+    "valid_pixel_count": 16876,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.18773,
+      "mean": 0.19148,
+      "std": 0.01877,
+      "valid_pixel_count": 16731
+    },
+    "ndci": {
+      "median": 0.07766,
+      "mean": 0.07844,
+      "std": 0.00932,
+      "valid_pixel_count": 16806
+    },
+    "fai": {
+      "median": 0.01382,
+      "mean": 0.01423,
+      "std": 0.00207,
+      "valid_pixel_count": 12024
+    },
+    "suspended_sediment": {
+      "median": 0.24709,
+      "mean": 0.25203,
+      "std": 0.02224,
+      "valid_pixel_count": 13852
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 3.9
+    }
+  },
+  {
+    "water_body_id": "jaikwadi-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20241005_0002",
+    "acquisition_date": "2024-10-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.238,
+    "valid_pixel_count": 13476,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.14748,
+      "mean": 0.15043,
+      "std": 0.01475,
+      "valid_pixel_count": 13009
+    },
+    "ndci": {
+      "median": 0.08295,
+      "mean": 0.08378,
+      "std": 0.00995,
+      "valid_pixel_count": 16709
+    },
+    "fai": {
+      "median": 0.01524,
+      "mean": 0.0157,
+      "std": 0.00229,
+      "valid_pixel_count": 17997
+    },
+    "suspended_sediment": {
+      "median": 0.23542,
+      "mean": 0.24013,
+      "std": 0.02119,
+      "valid_pixel_count": 17834
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 5.5
+    }
+  },
+  {
+    "water_body_id": "jaikwadi-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20241020_0003",
+    "acquisition_date": "2024-10-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 3.438,
+    "valid_pixel_count": 15729,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.16744,
+      "mean": 0.17079,
+      "std": 0.01674,
+      "valid_pixel_count": 16045
+    },
+    "ndci": {
+      "median": 0.09314,
+      "mean": 0.09407,
+      "std": 0.01118,
+      "valid_pixel_count": 13117
+    },
+    "fai": {
+      "median": 0.01358,
+      "mean": 0.01399,
+      "std": 0.00204,
+      "valid_pixel_count": 15990
+    },
+    "suspended_sediment": {
+      "median": 0.21376,
+      "mean": 0.21804,
+      "std": 0.01924,
+      "valid_pixel_count": 17194
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 7.5
+    }
+  },
+  {
+    "water_body_id": "jaikwadi-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20241105_0004",
+    "acquisition_date": "2024-11-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.829,
+    "valid_pixel_count": 12450,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.13765,
+      "mean": 0.1404,
+      "std": 0.01376,
+      "valid_pixel_count": 17257
+    },
+    "ndci": {
+      "median": 0.07969,
+      "mean": 0.08049,
+      "std": 0.00956,
+      "valid_pixel_count": 12116
+    },
+    "fai": {
+      "median": 0.01315,
+      "mean": 0.01354,
+      "std": 0.00197,
+      "valid_pixel_count": 14187
+    },
+    "suspended_sediment": {
+      "median": 0.18158,
+      "mean": 0.18521,
+      "std": 0.01634,
+      "valid_pixel_count": 14986
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 10.0
+    }
+  },
+  {
+    "water_body_id": "jaikwadi-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20241120_0005",
+    "acquisition_date": "2024-11-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.632,
+    "valid_pixel_count": 12011,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.13478,
+      "mean": 0.13748,
+      "std": 0.01348,
+      "valid_pixel_count": 17458
+    },
+    "ndci": {
+      "median": 0.08079,
+      "mean": 0.0816,
+      "std": 0.00969,
+      "valid_pixel_count": 17544
+    },
+    "fai": {
+      "median": 0.01333,
+      "mean": 0.01373,
+      "std": 0.002,
+      "valid_pixel_count": 16734
+    },
+    "suspended_sediment": {
+      "median": 0.1874,
+      "mean": 0.19115,
+      "std": 0.01687,
+      "valid_pixel_count": 14160
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 8.9
+    }
+  },
+  {
+    "water_body_id": "jaikwadi-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20241205_0006",
+    "acquisition_date": "2024-12-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.241,
+    "valid_pixel_count": 17660,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.12295,
+      "mean": 0.12541,
+      "std": 0.0123,
+      "valid_pixel_count": 14915
+    },
+    "ndci": {
+      "median": 0.07392,
+      "mean": 0.07466,
+      "std": 0.00887,
+      "valid_pixel_count": 17553
+    },
+    "fai": {
+      "median": 0.01279,
+      "mean": 0.01317,
+      "std": 0.00192,
+      "valid_pixel_count": 12201
+    },
+    "suspended_sediment": {
+      "median": 0.17961,
+      "mean": 0.1832,
+      "std": 0.01616,
+      "valid_pixel_count": 16153
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 4.5
+    }
+  },
+  {
+    "water_body_id": "jaikwadi-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20241220_0007",
+    "acquisition_date": "2024-12-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.252,
+    "valid_pixel_count": 12599,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.1231,
+      "mean": 0.12556,
+      "std": 0.01231,
+      "valid_pixel_count": 16148
+    },
+    "ndci": {
+      "median": 0.08433,
+      "mean": 0.08517,
+      "std": 0.01012,
+      "valid_pixel_count": 17796
+    },
+    "fai": {
+      "median": 0.01359,
+      "mean": 0.014,
+      "std": 0.00204,
+      "valid_pixel_count": 13142
+    },
+    "suspended_sediment": {
+      "median": 0.16614,
+      "mean": 0.16946,
+      "std": 0.01495,
+      "valid_pixel_count": 12035
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 5.4
+    }
+  },
+  {
+    "water_body_id": "jaikwadi-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20250105_0008",
+    "acquisition_date": "2025-01-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 3.273,
+    "valid_pixel_count": 14548,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.13725,
+      "mean": 0.14,
+      "std": 0.01373,
+      "valid_pixel_count": 15613
+    },
+    "ndci": {
+      "median": 0.08311,
+      "mean": 0.08394,
+      "std": 0.00997,
+      "valid_pixel_count": 15177
+    },
+    "fai": {
+      "median": 0.01201,
+      "mean": 0.01237,
+      "std": 0.0018,
+      "valid_pixel_count": 12673
+    },
+    "suspended_sediment": {
+      "median": 0.1715,
+      "mean": 0.17493,
+      "std": 0.01544,
+      "valid_pixel_count": 16011
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 10.8
+    }
+  },
+  {
+    "water_body_id": "jaikwadi-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20250120_0009",
+    "acquisition_date": "2025-01-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 3.204,
+    "valid_pixel_count": 17335,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.13629,
+      "mean": 0.13902,
+      "std": 0.01363,
+      "valid_pixel_count": 13093
+    },
+    "ndci": {
+      "median": 0.07406,
+      "mean": 0.0748,
+      "std": 0.00889,
+      "valid_pixel_count": 13784
+    },
+    "fai": {
+      "median": 0.012,
+      "mean": 0.01236,
+      "std": 0.0018,
+      "valid_pixel_count": 13945
+    },
+    "suspended_sediment": {
+      "median": 0.17469,
+      "mean": 0.17818,
+      "std": 0.01572,
+      "valid_pixel_count": 17969
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 7.3
+    }
+  },
+  {
+    "water_body_id": "jaikwadi-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20250205_0010",
+    "acquisition_date": "2025-02-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.052,
+    "valid_pixel_count": 15965,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.11431,
+      "mean": 0.1166,
+      "std": 0.01143,
+      "valid_pixel_count": 12954
+    },
+    "ndci": {
+      "median": 0.07393,
+      "mean": 0.07467,
+      "std": 0.00887,
+      "valid_pixel_count": 16553
+    },
+    "fai": {
+      "median": 0.0127,
+      "mean": 0.01308,
+      "std": 0.0019,
+      "valid_pixel_count": 16267
+    },
+    "suspended_sediment": {
+      "median": 0.1575,
+      "mean": 0.16065,
+      "std": 0.01418,
+      "valid_pixel_count": 17912
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 14.0
+    }
+  },
+  {
+    "water_body_id": "jaikwadi-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20250220_0011",
+    "acquisition_date": "2025-02-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.335,
+    "valid_pixel_count": 13211,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.11803,
+      "mean": 0.12039,
+      "std": 0.0118,
+      "valid_pixel_count": 14135
+    },
+    "ndci": {
+      "median": 0.07655,
+      "mean": 0.07732,
+      "std": 0.00919,
+      "valid_pixel_count": 12782
+    },
+    "fai": {
+      "median": 0.01339,
+      "mean": 0.01379,
+      "std": 0.00201,
+      "valid_pixel_count": 14580
+    },
+    "suspended_sediment": {
+      "median": 0.16412,
+      "mean": 0.1674,
+      "std": 0.01477,
+      "valid_pixel_count": 16404
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 8.2
+    }
+  },
+  {
+    "water_body_id": "jaikwadi-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20250305_0012",
+    "acquisition_date": "2025-03-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.833,
+    "valid_pixel_count": 13813,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.1377,
+      "mean": 0.14045,
+      "std": 0.01377,
+      "valid_pixel_count": 16530
+    },
+    "ndci": {
+      "median": 0.08543,
+      "mean": 0.08628,
+      "std": 0.01025,
+      "valid_pixel_count": 16918
+    },
+    "fai": {
+      "median": 0.01351,
+      "mean": 0.01392,
+      "std": 0.00203,
+      "valid_pixel_count": 15077
+    },
+    "suspended_sediment": {
+      "median": 0.15763,
+      "mean": 0.16078,
+      "std": 0.01419,
+      "valid_pixel_count": 13181
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 6.9
+    }
+  },
+  {
+    "water_body_id": "jaikwadi-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20250320_0013",
+    "acquisition_date": "2025-03-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.828,
+    "valid_pixel_count": 15645,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.13764,
+      "mean": 0.14039,
+      "std": 0.01376,
+      "valid_pixel_count": 12688
+    },
+    "ndci": {
+      "median": 0.08279,
+      "mean": 0.08362,
+      "std": 0.00993,
+      "valid_pixel_count": 15400
+    },
+    "fai": {
+      "median": 0.01464,
+      "mean": 0.01508,
+      "std": 0.0022,
+      "valid_pixel_count": 12391
+    },
+    "suspended_sediment": {
+      "median": 0.17433,
+      "mean": 0.17782,
+      "std": 0.01569,
+      "valid_pixel_count": 15088
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 3.4
+    }
+  },
+  {
+    "water_body_id": "jaikwadi-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20250405_0014",
+    "acquisition_date": "2025-04-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 3.218,
+    "valid_pixel_count": 15225,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.15014,
+      "mean": 0.15314,
+      "std": 0.01501,
+      "valid_pixel_count": 14436
+    },
+    "ndci": {
+      "median": 0.10243,
+      "mean": 0.10345,
+      "std": 0.01229,
+      "valid_pixel_count": 13586
+    },
+    "fai": {
+      "median": 0.01602,
+      "mean": 0.0165,
+      "std": 0.0024,
+      "valid_pixel_count": 14402
+    },
+    "suspended_sediment": {
+      "median": 0.18878,
+      "mean": 0.19256,
+      "std": 0.01699,
+      "valid_pixel_count": 12740
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 11.1
+    }
+  },
+  {
+    "water_body_id": "jaikwadi-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20250420_0015",
+    "acquisition_date": "2025-04-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.103,
+    "valid_pixel_count": 15336,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.13314,
+      "mean": 0.1358,
+      "std": 0.01331,
+      "valid_pixel_count": 12801
+    },
+    "ndci": {
+      "median": 0.09101,
+      "mean": 0.09192,
+      "std": 0.01092,
+      "valid_pixel_count": 13260
+    },
+    "fai": {
+      "median": 0.01564,
+      "mean": 0.01611,
+      "std": 0.00235,
+      "valid_pixel_count": 13430
+    },
+    "suspended_sediment": {
+      "median": 0.18423,
+      "mean": 0.18791,
+      "std": 0.01658,
+      "valid_pixel_count": 17010
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 7.4
+    }
+  },
+  {
+    "water_body_id": "jaikwadi-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20250505_0016",
+    "acquisition_date": "2025-05-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.75,
+    "valid_pixel_count": 17800,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.1495,
+      "mean": 0.15249,
+      "std": 0.01495,
+      "valid_pixel_count": 16048
+    },
+    "ndci": {
+      "median": 0.10159,
+      "mean": 0.10261,
+      "std": 0.01219,
+      "valid_pixel_count": 16663
+    },
+    "fai": {
+      "median": 0.01708,
+      "mean": 0.01759,
+      "std": 0.00256,
+      "valid_pixel_count": 17979
+    },
+    "suspended_sediment": {
+      "median": 0.21464,
+      "mean": 0.21893,
+      "std": 0.01932,
+      "valid_pixel_count": 17061
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 5.3
+    }
+  },
+  {
+    "water_body_id": "jaikwadi-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20250520_0017",
+    "acquisition_date": "2025-05-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 3.342,
+    "valid_pixel_count": 15057,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.15894,
+      "mean": 0.16212,
+      "std": 0.01589,
+      "valid_pixel_count": 16631
+    },
+    "ndci": {
+      "median": 0.09597,
+      "mean": 0.09693,
+      "std": 0.01152,
+      "valid_pixel_count": 16450
+    },
+    "fai": {
+      "median": 0.01563,
+      "mean": 0.0161,
+      "std": 0.00234,
+      "valid_pixel_count": 15737
+    },
+    "suspended_sediment": {
+      "median": 0.21687,
+      "mean": 0.22121,
+      "std": 0.01952,
+      "valid_pixel_count": 17475
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 5.4
+    }
+  },
+  {
+    "water_body_id": "jaikwadi-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20250605_0018",
+    "acquisition_date": "2025-06-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.724,
+    "valid_pixel_count": 13285,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.1815,
+      "mean": 0.18513,
+      "std": 0.01815,
+      "valid_pixel_count": 17257
+    },
+    "ndci": {
+      "median": 0.08316,
+      "mean": 0.08399,
+      "std": 0.00998,
+      "valid_pixel_count": 16519
+    },
+    "fai": {
+      "median": 0.01437,
+      "mean": 0.0148,
+      "std": 0.00216,
+      "valid_pixel_count": 12608
+    },
+    "suspended_sediment": {
+      "median": 0.26511,
+      "mean": 0.27041,
+      "std": 0.02386,
+      "valid_pixel_count": 17205
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 2.1
+    }
+  },
+  {
+    "water_body_id": "jaikwadi-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20250620_0019",
+    "acquisition_date": "2025-06-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.095,
+    "valid_pixel_count": 13205,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.16929,
+      "mean": 0.17268,
+      "std": 0.01693,
+      "valid_pixel_count": 14116
+    },
+    "ndci": {
+      "median": 0.09001,
+      "mean": 0.09091,
+      "std": 0.0108,
+      "valid_pixel_count": 14262
+    },
+    "fai": {
+      "median": 0.01343,
+      "mean": 0.01383,
+      "std": 0.00201,
+      "valid_pixel_count": 16328
+    },
+    "suspended_sediment": {
+      "median": 0.25123,
+      "mean": 0.25625,
+      "std": 0.02261,
+      "valid_pixel_count": 17691
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 6.3
+    }
+  },
+  {
+    "water_body_id": "jaikwadi-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20250705_0020",
+    "acquisition_date": "2025-07-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.008,
+    "valid_pixel_count": 16191,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.19153,
+      "mean": 0.19536,
+      "std": 0.01915,
+      "valid_pixel_count": 14907
+    },
+    "ndci": {
+      "median": 0.07372,
+      "mean": 0.07446,
+      "std": 0.00885,
+      "valid_pixel_count": 15254
+    },
+    "fai": {
+      "median": 0.01126,
+      "mean": 0.0116,
+      "std": 0.00169,
+      "valid_pixel_count": 16827
+    },
+    "suspended_sediment": {
+      "median": 0.29457,
+      "mean": 0.30046,
+      "std": 0.02651,
+      "valid_pixel_count": 12689
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 8.1
+    }
+  },
+  {
+    "water_body_id": "jaikwadi-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20250720_0021",
+    "acquisition_date": "2025-07-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 3.18,
+    "valid_pixel_count": 17464,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.21754,
+      "mean": 0.22189,
+      "std": 0.02175,
+      "valid_pixel_count": 14312
+    },
+    "ndci": {
+      "median": 0.06839,
+      "mean": 0.06907,
+      "std": 0.00821,
+      "valid_pixel_count": 16467
+    },
+    "fai": {
+      "median": 0.012,
+      "mean": 0.01236,
+      "std": 0.0018,
+      "valid_pixel_count": 12028
+    },
+    "suspended_sediment": {
+      "median": 0.29301,
+      "mean": 0.29887,
+      "std": 0.02637,
+      "valid_pixel_count": 16698
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 8.1
+    }
+  },
+  {
+    "water_body_id": "jaikwadi-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20250805_0022",
+    "acquisition_date": "2025-08-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.023,
+    "valid_pixel_count": 13196,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.18588,
+      "mean": 0.1896,
+      "std": 0.01859,
+      "valid_pixel_count": 12019
+    },
+    "ndci": {
+      "median": 0.07352,
+      "mean": 0.07426,
+      "std": 0.00882,
+      "valid_pixel_count": 17542
+    },
+    "fai": {
+      "median": 0.01078,
+      "mean": 0.0111,
+      "std": 0.00162,
+      "valid_pixel_count": 17928
+    },
+    "suspended_sediment": {
+      "median": 0.2711,
+      "mean": 0.27652,
+      "std": 0.0244,
+      "valid_pixel_count": 17354
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 4.5
+    }
+  },
+  {
+    "water_body_id": "jaikwadi-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20250820_0023",
+    "acquisition_date": "2025-08-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.384,
+    "valid_pixel_count": 13476,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.19363,
+      "mean": 0.1975,
+      "std": 0.01936,
+      "valid_pixel_count": 15817
+    },
+    "ndci": {
+      "median": 0.07963,
+      "mean": 0.08043,
+      "std": 0.00956,
+      "valid_pixel_count": 15201
+    },
+    "fai": {
+      "median": 0.01123,
+      "mean": 0.01157,
+      "std": 0.00168,
+      "valid_pixel_count": 15192
+    },
+    "suspended_sediment": {
+      "median": 0.3054,
+      "mean": 0.31151,
+      "std": 0.02749,
+      "valid_pixel_count": 13765
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 2.8
+    }
+  },
+  {
+    "water_body_id": "jaikwadi-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20250905_0024",
+    "acquisition_date": "2025-09-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.084,
+    "valid_pixel_count": 14764,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.17511,
+      "mean": 0.17861,
+      "std": 0.01751,
+      "valid_pixel_count": 15222
+    },
+    "ndci": {
+      "median": 0.07396,
+      "mean": 0.0747,
+      "std": 0.00888,
+      "valid_pixel_count": 15809
+    },
+    "fai": {
+      "median": 0.01265,
+      "mean": 0.01303,
+      "std": 0.0019,
+      "valid_pixel_count": 15788
+    },
+    "suspended_sediment": {
+      "median": 0.24721,
+      "mean": 0.25215,
+      "std": 0.02225,
+      "valid_pixel_count": 13636
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 7.5
+    }
+  },
+  {
+    "water_body_id": "jaikwadi-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20250920_0025",
+    "acquisition_date": "2025-09-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.901,
+    "valid_pixel_count": 12174,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.19154,
+      "mean": 0.19537,
+      "std": 0.01915,
+      "valid_pixel_count": 12254
+    },
+    "ndci": {
+      "median": 0.07937,
+      "mean": 0.08016,
+      "std": 0.00952,
+      "valid_pixel_count": 12837
+    },
+    "fai": {
+      "median": 0.01295,
+      "mean": 0.01334,
+      "std": 0.00194,
+      "valid_pixel_count": 14866
+    },
+    "suspended_sediment": {
+      "median": 0.26021,
+      "mean": 0.26541,
+      "std": 0.02342,
+      "valid_pixel_count": 13914
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 5.7
+    }
+  },
+  {
+    "water_body_id": "jaikwadi-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20251005_0026",
+    "acquisition_date": "2025-10-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 3.463,
+    "valid_pixel_count": 17120,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.16787,
+      "mean": 0.17123,
+      "std": 0.01679,
+      "valid_pixel_count": 16418
+    },
+    "ndci": {
+      "median": 0.0911,
+      "mean": 0.09201,
+      "std": 0.01093,
+      "valid_pixel_count": 15469
+    },
+    "fai": {
+      "median": 0.01403,
+      "mean": 0.01445,
+      "std": 0.0021,
+      "valid_pixel_count": 12131
+    },
+    "suspended_sediment": {
+      "median": 0.20865,
+      "mean": 0.21282,
+      "std": 0.01878,
+      "valid_pixel_count": 16522
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 14.4
+    }
+  },
+  {
+    "water_body_id": "jaikwadi-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20251020_0027",
+    "acquisition_date": "2025-10-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 3.094,
+    "valid_pixel_count": 17746,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.16172,
+      "mean": 0.16495,
+      "std": 0.01617,
+      "valid_pixel_count": 17432
+    },
+    "ndci": {
+      "median": 0.08945,
+      "mean": 0.09034,
+      "std": 0.01073,
+      "valid_pixel_count": 16181
+    },
+    "fai": {
+      "median": 0.01456,
+      "mean": 0.015,
+      "std": 0.00218,
+      "valid_pixel_count": 16924
+    },
+    "suspended_sediment": {
+      "median": 0.21716,
+      "mean": 0.2215,
+      "std": 0.01954,
+      "valid_pixel_count": 12367
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 14.8
+    }
+  },
+  {
+    "water_body_id": "jaikwadi-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20251105_0028",
+    "acquisition_date": "2025-11-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.442,
+    "valid_pixel_count": 17739,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.13201,
+      "mean": 0.13465,
+      "std": 0.0132,
+      "valid_pixel_count": 15148
+    },
+    "ndci": {
+      "median": 0.08869,
+      "mean": 0.08958,
+      "std": 0.01064,
+      "valid_pixel_count": 15463
+    },
+    "fai": {
+      "median": 0.01351,
+      "mean": 0.01392,
+      "std": 0.00203,
+      "valid_pixel_count": 14736
+    },
+    "suspended_sediment": {
+      "median": 0.17745,
+      "mean": 0.181,
+      "std": 0.01597,
+      "valid_pixel_count": 14194
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 14.7
+    }
+  },
+  {
+    "water_body_id": "jaikwadi-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20251120_0029",
+    "acquisition_date": "2025-11-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 3.487,
+    "valid_pixel_count": 14903,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.14722,
+      "mean": 0.15016,
+      "std": 0.01472,
+      "valid_pixel_count": 15654
+    },
+    "ndci": {
+      "median": 0.07735,
+      "mean": 0.07812,
+      "std": 0.00928,
+      "valid_pixel_count": 13859
+    },
+    "fai": {
+      "median": 0.01209,
+      "mean": 0.01245,
+      "std": 0.00181,
+      "valid_pixel_count": 17020
+    },
+    "suspended_sediment": {
+      "median": 0.18726,
+      "mean": 0.19101,
+      "std": 0.01685,
+      "valid_pixel_count": 15332
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 12.7
+    }
+  },
+  {
+    "water_body_id": "jaikwadi-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20251205_0030",
+    "acquisition_date": "2025-12-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.92,
+    "valid_pixel_count": 12988,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.13236,
+      "mean": 0.13501,
+      "std": 0.01324,
+      "valid_pixel_count": 16429
+    },
+    "ndci": {
+      "median": 0.08303,
+      "mean": 0.08386,
+      "std": 0.00996,
+      "valid_pixel_count": 12481
+    },
+    "fai": {
+      "median": 0.01216,
+      "mean": 0.01252,
+      "std": 0.00182,
+      "valid_pixel_count": 12564
+    },
+    "suspended_sediment": {
+      "median": 0.17126,
+      "mean": 0.17469,
+      "std": 0.01541,
+      "valid_pixel_count": 17240
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 10.2
+    }
+  },
+  {
+    "water_body_id": "jaikwadi-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20251220_0031",
+    "acquisition_date": "2025-12-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.576,
+    "valid_pixel_count": 16427,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.12759,
+      "mean": 0.13014,
+      "std": 0.01276,
+      "valid_pixel_count": 12881
+    },
+    "ndci": {
+      "median": 0.07553,
+      "mean": 0.07629,
+      "std": 0.00906,
+      "valid_pixel_count": 13852
+    },
+    "fai": {
+      "median": 0.01313,
+      "mean": 0.01352,
+      "std": 0.00197,
+      "valid_pixel_count": 15247
+    },
+    "suspended_sediment": {
+      "median": 0.17276,
+      "mean": 0.17622,
+      "std": 0.01555,
+      "valid_pixel_count": 14547
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 8.6
+    }
+  },
+  {
+    "water_body_id": "jaikwadi-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20260105_0032",
+    "acquisition_date": "2026-01-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 3.172,
+    "valid_pixel_count": 16522,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.13586,
+      "mean": 0.13858,
+      "std": 0.01359,
+      "valid_pixel_count": 13074
+    },
+    "ndci": {
+      "median": 0.07587,
+      "mean": 0.07663,
+      "std": 0.0091,
+      "valid_pixel_count": 13046
+    },
+    "fai": {
+      "median": 0.01204,
+      "mean": 0.0124,
+      "std": 0.00181,
+      "valid_pixel_count": 15744
+    },
+    "suspended_sediment": {
+      "median": 0.15816,
+      "mean": 0.16132,
+      "std": 0.01423,
+      "valid_pixel_count": 17524
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 7.9
+    }
+  },
+  {
+    "water_body_id": "jaikwadi-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20260120_0033",
+    "acquisition_date": "2026-01-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 3.353,
+    "valid_pixel_count": 13412,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.13836,
+      "mean": 0.14113,
+      "std": 0.01384,
+      "valid_pixel_count": 12961
+    },
+    "ndci": {
+      "median": 0.08247,
+      "mean": 0.08329,
+      "std": 0.0099,
+      "valid_pixel_count": 15595
+    },
+    "fai": {
+      "median": 0.01239,
+      "mean": 0.01276,
+      "std": 0.00186,
+      "valid_pixel_count": 13036
+    },
+    "suspended_sediment": {
+      "median": 0.1568,
+      "mean": 0.15994,
+      "std": 0.01411,
+      "valid_pixel_count": 17695
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 13.1
+    }
+  },
+  {
+    "water_body_id": "jaikwadi-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20260205_0034",
+    "acquisition_date": "2026-02-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.85,
+    "valid_pixel_count": 15144,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.12481,
+      "mean": 0.12731,
+      "std": 0.01248,
+      "valid_pixel_count": 15435
+    },
+    "ndci": {
+      "median": 0.0769,
+      "mean": 0.07767,
+      "std": 0.00923,
+      "valid_pixel_count": 14231
+    },
+    "fai": {
+      "median": 0.01381,
+      "mean": 0.01422,
+      "std": 0.00207,
+      "valid_pixel_count": 12814
+    },
+    "suspended_sediment": {
+      "median": 0.15241,
+      "mean": 0.15546,
+      "std": 0.01372,
+      "valid_pixel_count": 12930
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 12.2
+    }
+  },
+  {
+    "water_body_id": "jaikwadi-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20260220_0035",
+    "acquisition_date": "2026-02-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 3.401,
+    "valid_pixel_count": 14668,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.13207,
+      "mean": 0.13471,
+      "std": 0.01321,
+      "valid_pixel_count": 16141
+    },
+    "ndci": {
+      "median": 0.07826,
+      "mean": 0.07904,
+      "std": 0.00939,
+      "valid_pixel_count": 12781
+    },
+    "fai": {
+      "median": 0.01212,
+      "mean": 0.01248,
+      "std": 0.00182,
+      "valid_pixel_count": 14030
+    },
+    "suspended_sediment": {
+      "median": 0.14186,
+      "mean": 0.1447,
+      "std": 0.01277,
+      "valid_pixel_count": 14873
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 13.6
+    }
+  },
+  {
+    "water_body_id": "jaikwadi-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20260305_0036",
+    "acquisition_date": "2026-03-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.337,
+    "valid_pixel_count": 13448,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.13048,
+      "mean": 0.13309,
+      "std": 0.01305,
+      "valid_pixel_count": 17880
+    },
+    "ndci": {
+      "median": 0.0864,
+      "mean": 0.08726,
+      "std": 0.01037,
+      "valid_pixel_count": 17343
+    },
+    "fai": {
+      "median": 0.01421,
+      "mean": 0.01464,
+      "std": 0.00213,
+      "valid_pixel_count": 12809
+    },
+    "suspended_sediment": {
+      "median": 0.16114,
+      "mean": 0.16436,
+      "std": 0.0145,
+      "valid_pixel_count": 13323
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 9.7
+    }
+  },
+  {
+    "water_body_id": "jaikwadi-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20260320_0037",
+    "acquisition_date": "2026-03-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.14,
+    "valid_pixel_count": 16704,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.12762,
+      "mean": 0.13017,
+      "std": 0.01276,
+      "valid_pixel_count": 12591
+    },
+    "ndci": {
+      "median": 0.08395,
+      "mean": 0.08479,
+      "std": 0.01007,
+      "valid_pixel_count": 12994
+    },
+    "fai": {
+      "median": 0.01332,
+      "mean": 0.01372,
+      "std": 0.002,
+      "valid_pixel_count": 14991
+    },
+    "suspended_sediment": {
+      "median": 0.16293,
+      "mean": 0.16619,
+      "std": 0.01466,
+      "valid_pixel_count": 12702
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 2.8
+    }
+  },
+  {
+    "water_body_id": "jaikwadi-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20260405_0038",
+    "acquisition_date": "2026-04-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.104,
+    "valid_pixel_count": 12402,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.13315,
+      "mean": 0.13581,
+      "std": 0.01332,
+      "valid_pixel_count": 15340
+    },
+    "ndci": {
+      "median": 0.10328,
+      "mean": 0.10431,
+      "std": 0.01239,
+      "valid_pixel_count": 13144
+    },
+    "fai": {
+      "median": 0.01559,
+      "mean": 0.01606,
+      "std": 0.00234,
+      "valid_pixel_count": 14443
+    },
+    "suspended_sediment": {
+      "median": 0.19049,
+      "mean": 0.1943,
+      "std": 0.01714,
+      "valid_pixel_count": 14967
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 14.6
+    }
+  },
+  {
+    "water_body_id": "jaikwadi-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20260420_0039",
+    "acquisition_date": "2026-04-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 3.1,
+    "valid_pixel_count": 13792,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.14834,
+      "mean": 0.15131,
+      "std": 0.01483,
+      "valid_pixel_count": 16133
+    },
+    "ndci": {
+      "median": 0.09296,
+      "mean": 0.09389,
+      "std": 0.01116,
+      "valid_pixel_count": 17631
+    },
+    "fai": {
+      "median": 0.01525,
+      "mean": 0.01571,
+      "std": 0.00229,
+      "valid_pixel_count": 13090
+    },
+    "suspended_sediment": {
+      "median": 0.18319,
+      "mean": 0.18685,
+      "std": 0.01649,
+      "valid_pixel_count": 16566
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 11.6
+    }
+  },
+  {
+    "water_body_id": "jaikwadi-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20260505_0040",
+    "acquisition_date": "2026-05-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.418,
+    "valid_pixel_count": 15735,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.1442,
+      "mean": 0.14708,
+      "std": 0.01442,
+      "valid_pixel_count": 16628
+    },
+    "ndci": {
+      "median": 0.10562,
+      "mean": 0.10668,
+      "std": 0.01267,
+      "valid_pixel_count": 12706
+    },
+    "fai": {
+      "median": 0.018,
+      "mean": 0.01854,
+      "std": 0.0027,
+      "valid_pixel_count": 17519
+    },
+    "suspended_sediment": {
+      "median": 0.20486,
+      "mean": 0.20896,
+      "std": 0.01844,
+      "valid_pixel_count": 15505
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 13.9
+    }
+  },
+  {
+    "water_body_id": "jaikwadi-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20260520_0041",
+    "acquisition_date": "2026-05-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.283,
+    "valid_pixel_count": 17306,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.14205,
+      "mean": 0.14489,
+      "std": 0.01421,
+      "valid_pixel_count": 16020
+    },
+    "ndci": {
+      "median": 0.10307,
+      "mean": 0.1041,
+      "std": 0.01237,
+      "valid_pixel_count": 13773
+    },
+    "fai": {
+      "median": 0.01815,
+      "mean": 0.01869,
+      "std": 0.00272,
+      "valid_pixel_count": 14805
+    },
+    "suspended_sediment": {
+      "median": 0.2031,
+      "mean": 0.20716,
+      "std": 0.01828,
+      "valid_pixel_count": 16998
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 14.5
+    }
+  },
+  {
+    "water_body_id": "jaikwadi-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20260605_0042",
+    "acquisition_date": "2026-06-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.222,
+    "valid_pixel_count": 16406,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.17176,
+      "mean": 0.1752,
+      "std": 0.01718,
+      "valid_pixel_count": 15376
+    },
+    "ndci": {
+      "median": 0.08625,
+      "mean": 0.08711,
+      "std": 0.01035,
+      "valid_pixel_count": 15612
+    },
+    "fai": {
+      "median": 0.01406,
+      "mean": 0.01448,
+      "std": 0.00211,
+      "valid_pixel_count": 14220
+    },
+    "suspended_sediment": {
+      "median": 0.25688,
+      "mean": 0.26202,
+      "std": 0.02312,
+      "valid_pixel_count": 12098
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 8.5
+    }
+  },
+  {
+    "water_body_id": "jaikwadi-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20260620_0043",
+    "acquisition_date": "2026-06-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 3.235,
+    "valid_pixel_count": 16606,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.19141,
+      "mean": 0.19524,
+      "std": 0.01914,
+      "valid_pixel_count": 15696
+    },
+    "ndci": {
+      "median": 0.09166,
+      "mean": 0.09258,
+      "std": 0.011,
+      "valid_pixel_count": 16443
+    },
+    "fai": {
+      "median": 0.01481,
+      "mean": 0.01525,
+      "std": 0.00222,
+      "valid_pixel_count": 13969
+    },
+    "suspended_sediment": {
+      "median": 0.27492,
+      "mean": 0.28042,
+      "std": 0.02474,
+      "valid_pixel_count": 12868
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 11.9
+    }
+  },
+  {
+    "water_body_id": "jaikwadi-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20260705_0044",
+    "acquisition_date": "2026-07-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.678,
+    "valid_pixel_count": 12473,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.2064,
+      "mean": 0.21053,
+      "std": 0.02064,
+      "valid_pixel_count": 14731
+    },
+    "ndci": {
+      "median": 0.07283,
+      "mean": 0.07356,
+      "std": 0.00874,
+      "valid_pixel_count": 13603
+    },
+    "fai": {
+      "median": 0.0119,
+      "mean": 0.01226,
+      "std": 0.00179,
+      "valid_pixel_count": 14126
+    },
+    "suspended_sediment": {
+      "median": 0.29804,
+      "mean": 0.304,
+      "std": 0.02682,
+      "valid_pixel_count": 17206
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 12.4
+    }
+  },
+  {
+    "water_body_id": "jaikwadi-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20260720_0045",
+    "acquisition_date": "2026-07-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.022,
+    "valid_pixel_count": 14966,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.19185,
+      "mean": 0.19569,
+      "std": 0.01919,
+      "valid_pixel_count": 14352
+    },
+    "ndci": {
+      "median": 0.07516,
+      "mean": 0.07591,
+      "std": 0.00902,
+      "valid_pixel_count": 15758
+    },
+    "fai": {
+      "median": 0.01215,
+      "mean": 0.01251,
+      "std": 0.00182,
+      "valid_pixel_count": 12423
+    },
+    "suspended_sediment": {
+      "median": 0.29536,
+      "mean": 0.30127,
+      "std": 0.02658,
+      "valid_pixel_count": 12503
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 11.9
+    }
+  },
+  {
+    "water_body_id": "jaikwadi-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20260805_0046",
+    "acquisition_date": "2026-08-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.593,
+    "valid_pixel_count": 16877,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.19813,
+      "mean": 0.20209,
+      "std": 0.01981,
+      "valid_pixel_count": 17282
+    },
+    "ndci": {
+      "median": 0.08167,
+      "mean": 0.08249,
+      "std": 0.0098,
+      "valid_pixel_count": 15362
+    },
+    "fai": {
+      "median": 0.01083,
+      "mean": 0.01115,
+      "std": 0.00162,
+      "valid_pixel_count": 13469
+    },
+    "suspended_sediment": {
+      "median": 0.30784,
+      "mean": 0.314,
+      "std": 0.02771,
+      "valid_pixel_count": 15429
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 14.6
+    }
+  },
+  {
+    "water_body_id": "jaikwadi-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20260820_0047",
+    "acquisition_date": "2026-08-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.026,
+    "valid_pixel_count": 17718,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.18594,
+      "mean": 0.18966,
+      "std": 0.01859,
+      "valid_pixel_count": 16342
+    },
+    "ndci": {
+      "median": 0.08096,
+      "mean": 0.08177,
+      "std": 0.00972,
+      "valid_pixel_count": 15012
+    },
+    "fai": {
+      "median": 0.01143,
+      "mean": 0.01177,
+      "std": 0.00171,
+      "valid_pixel_count": 17700
+    },
+    "suspended_sediment": {
+      "median": 0.28883,
+      "mean": 0.29461,
+      "std": 0.02599,
+      "valid_pixel_count": 16846
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 9.3
+    }
+  }
+]

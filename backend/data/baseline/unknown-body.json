@@ -1,0 +1,1826 @@
+[
+  {
+    "water_body_id": "unknown-body",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20241005_0000",
+    "acquisition_date": "2024-10-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 3.227,
+    "valid_pixel_count": 16047,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.17655,
+      "mean": 0.18008,
+      "std": 0.01766,
+      "valid_pixel_count": 12915
+    },
+    "ndci": {
+      "median": 0.07527,
+      "mean": 0.07602,
+      "std": 0.00903,
+      "valid_pixel_count": 16631
+    },
+    "fai": {
+      "median": 0.01191,
+      "mean": 0.01227,
+      "std": 0.00179,
+      "valid_pixel_count": 13936
+    },
+    "suspended_sediment": {
+      "median": 0.243,
+      "mean": 0.24786,
+      "std": 0.02187,
+      "valid_pixel_count": 15311
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 7.7
+    }
+  },
+  {
+    "water_body_id": "unknown-body",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20241020_0001",
+    "acquisition_date": "2024-10-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.958,
+    "valid_pixel_count": 17726,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.17172,
+      "mean": 0.17515,
+      "std": 0.01717,
+      "valid_pixel_count": 16092
+    },
+    "ndci": {
+      "median": 0.07432,
+      "mean": 0.07506,
+      "std": 0.00892,
+      "valid_pixel_count": 17586
+    },
+    "fai": {
+      "median": 0.01252,
+      "mean": 0.0129,
+      "std": 0.00188,
+      "valid_pixel_count": 14800
+    },
+    "suspended_sediment": {
+      "median": 0.22335,
+      "mean": 0.22782,
+      "std": 0.0201,
+      "valid_pixel_count": 14041
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 7.6
+    }
+  },
+  {
+    "water_body_id": "unknown-body",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20241105_0002",
+    "acquisition_date": "2024-11-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.142,
+    "valid_pixel_count": 16521,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.13747,
+      "mean": 0.14022,
+      "std": 0.01375,
+      "valid_pixel_count": 14745
+    },
+    "ndci": {
+      "median": 0.07034,
+      "mean": 0.07104,
+      "std": 0.00844,
+      "valid_pixel_count": 15990
+    },
+    "fai": {
+      "median": 0.011,
+      "mean": 0.01133,
+      "std": 0.00165,
+      "valid_pixel_count": 13862
+    },
+    "suspended_sediment": {
+      "median": 0.20782,
+      "mean": 0.21198,
+      "std": 0.0187,
+      "valid_pixel_count": 15109
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 3.2
+    }
+  },
+  {
+    "water_body_id": "unknown-body",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20241120_0003",
+    "acquisition_date": "2024-11-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.305,
+    "valid_pixel_count": 15187,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.14002,
+      "mean": 0.14282,
+      "std": 0.014,
+      "valid_pixel_count": 16642
+    },
+    "ndci": {
+      "median": 0.07445,
+      "mean": 0.07519,
+      "std": 0.00893,
+      "valid_pixel_count": 17708
+    },
+    "fai": {
+      "median": 0.01159,
+      "mean": 0.01194,
+      "std": 0.00174,
+      "valid_pixel_count": 13545
+    },
+    "suspended_sediment": {
+      "median": 0.18634,
+      "mean": 0.19007,
+      "std": 0.01677,
+      "valid_pixel_count": 12787
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 3.9
+    }
+  },
+  {
+    "water_body_id": "unknown-body",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20241205_0004",
+    "acquisition_date": "2024-12-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.935,
+    "valid_pixel_count": 15740,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.14276,
+      "mean": 0.14562,
+      "std": 0.01428,
+      "valid_pixel_count": 17433
+    },
+    "ndci": {
+      "median": 0.07404,
+      "mean": 0.07478,
+      "std": 0.00888,
+      "valid_pixel_count": 12283
+    },
+    "fai": {
+      "median": 0.01115,
+      "mean": 0.01148,
+      "std": 0.00167,
+      "valid_pixel_count": 17736
+    },
+    "suspended_sediment": {
+      "median": 0.16626,
+      "mean": 0.16959,
+      "std": 0.01496,
+      "valid_pixel_count": 13754
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 7.3
+    }
+  },
+  {
+    "water_body_id": "unknown-body",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20241220_0005",
+    "acquisition_date": "2024-12-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.832,
+    "valid_pixel_count": 14952,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.14122,
+      "mean": 0.14404,
+      "std": 0.01412,
+      "valid_pixel_count": 16502
+    },
+    "ndci": {
+      "median": 0.07169,
+      "mean": 0.07241,
+      "std": 0.0086,
+      "valid_pixel_count": 17539
+    },
+    "fai": {
+      "median": 0.01137,
+      "mean": 0.01171,
+      "std": 0.00171,
+      "valid_pixel_count": 15834
+    },
+    "suspended_sediment": {
+      "median": 0.1757,
+      "mean": 0.17921,
+      "std": 0.01581,
+      "valid_pixel_count": 12661
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 10.2
+    }
+  },
+  {
+    "water_body_id": "unknown-body",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20250105_0006",
+    "acquisition_date": "2025-01-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.806,
+    "valid_pixel_count": 16774,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.14084,
+      "mean": 0.14366,
+      "std": 0.01408,
+      "valid_pixel_count": 14987
+    },
+    "ndci": {
+      "median": 0.06499,
+      "mean": 0.06564,
+      "std": 0.0078,
+      "valid_pixel_count": 16138
+    },
+    "fai": {
+      "median": 0.0107,
+      "mean": 0.01102,
+      "std": 0.0016,
+      "valid_pixel_count": 14598
+    },
+    "suspended_sediment": {
+      "median": 0.17539,
+      "mean": 0.1789,
+      "std": 0.01579,
+      "valid_pixel_count": 12807
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 10.3
+    }
+  },
+  {
+    "water_body_id": "unknown-body",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20250120_0007",
+    "acquisition_date": "2025-01-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 3.379,
+    "valid_pixel_count": 15604,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.1494,
+      "mean": 0.15239,
+      "std": 0.01494,
+      "valid_pixel_count": 17164
+    },
+    "ndci": {
+      "median": 0.07552,
+      "mean": 0.07628,
+      "std": 0.00906,
+      "valid_pixel_count": 14297
+    },
+    "fai": {
+      "median": 0.01173,
+      "mean": 0.01208,
+      "std": 0.00176,
+      "valid_pixel_count": 16859
+    },
+    "suspended_sediment": {
+      "median": 0.1697,
+      "mean": 0.17309,
+      "std": 0.01527,
+      "valid_pixel_count": 17928
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 10.1
+    }
+  },
+  {
+    "water_body_id": "unknown-body",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20250205_0008",
+    "acquisition_date": "2025-02-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.849,
+    "valid_pixel_count": 12266,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.1344,
+      "mean": 0.13709,
+      "std": 0.01344,
+      "valid_pixel_count": 12256
+    },
+    "ndci": {
+      "median": 0.07192,
+      "mean": 0.07264,
+      "std": 0.00863,
+      "valid_pixel_count": 12090
+    },
+    "fai": {
+      "median": 0.01146,
+      "mean": 0.0118,
+      "std": 0.00172,
+      "valid_pixel_count": 12756
+    },
+    "suspended_sediment": {
+      "median": 0.15048,
+      "mean": 0.15349,
+      "std": 0.01354,
+      "valid_pixel_count": 17340
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 8.6
+    }
+  },
+  {
+    "water_body_id": "unknown-body",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20250220_0009",
+    "acquisition_date": "2025-02-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.952,
+    "valid_pixel_count": 14357,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.13586,
+      "mean": 0.13858,
+      "std": 0.01359,
+      "valid_pixel_count": 17465
+    },
+    "ndci": {
+      "median": 0.07158,
+      "mean": 0.0723,
+      "std": 0.00859,
+      "valid_pixel_count": 12001
+    },
+    "fai": {
+      "median": 0.01059,
+      "mean": 0.01091,
+      "std": 0.00159,
+      "valid_pixel_count": 15038
+    },
+    "suspended_sediment": {
+      "median": 0.16313,
+      "mean": 0.16639,
+      "std": 0.01468,
+      "valid_pixel_count": 15084
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 11.3
+    }
+  },
+  {
+    "water_body_id": "unknown-body",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20250305_0010",
+    "acquisition_date": "2025-03-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.468,
+    "valid_pixel_count": 13376,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.14258,
+      "mean": 0.14543,
+      "std": 0.01426,
+      "valid_pixel_count": 16104
+    },
+    "ndci": {
+      "median": 0.08262,
+      "mean": 0.08345,
+      "std": 0.00991,
+      "valid_pixel_count": 12340
+    },
+    "fai": {
+      "median": 0.01145,
+      "mean": 0.01179,
+      "std": 0.00172,
+      "valid_pixel_count": 15735
+    },
+    "suspended_sediment": {
+      "median": 0.1801,
+      "mean": 0.1837,
+      "std": 0.01621,
+      "valid_pixel_count": 15791
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 2.7
+    }
+  },
+  {
+    "water_body_id": "unknown-body",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20250320_0011",
+    "acquisition_date": "2025-03-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.282,
+    "valid_pixel_count": 15967,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.13966,
+      "mean": 0.14245,
+      "std": 0.01397,
+      "valid_pixel_count": 14357
+    },
+    "ndci": {
+      "median": 0.08144,
+      "mean": 0.08225,
+      "std": 0.00977,
+      "valid_pixel_count": 13033
+    },
+    "fai": {
+      "median": 0.01141,
+      "mean": 0.01175,
+      "std": 0.00171,
+      "valid_pixel_count": 16182
+    },
+    "suspended_sediment": {
+      "median": 0.16865,
+      "mean": 0.17202,
+      "std": 0.01518,
+      "valid_pixel_count": 12306
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 2.7
+    }
+  },
+  {
+    "water_body_id": "unknown-body",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20250405_0012",
+    "acquisition_date": "2025-04-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.566,
+    "valid_pixel_count": 16282,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.15097,
+      "mean": 0.15399,
+      "std": 0.0151,
+      "valid_pixel_count": 13040
+    },
+    "ndci": {
+      "median": 0.08463,
+      "mean": 0.08548,
+      "std": 0.01016,
+      "valid_pixel_count": 12882
+    },
+    "fai": {
+      "median": 0.0139,
+      "mean": 0.01432,
+      "std": 0.00208,
+      "valid_pixel_count": 12629
+    },
+    "suspended_sediment": {
+      "median": 0.19498,
+      "mean": 0.19888,
+      "std": 0.01755,
+      "valid_pixel_count": 17976
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 4.1
+    }
+  },
+  {
+    "water_body_id": "unknown-body",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20250420_0013",
+    "acquisition_date": "2025-04-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 3.07,
+    "valid_pixel_count": 14519,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.15926,
+      "mean": 0.16245,
+      "std": 0.01593,
+      "valid_pixel_count": 13699
+    },
+    "ndci": {
+      "median": 0.08228,
+      "mean": 0.0831,
+      "std": 0.00987,
+      "valid_pixel_count": 15976
+    },
+    "fai": {
+      "median": 0.01323,
+      "mean": 0.01363,
+      "std": 0.00198,
+      "valid_pixel_count": 12709
+    },
+    "suspended_sediment": {
+      "median": 0.19712,
+      "mean": 0.20106,
+      "std": 0.01774,
+      "valid_pixel_count": 13089
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 5.4
+    }
+  },
+  {
+    "water_body_id": "unknown-body",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20250505_0014",
+    "acquisition_date": "2025-05-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 3.425,
+    "valid_pixel_count": 17199,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.17259,
+      "mean": 0.17604,
+      "std": 0.01726,
+      "valid_pixel_count": 12050
+    },
+    "ndci": {
+      "median": 0.09216,
+      "mean": 0.09308,
+      "std": 0.01106,
+      "valid_pixel_count": 12926
+    },
+    "fai": {
+      "median": 0.0138,
+      "mean": 0.01421,
+      "std": 0.00207,
+      "valid_pixel_count": 14962
+    },
+    "suspended_sediment": {
+      "median": 0.20015,
+      "mean": 0.20415,
+      "std": 0.01801,
+      "valid_pixel_count": 13203
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 4.0
+    }
+  },
+  {
+    "water_body_id": "unknown-body",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20250520_0015",
+    "acquisition_date": "2025-05-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.629,
+    "valid_pixel_count": 15888,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.15891,
+      "mean": 0.16209,
+      "std": 0.01589,
+      "valid_pixel_count": 12352
+    },
+    "ndci": {
+      "median": 0.09726,
+      "mean": 0.09823,
+      "std": 0.01167,
+      "valid_pixel_count": 13828
+    },
+    "fai": {
+      "median": 0.01471,
+      "mean": 0.01515,
+      "std": 0.00221,
+      "valid_pixel_count": 15426
+    },
+    "suspended_sediment": {
+      "median": 0.23079,
+      "mean": 0.23541,
+      "std": 0.02077,
+      "valid_pixel_count": 17705
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 7.9
+    }
+  },
+  {
+    "water_body_id": "unknown-body",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20250605_0016",
+    "acquisition_date": "2025-06-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.983,
+    "valid_pixel_count": 15755,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.20086,
+      "mean": 0.20488,
+      "std": 0.02009,
+      "valid_pixel_count": 16007
+    },
+    "ndci": {
+      "median": 0.08218,
+      "mean": 0.083,
+      "std": 0.00986,
+      "valid_pixel_count": 12711
+    },
+    "fai": {
+      "median": 0.01147,
+      "mean": 0.01181,
+      "std": 0.00172,
+      "valid_pixel_count": 12543
+    },
+    "suspended_sediment": {
+      "median": 0.27885,
+      "mean": 0.28443,
+      "std": 0.0251,
+      "valid_pixel_count": 12415
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 6.5
+    }
+  },
+  {
+    "water_body_id": "unknown-body",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20250620_0017",
+    "acquisition_date": "2025-06-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.126,
+    "valid_pixel_count": 16696,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.18295,
+      "mean": 0.18661,
+      "std": 0.0183,
+      "valid_pixel_count": 14664
+    },
+    "ndci": {
+      "median": 0.0797,
+      "mean": 0.0805,
+      "std": 0.00956,
+      "valid_pixel_count": 17238
+    },
+    "fai": {
+      "median": 0.01258,
+      "mean": 0.01296,
+      "std": 0.00189,
+      "valid_pixel_count": 16284
+    },
+    "suspended_sediment": {
+      "median": 0.28368,
+      "mean": 0.28935,
+      "std": 0.02553,
+      "valid_pixel_count": 16085
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 3.8
+    }
+  },
+  {
+    "water_body_id": "unknown-body",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20250705_0018",
+    "acquisition_date": "2025-07-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 3.492,
+    "valid_pixel_count": 16717,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.24174,
+      "mean": 0.24657,
+      "std": 0.02417,
+      "valid_pixel_count": 15769
+    },
+    "ndci": {
+      "median": 0.06782,
+      "mean": 0.0685,
+      "std": 0.00814,
+      "valid_pixel_count": 13572
+    },
+    "fai": {
+      "median": 0.00946,
+      "mean": 0.00974,
+      "std": 0.00142,
+      "valid_pixel_count": 15472
+    },
+    "suspended_sediment": {
+      "median": 0.33828,
+      "mean": 0.34505,
+      "std": 0.03045,
+      "valid_pixel_count": 17865
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 9.9
+    }
+  },
+  {
+    "water_body_id": "unknown-body",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20250720_0019",
+    "acquisition_date": "2025-07-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 3.314,
+    "valid_pixel_count": 15588,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.23748,
+      "mean": 0.24223,
+      "std": 0.02375,
+      "valid_pixel_count": 12735
+    },
+    "ndci": {
+      "median": 0.05811,
+      "mean": 0.05869,
+      "std": 0.00697,
+      "valid_pixel_count": 12643
+    },
+    "fai": {
+      "median": 0.01019,
+      "mean": 0.0105,
+      "std": 0.00153,
+      "valid_pixel_count": 15737
+    },
+    "suspended_sediment": {
+      "median": 0.29886,
+      "mean": 0.30484,
+      "std": 0.0269,
+      "valid_pixel_count": 17248
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 14.8
+    }
+  },
+  {
+    "water_body_id": "unknown-body",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20250805_0020",
+    "acquisition_date": "2025-08-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.571,
+    "valid_pixel_count": 17419,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.21285,
+      "mean": 0.21711,
+      "std": 0.02129,
+      "valid_pixel_count": 15099
+    },
+    "ndci": {
+      "median": 0.06806,
+      "mean": 0.06874,
+      "std": 0.00817,
+      "valid_pixel_count": 15816
+    },
+    "fai": {
+      "median": 0.01006,
+      "mean": 0.01036,
+      "std": 0.00151,
+      "valid_pixel_count": 17454
+    },
+    "suspended_sediment": {
+      "median": 0.30271,
+      "mean": 0.30876,
+      "std": 0.02724,
+      "valid_pixel_count": 14438
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 13.5
+    }
+  },
+  {
+    "water_body_id": "unknown-body",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20250820_0021",
+    "acquisition_date": "2025-08-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.935,
+    "valid_pixel_count": 17556,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.22128,
+      "mean": 0.22571,
+      "std": 0.02213,
+      "valid_pixel_count": 16054
+    },
+    "ndci": {
+      "median": 0.06346,
+      "mean": 0.06409,
+      "std": 0.00762,
+      "valid_pixel_count": 12681
+    },
+    "fai": {
+      "median": 0.00898,
+      "mean": 0.00925,
+      "std": 0.00135,
+      "valid_pixel_count": 13923
+    },
+    "suspended_sediment": {
+      "median": 0.30481,
+      "mean": 0.31091,
+      "std": 0.02743,
+      "valid_pixel_count": 14567
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 7.4
+    }
+  },
+  {
+    "water_body_id": "unknown-body",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20250905_0022",
+    "acquisition_date": "2025-09-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.149,
+    "valid_pixel_count": 12331,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.18998,
+      "mean": 0.19378,
+      "std": 0.019,
+      "valid_pixel_count": 16619
+    },
+    "ndci": {
+      "median": 0.07489,
+      "mean": 0.07564,
+      "std": 0.00899,
+      "valid_pixel_count": 14738
+    },
+    "fai": {
+      "median": 0.01037,
+      "mean": 0.01068,
+      "std": 0.00156,
+      "valid_pixel_count": 13147
+    },
+    "suspended_sediment": {
+      "median": 0.27887,
+      "mean": 0.28445,
+      "std": 0.0251,
+      "valid_pixel_count": 15146
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 5.3
+    }
+  },
+  {
+    "water_body_id": "unknown-body",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20250920_0023",
+    "acquisition_date": "2025-09-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.331,
+    "valid_pixel_count": 12222,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.19392,
+      "mean": 0.1978,
+      "std": 0.01939,
+      "valid_pixel_count": 15157
+    },
+    "ndci": {
+      "median": 0.0714,
+      "mean": 0.07211,
+      "std": 0.00857,
+      "valid_pixel_count": 17804
+    },
+    "fai": {
+      "median": 0.0106,
+      "mean": 0.01092,
+      "std": 0.00159,
+      "valid_pixel_count": 14415
+    },
+    "suspended_sediment": {
+      "median": 0.27224,
+      "mean": 0.27768,
+      "std": 0.0245,
+      "valid_pixel_count": 15287
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 3.4
+    }
+  },
+  {
+    "water_body_id": "unknown-body",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20251005_0024",
+    "acquisition_date": "2025-10-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 3.066,
+    "valid_pixel_count": 17348,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.17367,
+      "mean": 0.17714,
+      "std": 0.01737,
+      "valid_pixel_count": 13329
+    },
+    "ndci": {
+      "median": 0.07695,
+      "mean": 0.07772,
+      "std": 0.00923,
+      "valid_pixel_count": 15944
+    },
+    "fai": {
+      "median": 0.0126,
+      "mean": 0.01298,
+      "std": 0.00189,
+      "valid_pixel_count": 13243
+    },
+    "suspended_sediment": {
+      "median": 0.23246,
+      "mean": 0.23711,
+      "std": 0.02092,
+      "valid_pixel_count": 13243
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 8.2
+    }
+  },
+  {
+    "water_body_id": "unknown-body",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20251020_0025",
+    "acquisition_date": "2025-10-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.354,
+    "valid_pixel_count": 17381,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.1609,
+      "mean": 0.16412,
+      "std": 0.01609,
+      "valid_pixel_count": 13679
+    },
+    "ndci": {
+      "median": 0.08104,
+      "mean": 0.08185,
+      "std": 0.00972,
+      "valid_pixel_count": 17148
+    },
+    "fai": {
+      "median": 0.01273,
+      "mean": 0.01311,
+      "std": 0.00191,
+      "valid_pixel_count": 17958
+    },
+    "suspended_sediment": {
+      "median": 0.2406,
+      "mean": 0.24541,
+      "std": 0.02165,
+      "valid_pixel_count": 12696
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 4.6
+    }
+  },
+  {
+    "water_body_id": "unknown-body",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20251105_0026",
+    "acquisition_date": "2025-11-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.088,
+    "valid_pixel_count": 14855,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.13662,
+      "mean": 0.13935,
+      "std": 0.01366,
+      "valid_pixel_count": 14187
+    },
+    "ndci": {
+      "median": 0.0792,
+      "mean": 0.07999,
+      "std": 0.0095,
+      "valid_pixel_count": 16882
+    },
+    "fai": {
+      "median": 0.01139,
+      "mean": 0.01173,
+      "std": 0.00171,
+      "valid_pixel_count": 14972
+    },
+    "suspended_sediment": {
+      "median": 0.19849,
+      "mean": 0.20246,
+      "std": 0.01786,
+      "valid_pixel_count": 14171
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 7.5
+    }
+  },
+  {
+    "water_body_id": "unknown-body",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20251120_0027",
+    "acquisition_date": "2025-11-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 3.5,
+    "valid_pixel_count": 16125,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.15876,
+      "mean": 0.16194,
+      "std": 0.01588,
+      "valid_pixel_count": 13052
+    },
+    "ndci": {
+      "median": 0.07026,
+      "mean": 0.07096,
+      "std": 0.00843,
+      "valid_pixel_count": 13245
+    },
+    "fai": {
+      "median": 0.01173,
+      "mean": 0.01208,
+      "std": 0.00176,
+      "valid_pixel_count": 15201
+    },
+    "suspended_sediment": {
+      "median": 0.19373,
+      "mean": 0.1976,
+      "std": 0.01744,
+      "valid_pixel_count": 17895
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 6.1
+    }
+  },
+  {
+    "water_body_id": "unknown-body",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20251205_0028",
+    "acquisition_date": "2025-12-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 3.285,
+    "valid_pixel_count": 17194,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.14799,
+      "mean": 0.15095,
+      "std": 0.0148,
+      "valid_pixel_count": 13878
+    },
+    "ndci": {
+      "median": 0.06528,
+      "mean": 0.06593,
+      "std": 0.00783,
+      "valid_pixel_count": 14148
+    },
+    "fai": {
+      "median": 0.01124,
+      "mean": 0.01158,
+      "std": 0.00169,
+      "valid_pixel_count": 12536
+    },
+    "suspended_sediment": {
+      "median": 0.18175,
+      "mean": 0.18538,
+      "std": 0.01636,
+      "valid_pixel_count": 12350
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 14.1
+    }
+  },
+  {
+    "water_body_id": "unknown-body",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20251220_0029",
+    "acquisition_date": "2025-12-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.54,
+    "valid_pixel_count": 13527,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.13687,
+      "mean": 0.13961,
+      "std": 0.01369,
+      "valid_pixel_count": 17337
+    },
+    "ndci": {
+      "median": 0.0722,
+      "mean": 0.07292,
+      "std": 0.00866,
+      "valid_pixel_count": 15984
+    },
+    "fai": {
+      "median": 0.01097,
+      "mean": 0.0113,
+      "std": 0.00165,
+      "valid_pixel_count": 12068
+    },
+    "suspended_sediment": {
+      "median": 0.16618,
+      "mean": 0.1695,
+      "std": 0.01496,
+      "valid_pixel_count": 15937
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 8.8
+    }
+  },
+  {
+    "water_body_id": "unknown-body",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20260105_0030",
+    "acquisition_date": "2026-01-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.932,
+    "valid_pixel_count": 16435,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.14272,
+      "mean": 0.14557,
+      "std": 0.01427,
+      "valid_pixel_count": 16313
+    },
+    "ndci": {
+      "median": 0.06755,
+      "mean": 0.06823,
+      "std": 0.00811,
+      "valid_pixel_count": 17805
+    },
+    "fai": {
+      "median": 0.01058,
+      "mean": 0.0109,
+      "std": 0.00159,
+      "valid_pixel_count": 17534
+    },
+    "suspended_sediment": {
+      "median": 0.17205,
+      "mean": 0.17549,
+      "std": 0.01548,
+      "valid_pixel_count": 14359
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 4.9
+    }
+  },
+  {
+    "water_body_id": "unknown-body",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20260120_0031",
+    "acquisition_date": "2026-01-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.076,
+    "valid_pixel_count": 17067,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.12994,
+      "mean": 0.13254,
+      "std": 0.01299,
+      "valid_pixel_count": 17121
+    },
+    "ndci": {
+      "median": 0.07147,
+      "mean": 0.07218,
+      "std": 0.00858,
+      "valid_pixel_count": 15273
+    },
+    "fai": {
+      "median": 0.01125,
+      "mean": 0.01159,
+      "std": 0.00169,
+      "valid_pixel_count": 15888
+    },
+    "suspended_sediment": {
+      "median": 0.19243,
+      "mean": 0.19628,
+      "std": 0.01732,
+      "valid_pixel_count": 13741
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 3.1
+    }
+  },
+  {
+    "water_body_id": "unknown-body",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20260205_0032",
+    "acquisition_date": "2026-02-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.791,
+    "valid_pixel_count": 17903,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.13358,
+      "mean": 0.13625,
+      "std": 0.01336,
+      "valid_pixel_count": 13665
+    },
+    "ndci": {
+      "median": 0.07433,
+      "mean": 0.07507,
+      "std": 0.00892,
+      "valid_pixel_count": 16594
+    },
+    "fai": {
+      "median": 0.01115,
+      "mean": 0.01148,
+      "std": 0.00167,
+      "valid_pixel_count": 17308
+    },
+    "suspended_sediment": {
+      "median": 0.15937,
+      "mean": 0.16256,
+      "std": 0.01434,
+      "valid_pixel_count": 13927
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 12.4
+    }
+  },
+  {
+    "water_body_id": "unknown-body",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20260220_0033",
+    "acquisition_date": "2026-02-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.342,
+    "valid_pixel_count": 14904,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.12721,
+      "mean": 0.12975,
+      "std": 0.01272,
+      "valid_pixel_count": 15553
+    },
+    "ndci": {
+      "median": 0.0678,
+      "mean": 0.06848,
+      "std": 0.00814,
+      "valid_pixel_count": 17681
+    },
+    "fai": {
+      "median": 0.01095,
+      "mean": 0.01128,
+      "std": 0.00164,
+      "valid_pixel_count": 16972
+    },
+    "suspended_sediment": {
+      "median": 0.16526,
+      "mean": 0.16857,
+      "std": 0.01487,
+      "valid_pixel_count": 16100
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 3.0
+    }
+  },
+  {
+    "water_body_id": "unknown-body",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20260305_0034",
+    "acquisition_date": "2026-03-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.757,
+    "valid_pixel_count": 13466,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.14711,
+      "mean": 0.15005,
+      "std": 0.01471,
+      "valid_pixel_count": 14341
+    },
+    "ndci": {
+      "median": 0.07588,
+      "mean": 0.07664,
+      "std": 0.00911,
+      "valid_pixel_count": 15973
+    },
+    "fai": {
+      "median": 0.01186,
+      "mean": 0.01222,
+      "std": 0.00178,
+      "valid_pixel_count": 14296
+    },
+    "suspended_sediment": {
+      "median": 0.18298,
+      "mean": 0.18664,
+      "std": 0.01647,
+      "valid_pixel_count": 13994
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 14.2
+    }
+  },
+  {
+    "water_body_id": "unknown-body",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20260320_0035",
+    "acquisition_date": "2026-03-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.614,
+    "valid_pixel_count": 17597,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.14487,
+      "mean": 0.14777,
+      "std": 0.01449,
+      "valid_pixel_count": 17182
+    },
+    "ndci": {
+      "median": 0.07127,
+      "mean": 0.07198,
+      "std": 0.00855,
+      "valid_pixel_count": 16711
+    },
+    "fai": {
+      "median": 0.01103,
+      "mean": 0.01136,
+      "std": 0.00165,
+      "valid_pixel_count": 14597
+    },
+    "suspended_sediment": {
+      "median": 0.19087,
+      "mean": 0.19469,
+      "std": 0.01718,
+      "valid_pixel_count": 16314
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 14.2
+    }
+  },
+  {
+    "water_body_id": "unknown-body",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20260405_0036",
+    "acquisition_date": "2026-04-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 3.323,
+    "valid_pixel_count": 12355,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.16342,
+      "mean": 0.16669,
+      "std": 0.01634,
+      "valid_pixel_count": 12676
+    },
+    "ndci": {
+      "median": 0.07853,
+      "mean": 0.07932,
+      "std": 0.00942,
+      "valid_pixel_count": 13210
+    },
+    "fai": {
+      "median": 0.01371,
+      "mean": 0.01412,
+      "std": 0.00206,
+      "valid_pixel_count": 16095
+    },
+    "suspended_sediment": {
+      "median": 0.18457,
+      "mean": 0.18826,
+      "std": 0.01661,
+      "valid_pixel_count": 14697
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 12.4
+    }
+  },
+  {
+    "water_body_id": "unknown-body",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20260420_0037",
+    "acquisition_date": "2026-04-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 3.396,
+    "valid_pixel_count": 14371,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.16462,
+      "mean": 0.16791,
+      "std": 0.01646,
+      "valid_pixel_count": 14667
+    },
+    "ndci": {
+      "median": 0.08826,
+      "mean": 0.08914,
+      "std": 0.01059,
+      "valid_pixel_count": 12423
+    },
+    "fai": {
+      "median": 0.01418,
+      "mean": 0.01461,
+      "std": 0.00213,
+      "valid_pixel_count": 13952
+    },
+    "suspended_sediment": {
+      "median": 0.19378,
+      "mean": 0.19766,
+      "std": 0.01744,
+      "valid_pixel_count": 17233
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 7.7
+    }
+  },
+  {
+    "water_body_id": "unknown-body",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20260505_0038",
+    "acquisition_date": "2026-05-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 3.424,
+    "valid_pixel_count": 16693,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.17257,
+      "mean": 0.17602,
+      "std": 0.01726,
+      "valid_pixel_count": 15119
+    },
+    "ndci": {
+      "median": 0.08628,
+      "mean": 0.08714,
+      "std": 0.01035,
+      "valid_pixel_count": 17984
+    },
+    "fai": {
+      "median": 0.01415,
+      "mean": 0.01457,
+      "std": 0.00212,
+      "valid_pixel_count": 12992
+    },
+    "suspended_sediment": {
+      "median": 0.20093,
+      "mean": 0.20495,
+      "std": 0.01808,
+      "valid_pixel_count": 15286
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 14.8
+    }
+  },
+  {
+    "water_body_id": "unknown-body",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20260520_0039",
+    "acquisition_date": "2026-05-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 3.048,
+    "valid_pixel_count": 14687,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.16612,
+      "mean": 0.16944,
+      "std": 0.01661,
+      "valid_pixel_count": 16866
+    },
+    "ndci": {
+      "median": 0.09375,
+      "mean": 0.09469,
+      "std": 0.01125,
+      "valid_pixel_count": 16778
+    },
+    "fai": {
+      "median": 0.01367,
+      "mean": 0.01408,
+      "std": 0.00205,
+      "valid_pixel_count": 14355
+    },
+    "suspended_sediment": {
+      "median": 0.20041,
+      "mean": 0.20442,
+      "std": 0.01804,
+      "valid_pixel_count": 14578
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 4.2
+    }
+  },
+  {
+    "water_body_id": "unknown-body",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20260605_0040",
+    "acquisition_date": "2026-06-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.031,
+    "valid_pixel_count": 15055,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.18097,
+      "mean": 0.18459,
+      "std": 0.0181,
+      "valid_pixel_count": 14378
+    },
+    "ndci": {
+      "median": 0.07877,
+      "mean": 0.07956,
+      "std": 0.00945,
+      "valid_pixel_count": 13846
+    },
+    "fai": {
+      "median": 0.01119,
+      "mean": 0.01153,
+      "std": 0.00168,
+      "valid_pixel_count": 12624
+    },
+    "suspended_sediment": {
+      "median": 0.24967,
+      "mean": 0.25466,
+      "std": 0.02247,
+      "valid_pixel_count": 12701
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 5.9
+    }
+  },
+  {
+    "water_body_id": "unknown-body",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20260620_0041",
+    "acquisition_date": "2026-06-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.983,
+    "valid_pixel_count": 16193,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.20087,
+      "mean": 0.20489,
+      "std": 0.02009,
+      "valid_pixel_count": 14511
+    },
+    "ndci": {
+      "median": 0.08025,
+      "mean": 0.08105,
+      "std": 0.00963,
+      "valid_pixel_count": 13719
+    },
+    "fai": {
+      "median": 0.01257,
+      "mean": 0.01295,
+      "std": 0.00189,
+      "valid_pixel_count": 15064
+    },
+    "suspended_sediment": {
+      "median": 0.25916,
+      "mean": 0.26434,
+      "std": 0.02332,
+      "valid_pixel_count": 15855
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 4.1
+    }
+  },
+  {
+    "water_body_id": "unknown-body",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20260705_0042",
+    "acquisition_date": "2026-07-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 3.448,
+    "valid_pixel_count": 16415,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.24067,
+      "mean": 0.24548,
+      "std": 0.02407,
+      "valid_pixel_count": 16533
+    },
+    "ndci": {
+      "median": 0.05828,
+      "mean": 0.05886,
+      "std": 0.00699,
+      "valid_pixel_count": 15334
+    },
+    "fai": {
+      "median": 0.00932,
+      "mean": 0.0096,
+      "std": 0.0014,
+      "valid_pixel_count": 15889
+    },
+    "suspended_sediment": {
+      "median": 0.30755,
+      "mean": 0.3137,
+      "std": 0.02768,
+      "valid_pixel_count": 13548
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 12.6
+    }
+  },
+  {
+    "water_body_id": "unknown-body",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20260720_0043",
+    "acquisition_date": "2026-07-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.388,
+    "valid_pixel_count": 13116,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.21534,
+      "mean": 0.21965,
+      "std": 0.02153,
+      "valid_pixel_count": 17226
+    },
+    "ndci": {
+      "median": 0.06595,
+      "mean": 0.06661,
+      "std": 0.00791,
+      "valid_pixel_count": 16854
+    },
+    "fai": {
+      "median": 0.00944,
+      "mean": 0.00972,
+      "std": 0.00142,
+      "valid_pixel_count": 15462
+    },
+    "suspended_sediment": {
+      "median": 0.30304,
+      "mean": 0.3091,
+      "std": 0.02727,
+      "valid_pixel_count": 14202
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 8.3
+    }
+  },
+  {
+    "water_body_id": "unknown-body",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20260805_0044",
+    "acquisition_date": "2026-08-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.292,
+    "valid_pixel_count": 17648,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.2064,
+      "mean": 0.21053,
+      "std": 0.02064,
+      "valid_pixel_count": 12917
+    },
+    "ndci": {
+      "median": 0.06895,
+      "mean": 0.06964,
+      "std": 0.00827,
+      "valid_pixel_count": 16100
+    },
+    "fai": {
+      "median": 0.00923,
+      "mean": 0.00951,
+      "std": 0.00138,
+      "valid_pixel_count": 12642
+    },
+    "suspended_sediment": {
+      "median": 0.28579,
+      "mean": 0.29151,
+      "std": 0.02572,
+      "valid_pixel_count": 16052
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 5.1
+    }
+  },
+  {
+    "water_body_id": "unknown-body",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20260820_0045",
+    "acquisition_date": "2026-08-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.237,
+    "valid_pixel_count": 13475,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.20513,
+      "mean": 0.20923,
+      "std": 0.02051,
+      "valid_pixel_count": 14356
+    },
+    "ndci": {
+      "median": 0.06655,
+      "mean": 0.06722,
+      "std": 0.00799,
+      "valid_pixel_count": 14558
+    },
+    "fai": {
+      "median": 0.0087,
+      "mean": 0.00896,
+      "std": 0.0013,
+      "valid_pixel_count": 17375
+    },
+    "suspended_sediment": {
+      "median": 0.2926,
+      "mean": 0.29845,
+      "std": 0.02633,
+      "valid_pixel_count": 13982
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 4.3
+    }
+  },
+  {
+    "water_body_id": "unknown-body",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20260905_0046",
+    "acquisition_date": "2026-09-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 3.405,
+    "valid_pixel_count": 16315,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.21718,
+      "mean": 0.22152,
+      "std": 0.02172,
+      "valid_pixel_count": 17767
+    },
+    "ndci": {
+      "median": 0.06726,
+      "mean": 0.06793,
+      "std": 0.00807,
+      "valid_pixel_count": 13479
+    },
+    "fai": {
+      "median": 0.01183,
+      "mean": 0.01218,
+      "std": 0.00177,
+      "valid_pixel_count": 14652
+    },
+    "suspended_sediment": {
+      "median": 0.25478,
+      "mean": 0.25988,
+      "std": 0.02293,
+      "valid_pixel_count": 15422
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 7.8
+    }
+  },
+  {
+    "water_body_id": "unknown-body",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20260920_0047",
+    "acquisition_date": "2026-09-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.184,
+    "valid_pixel_count": 14484,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.19074,
+      "mean": 0.19455,
+      "std": 0.01907,
+      "valid_pixel_count": 12678
+    },
+    "ndci": {
+      "median": 0.07497,
+      "mean": 0.07572,
+      "std": 0.009,
+      "valid_pixel_count": 16860
+    },
+    "fai": {
+      "median": 0.01013,
+      "mean": 0.01043,
+      "std": 0.00152,
+      "valid_pixel_count": 12873
+    },
+    "suspended_sediment": {
+      "median": 0.27191,
+      "mean": 0.27735,
+      "std": 0.02447,
+      "valid_pixel_count": 17389
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 10.1
+    }
+  }
+]

@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from app.api.routes import dashboard, priority, analysis, gee
+from app.api.routes import dashboard, priority, analysis, gee, queue, report
 
 app = FastAPI(
     title="Water Intelligence API",
@@ -22,6 +22,8 @@ app.include_router(dashboard.router, prefix="/api/dashboard", tags=["dashboard"]
 app.include_router(priority.router, prefix="/api/priority", tags=["priority"])
 app.include_router(analysis.router, prefix="/api/analysis", tags=["analysis"])
 app.include_router(gee.router, prefix="/api/gee", tags=["gee"])
+app.include_router(queue.router,   prefix="/api/priority-queue", tags=["priority-queue"])
+app.include_router(report.router,  prefix="/api/reports",        tags=["reports"])
 
 @app.get("/health")
 def health_check():

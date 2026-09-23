@@ -193,7 +193,53 @@ export const analysisService = {
       throw error;
     }
   },
+
+  calculatePriority: async (anomalyResult: import('../../types/analysis').AnomalyResponse): Promise<import('../../types/analysis').PriorityResponse> => {
+    try {
+      const response = await fetch(`${API_BASE}/analysis/priority`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          water_body_id: anomalyResult.water_body_id,
+          scene_id: anomalyResult.scene_id,
+          acquisition_date: anomalyResult.acquisition_date,
+          anomaly_result: anomalyResult,
+        }),
+      });
+
+      if (!response.ok) {
+        const errorBody = await response.json().catch(() => ({}));
+        throw new Error(errorBody.detail || 'Failed to calculate priority score');
+      }
+
+      return await response.json();
+    } catch (error) {
+      console.error('Priority calculation error:', error);
+      throw error;
+    }
+  },
+
+  generateAlerts: async (request: import('../../types/analysis').AlertRequest): Promise<import('../../types/analysis').AlertResponse> => {
+    try {
+      const response = await fetch(`${API_BASE}/analysis/alert`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(request),
+      });
+
+      if (!response.ok) {
+        const errorBody = await response.json().catch(() => ({}));
+        throw new Error(errorBody.detail || 'Failed to generate explainable alerts');
+      }
+
+      return await response.json();
+    } catch (error) {
+      console.error('Alert generation error:', error);
+      throw error;
+    }
+  },
 };
-
-
-

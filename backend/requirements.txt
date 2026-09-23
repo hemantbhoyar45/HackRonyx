@@ -8,3 +8,5 @@ earthengine-api
 shapely
 scikit-learn
 pandas
+reportlab
+PyPDF2

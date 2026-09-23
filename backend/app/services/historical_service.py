@@ -232,3 +232,26 @@ def run_compare_baseline(request: BaselineCompareRequest) -> BaselineCompareResp
         baseline=b,
         deviation=DeviationResult(**deviations),
     )
+
+
+class HistoricalService:
+    """
+    Service wrapper for historical data generation and baseline queries.
+    """
+    async def get_historical_analysis(self, water_body_id: str, zone_id: str, start_date: str, end_date: str):
+        from datetime import datetime
+        s_date = datetime.strptime(start_date, "%Y-%m-%d").date()
+        e_date = datetime.strptime(end_date, "%Y-%m-%d").date()
+        req = HistoricalRequest(
+            water_body_id=water_body_id,
+            zone_id=zone_id,
+            start_date=s_date,
+            end_date=e_date
+        )
+        return run_historical(req)
+
+    def _generate_demo_observation(self, water_body_id: str, zone_id: str, date_str: str):
+        from datetime import datetime
+        obs_date = datetime.strptime(date_str, "%Y-%m-%d").date()
+        return _generate_demo_obs(water_body_id, zone_id, obs_date)
+

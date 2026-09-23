@@ -111,3 +111,24 @@ def clear_observations(water_body_id: str) -> None:
         path = _store_path(water_body_id)
         if path.exists():
             path.unlink()
+
+
+class HistoricalRepository:
+    """
+    Class wrapper for baseline repository operations.
+    """
+    def save_observations(self, observations: List[HistoricalObservation]) -> None:
+        save_observations(observations)
+
+    def get_observations(self, water_body_id: str, zone_id: Optional[str] = None, start_date: Optional[date] = None, end_date: Optional[date] = None, status_filter: Optional[str] = None) -> List[HistoricalObservation]:
+        return get_observations(water_body_id, zone_id, start_date, end_date, status_filter)
+
+    def get_by_month(self, water_body_id: str, zone_id: str, month: int, start_date: Optional[date] = None, end_date: Optional[date] = None) -> List[HistoricalObservation]:
+        return get_by_month(water_body_id, zone_id, month, start_date, end_date)
+
+    def count_observations(self, water_body_id: str, zone_id: str) -> int:
+        return count_observations(water_body_id, zone_id)
+
+    def clear(self, water_body_id: str) -> None:
+        clear_observations(water_body_id)
+

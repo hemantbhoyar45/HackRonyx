@@ -15,3 +15,12 @@ __pycache__/
 # IDE
 .vscode/
 .idea/
+
+# Generated PDF reports (runtime artifacts)
+data/reports/pdf/
+data/reports/*.json
+
+# Virtual environments
+venv/
+.venv/
+env/
