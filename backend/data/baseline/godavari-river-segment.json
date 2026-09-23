@@ -5,36 +5,36 @@
     "scene_id": "DEMO_S2_20240905_0000",
     "acquisition_date": "2024-09-05",
     "sensor": "Sentinel-2",
-    "water_area_km2": 2.016,
-    "valid_pixel_count": 17442,
+    "water_area_km2": 2.23,
+    "valid_pixel_count": 15871,
     "observation_status": "valid",
     "ndti": {
-      "median": 0.24057,
-      "mean": 0.24538,
-      "std": 0.02406,
-      "valid_pixel_count": 12086
+      "median": 0.24653,
+      "mean": 0.25146,
+      "std": 0.02465,
+      "valid_pixel_count": 12502
     },
     "ndci": {
-      "median": 0.06021,
-      "mean": 0.06081,
-      "std": 0.00723,
-      "valid_pixel_count": 16838
+      "median": 0.06347,
+      "mean": 0.0641,
+      "std": 0.00762,
+      "valid_pixel_count": 13479
     },
     "fai": {
-      "median": 0.00967,
-      "mean": 0.00996,
-      "std": 0.00145,
-      "valid_pixel_count": 17255
+      "median": 0.00946,
+      "mean": 0.00974,
+      "std": 0.00142,
+      "valid_pixel_count": 16227
     },
     "suspended_sediment": {
-      "median": 0.35202,
-      "mean": 0.35906,
-      "std": 0.03168,
-      "valid_pixel_count": 14122
+      "median": 0.35179,
+      "mean": 0.35883,
+      "std": 0.03166,
+      "valid_pixel_count": 16165
     },
     "quality_metadata": {
       "data_source": "demo",
-      "cloud_pct": 4.0
+      "cloud_pct": 14.2
     }
   },
   {
@@ -43,36 +43,36 @@
     "scene_id": "DEMO_S2_20240920_0001",
     "acquisition_date": "2024-09-20",
     "sensor": "Sentinel-2",
-    "water_area_km2": 3.174,
-    "valid_pixel_count": 16706,
+    "water_area_km2": 2.822,
+    "valid_pixel_count": 12334,
     "observation_status": "valid",
     "ndti": {
-      "median": 0.27281,
-      "mean": 0.27827,
-      "std": 0.02728,
-      "valid_pixel_count": 16187
+      "median": 0.26302,
+      "mean": 0.26828,
+      "std": 0.0263,
+      "valid_pixel_count": 16443
     },
     "ndci": {
-      "median": 0.06409,
-      "mean": 0.06473,
-      "std": 0.00769,
-      "valid_pixel_count": 14163
+      "median": 0.05676,
+      "mean": 0.05733,
+      "std": 0.00681,
+      "valid_pixel_count": 13142
     },
     "fai": {
-      "median": 0.01047,
-      "mean": 0.01078,
-      "std": 0.00157,
-      "valid_pixel_count": 13219
+      "median": 0.01023,
+      "mean": 0.01054,
+      "std": 0.00153,
+      "valid_pixel_count": 12222
     },
     "suspended_sediment": {
-      "median": 0.34806,
-      "mean": 0.35502,
-      "std": 0.03133,
-      "valid_pixel_count": 16981
+      "median": 0.35217,
+      "mean": 0.35921,
+      "std": 0.0317,
+      "valid_pixel_count": 13473
     },
     "quality_metadata": {
       "data_source": "demo",
-      "cloud_pct": 6.7
+      "cloud_pct": 5.5
     }
   },
   {
@@ -81,36 +81,36 @@
     "scene_id": "DEMO_S2_20241005_0002",
     "acquisition_date": "2024-10-05",
     "sensor": "Sentinel-2",
-    "water_area_km2": 3.31,
-    "valid_pixel_count": 12569,
+    "water_area_km2": 3.144,
+    "valid_pixel_count": 12531,
     "observation_status": "valid",
     "ndti": {
-      "median": 0.22889,
-      "mean": 0.23347,
-      "std": 0.02289,
-      "valid_pixel_count": 12086
+      "median": 0.22508,
+      "mean": 0.22958,
+      "std": 0.02251,
+      "valid_pixel_count": 13838
     },
     "ndci": {
-      "median": 0.06857,
-      "mean": 0.06926,
-      "std": 0.00823,
-      "valid_pixel_count": 14212
+      "median": 0.06213,
+      "mean": 0.06275,
+      "std": 0.00746,
+      "valid_pixel_count": 13295
     },
     "fai": {
-      "median": 0.0102,
-      "mean": 0.01051,
-      "std": 0.00153,
-      "valid_pixel_count": 16737
+      "median": 0.01165,
+      "mean": 0.012,
+      "std": 0.00175,
+      "valid_pixel_count": 14746
     },
     "suspended_sediment": {
-      "median": 0.27861,
-      "mean": 0.28418,
-      "std": 0.02507,
-      "valid_pixel_count": 12057
+      "median": 0.28402,
+      "mean": 0.2897,
+      "std": 0.02556,
+      "valid_pixel_count": 17765
     },
     "quality_metadata": {
       "data_source": "demo",
-      "cloud_pct": 5.2
+      "cloud_pct": 11.9
     }
   },
   {
@@ -119,36 +119,36 @@
     "scene_id": "DEMO_S2_20241020_0003",
     "acquisition_date": "2024-10-20",
     "sensor": "Sentinel-2",
-    "water_area_km2": 3.181,
-    "valid_pixel_count": 13415,
+    "water_area_km2": 2.816,
+    "valid_pixel_count": 13096,
     "observation_status": "valid",
     "ndti": {
-      "median": 0.22592,
-      "mean": 0.23044,
-      "std": 0.02259,
-      "valid_pixel_count": 12641
+      "median": 0.21753,
+      "mean": 0.22188,
+      "std": 0.02175,
+      "valid_pixel_count": 17916
     },
     "ndci": {
-      "median": 0.06634,
-      "mean": 0.067,
-      "std": 0.00796,
-      "valid_pixel_count": 12075
+      "median": 0.06891,
+      "mean": 0.0696,
+      "std": 0.00827,
+      "valid_pixel_count": 16576
     },
     "fai": {
-      "median": 0.01058,
-      "mean": 0.0109,
-      "std": 0.00159,
-      "valid_pixel_count": 16467
+      "median": 0.01159,
+      "mean": 0.01194,
+      "std": 0.00174,
+      "valid_pixel_count": 13721
     },
     "suspended_sediment": {
-      "median": 0.29388,
-      "mean": 0.29976,
-      "std": 0.02645,
-      "valid_pixel_count": 15183
+      "median": 0.30418,
+      "mean": 0.31026,
+      "std": 0.02738,
+      "valid_pixel_count": 17077
     },
     "quality_metadata": {
       "data_source": "demo",
-      "cloud_pct": 2.7
+      "cloud_pct": 6.1
     }
   },
   {
@@ -157,36 +157,36 @@
     "scene_id": "DEMO_S2_20241105_0004",
     "acquisition_date": "2024-11-05",
     "sensor": "Sentinel-2",
-    "water_area_km2": 3.126,
-    "valid_pixel_count": 13712,
+    "water_area_km2": 2.449,
+    "valid_pixel_count": 13641,
     "observation_status": "valid",
     "ndti": {
-      "median": 0.19657,
-      "mean": 0.2005,
-      "std": 0.01966,
-      "valid_pixel_count": 13077
+      "median": 0.18293,
+      "mean": 0.18659,
+      "std": 0.01829,
+      "valid_pixel_count": 15003
     },
     "ndci": {
-      "median": 0.06105,
-      "mean": 0.06166,
-      "std": 0.00733,
-      "valid_pixel_count": 17182
+      "median": 0.06444,
+      "mean": 0.06508,
+      "std": 0.00773,
+      "valid_pixel_count": 12574
     },
     "fai": {
-      "median": 0.01008,
-      "mean": 0.01038,
-      "std": 0.00151,
-      "valid_pixel_count": 15035
+      "median": 0.01003,
+      "mean": 0.01033,
+      "std": 0.0015,
+      "valid_pixel_count": 12465
     },
     "suspended_sediment": {
-      "median": 0.25123,
-      "mean": 0.25625,
-      "std": 0.02261,
-      "valid_pixel_count": 15653
+      "median": 0.2417,
+      "mean": 0.24653,
+      "std": 0.02175,
+      "valid_pixel_count": 12770
     },
     "quality_metadata": {
       "data_source": "demo",
-      "cloud_pct": 7.0
+      "cloud_pct": 11.5
     }
   },
   {
@@ -195,36 +195,36 @@
     "scene_id": "DEMO_S2_20241120_0005",
     "acquisition_date": "2024-11-20",
     "sensor": "Sentinel-2",
-    "water_area_km2": 2.945,
-    "valid_pixel_count": 16063,
+    "water_area_km2": 2.56,
+    "valid_pixel_count": 16484,
     "observation_status": "valid",
     "ndti": {
-      "median": 0.19293,
-      "mean": 0.19679,
-      "std": 0.01929,
-      "valid_pixel_count": 16662
+      "median": 0.18517,
+      "mean": 0.18887,
+      "std": 0.01852,
+      "valid_pixel_count": 12281
     },
     "ndci": {
-      "median": 0.0653,
-      "mean": 0.06595,
-      "std": 0.00784,
-      "valid_pixel_count": 14954
+      "median": 0.06659,
+      "mean": 0.06726,
+      "std": 0.00799,
+      "valid_pixel_count": 13975
     },
     "fai": {
-      "median": 0.01007,
-      "mean": 0.01037,
-      "std": 0.00151,
-      "valid_pixel_count": 15987
+      "median": 0.01038,
+      "mean": 0.01069,
+      "std": 0.00156,
+      "valid_pixel_count": 16128
     },
     "suspended_sediment": {
-      "median": 0.23684,
-      "mean": 0.24158,
-      "std": 0.02132,
-      "valid_pixel_count": 14223
+      "median": 0.23195,
+      "mean": 0.23659,
+      "std": 0.02088,
+      "valid_pixel_count": 12633
     },
     "quality_metadata": {
       "data_source": "demo",
-      "cloud_pct": 9.5
+      "cloud_pct": 12.9
     }
   },
   {
@@ -233,36 +233,36 @@
     "scene_id": "DEMO_S2_20241205_0006",
     "acquisition_date": "2024-12-05",
     "sensor": "Sentinel-2",
-    "water_area_km2": 2.461,
-    "valid_pixel_count": 16273,
+    "water_area_km2": 2.087,
+    "valid_pixel_count": 15659,
     "observation_status": "valid",
     "ndti": {
-      "median": 0.17446,
-      "mean": 0.17795,
-      "std": 0.01745,
-      "valid_pixel_count": 12713
+      "median": 0.16726,
+      "mean": 0.17061,
+      "std": 0.01673,
+      "valid_pixel_count": 17781
     },
     "ndci": {
-      "median": 0.05905,
-      "mean": 0.05964,
-      "std": 0.00709,
-      "valid_pixel_count": 14509
+      "median": 0.05669,
+      "mean": 0.05726,
+      "std": 0.0068,
+      "valid_pixel_count": 16474
     },
     "fai": {
-      "median": 0.0101,
-      "mean": 0.0104,
+      "median": 0.01004,
+      "mean": 0.01034,
       "std": 0.00151,
-      "valid_pixel_count": 15393
+      "valid_pixel_count": 17272
     },
     "suspended_sediment": {
-      "median": 0.23422,
-      "mean": 0.2389,
-      "std": 0.02108,
-      "valid_pixel_count": 15362
+      "median": 0.21951,
+      "mean": 0.2239,
+      "std": 0.01976,
+      "valid_pixel_count": 15324
     },
     "quality_metadata": {
       "data_source": "demo",
-      "cloud_pct": 2.8
+      "cloud_pct": 12.8
     }
   },
   {
@@ -271,25 +271,1165 @@
     "scene_id": "DEMO_S2_20241220_0007",
     "acquisition_date": "2024-12-20",
     "sensor": "Sentinel-2",
+    "water_area_km2": 2.174,
+    "valid_pixel_count": 13499,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.16895,
+      "mean": 0.17233,
+      "std": 0.0169,
+      "valid_pixel_count": 15420
+    },
+    "ndci": {
+      "median": 0.05929,
+      "mean": 0.05988,
+      "std": 0.00711,
+      "valid_pixel_count": 13867
+    },
+    "fai": {
+      "median": 0.00985,
+      "mean": 0.01015,
+      "std": 0.00148,
+      "valid_pixel_count": 13931
+    },
+    "suspended_sediment": {
+      "median": 0.22341,
+      "mean": 0.22788,
+      "std": 0.02011,
+      "valid_pixel_count": 13079
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 9.2
+    }
+  },
+  {
+    "water_body_id": "godavari-river-segment",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20250105_0008",
+    "acquisition_date": "2025-01-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.603,
+    "valid_pixel_count": 15386,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.17719,
+      "mean": 0.18073,
+      "std": 0.01772,
+      "valid_pixel_count": 13386
+    },
+    "ndci": {
+      "median": 0.06162,
+      "mean": 0.06224,
+      "std": 0.00739,
+      "valid_pixel_count": 12426
+    },
+    "fai": {
+      "median": 0.00922,
+      "mean": 0.0095,
+      "std": 0.00138,
+      "valid_pixel_count": 13803
+    },
+    "suspended_sediment": {
+      "median": 0.21528,
+      "mean": 0.21959,
+      "std": 0.01938,
+      "valid_pixel_count": 16260
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 9.0
+    }
+  },
+  {
+    "water_body_id": "godavari-river-segment",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20250120_0009",
+    "acquisition_date": "2025-01-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.004,
+    "valid_pixel_count": 16186,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.16567,
+      "mean": 0.16898,
+      "std": 0.01657,
+      "valid_pixel_count": 15776
+    },
+    "ndci": {
+      "median": 0.05731,
+      "mean": 0.05788,
+      "std": 0.00688,
+      "valid_pixel_count": 14471
+    },
+    "fai": {
+      "median": 0.01028,
+      "mean": 0.01059,
+      "std": 0.00154,
+      "valid_pixel_count": 16677
+    },
+    "suspended_sediment": {
+      "median": 0.22236,
+      "mean": 0.22681,
+      "std": 0.02001,
+      "valid_pixel_count": 13707
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 14.4
+    }
+  },
+  {
+    "water_body_id": "godavari-river-segment",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20250205_0010",
+    "acquisition_date": "2025-02-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.788,
+    "valid_pixel_count": 17933,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.17169,
+      "mean": 0.17512,
+      "std": 0.01717,
+      "valid_pixel_count": 16283
+    },
+    "ndci": {
+      "median": 0.05879,
+      "mean": 0.05938,
+      "std": 0.00705,
+      "valid_pixel_count": 14470
+    },
+    "fai": {
+      "median": 0.01008,
+      "mean": 0.01038,
+      "std": 0.00151,
+      "valid_pixel_count": 14349
+    },
+    "suspended_sediment": {
+      "median": 0.19213,
+      "mean": 0.19597,
+      "std": 0.01729,
+      "valid_pixel_count": 17700
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 12.6
+    }
+  },
+  {
+    "water_body_id": "godavari-river-segment",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20250220_0011",
+    "acquisition_date": "2025-02-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.628,
+    "valid_pixel_count": 13065,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.16877,
+      "mean": 0.17215,
+      "std": 0.01688,
+      "valid_pixel_count": 17907
+    },
+    "ndci": {
+      "median": 0.05738,
+      "mean": 0.05795,
+      "std": 0.00689,
+      "valid_pixel_count": 12134
+    },
+    "fai": {
+      "median": 0.00936,
+      "mean": 0.00964,
+      "std": 0.0014,
+      "valid_pixel_count": 12228
+    },
+    "suspended_sediment": {
+      "median": 0.19232,
+      "mean": 0.19617,
+      "std": 0.01731,
+      "valid_pixel_count": 15153
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 6.3
+    }
+  },
+  {
+    "water_body_id": "godavari-river-segment",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20250305_0012",
+    "acquisition_date": "2025-03-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 3.275,
+    "valid_pixel_count": 16358,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.19959,
+      "mean": 0.20358,
+      "std": 0.01996,
+      "valid_pixel_count": 14069
+    },
+    "ndci": {
+      "median": 0.06366,
+      "mean": 0.0643,
+      "std": 0.00764,
+      "valid_pixel_count": 13065
+    },
+    "fai": {
+      "median": 0.01107,
+      "mean": 0.0114,
+      "std": 0.00166,
+      "valid_pixel_count": 15887
+    },
+    "suspended_sediment": {
+      "median": 0.23455,
+      "mean": 0.23924,
+      "std": 0.02111,
+      "valid_pixel_count": 13143
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 10.5
+    }
+  },
+  {
+    "water_body_id": "godavari-river-segment",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20250320_0013",
+    "acquisition_date": "2025-03-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.533,
+    "valid_pixel_count": 17443,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.18463,
+      "mean": 0.18832,
+      "std": 0.01846,
+      "valid_pixel_count": 12901
+    },
+    "ndci": {
+      "median": 0.06115,
+      "mean": 0.06176,
+      "std": 0.00734,
+      "valid_pixel_count": 16746
+    },
+    "fai": {
+      "median": 0.00976,
+      "mean": 0.01005,
+      "std": 0.00146,
+      "valid_pixel_count": 14442
+    },
+    "suspended_sediment": {
+      "median": 0.20455,
+      "mean": 0.20864,
+      "std": 0.01841,
+      "valid_pixel_count": 15227
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 14.9
+    }
+  },
+  {
+    "water_body_id": "godavari-river-segment",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20250405_0014",
+    "acquisition_date": "2025-04-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 3.185,
+    "valid_pixel_count": 17437,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.20718,
+      "mean": 0.21132,
+      "std": 0.02072,
+      "valid_pixel_count": 17298
+    },
+    "ndci": {
+      "median": 0.06784,
+      "mean": 0.06852,
+      "std": 0.00814,
+      "valid_pixel_count": 15432
+    },
+    "fai": {
+      "median": 0.01223,
+      "mean": 0.0126,
+      "std": 0.00183,
+      "valid_pixel_count": 12576
+    },
+    "suspended_sediment": {
+      "median": 0.23723,
+      "mean": 0.24197,
+      "std": 0.02135,
+      "valid_pixel_count": 13690
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 8.0
+    }
+  },
+  {
+    "water_body_id": "godavari-river-segment",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20250420_0015",
+    "acquisition_date": "2025-04-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 3.38,
+    "valid_pixel_count": 17017,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.21131,
+      "mean": 0.21554,
+      "std": 0.02113,
+      "valid_pixel_count": 17655
+    },
+    "ndci": {
+      "median": 0.07102,
+      "mean": 0.07173,
+      "std": 0.00852,
+      "valid_pixel_count": 14379
+    },
+    "fai": {
+      "median": 0.01277,
+      "mean": 0.01315,
+      "std": 0.00192,
+      "valid_pixel_count": 14147
+    },
+    "suspended_sediment": {
+      "median": 0.22897,
+      "mean": 0.23355,
+      "std": 0.02061,
+      "valid_pixel_count": 15692
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 2.3
+    }
+  },
+  {
+    "water_body_id": "godavari-river-segment",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20250505_0016",
+    "acquisition_date": "2025-05-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.95,
+    "valid_pixel_count": 13810,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.21141,
+      "mean": 0.21564,
+      "std": 0.02114,
+      "valid_pixel_count": 15540
+    },
+    "ndci": {
+      "median": 0.0786,
+      "mean": 0.07939,
+      "std": 0.00943,
+      "valid_pixel_count": 14411
+    },
+    "fai": {
+      "median": 0.01331,
+      "mean": 0.01371,
+      "std": 0.002,
+      "valid_pixel_count": 13053
+    },
+    "suspended_sediment": {
+      "median": 0.25108,
+      "mean": 0.2561,
+      "std": 0.0226,
+      "valid_pixel_count": 16808
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 11.7
+    }
+  },
+  {
+    "water_body_id": "godavari-river-segment",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20250520_0017",
+    "acquisition_date": "2025-05-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.691,
+    "valid_pixel_count": 14141,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.20569,
+      "mean": 0.2098,
+      "std": 0.02057,
+      "valid_pixel_count": 16062
+    },
+    "ndci": {
+      "median": 0.07667,
+      "mean": 0.07744,
+      "std": 0.0092,
+      "valid_pixel_count": 13785
+    },
+    "fai": {
+      "median": 0.01222,
+      "mean": 0.01259,
+      "std": 0.00183,
+      "valid_pixel_count": 12285
+    },
+    "suspended_sediment": {
+      "median": 0.26658,
+      "mean": 0.27191,
+      "std": 0.02399,
+      "valid_pixel_count": 12507
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 7.9
+    }
+  },
+  {
+    "water_body_id": "godavari-river-segment",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20250605_0018",
+    "acquisition_date": "2025-06-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.143,
+    "valid_pixel_count": 13812,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.23569,
+      "mean": 0.2404,
+      "std": 0.02357,
+      "valid_pixel_count": 16524
+    },
+    "ndci": {
+      "median": 0.06128,
+      "mean": 0.06189,
+      "std": 0.00735,
+      "valid_pixel_count": 14729
+    },
+    "fai": {
+      "median": 0.01089,
+      "mean": 0.01122,
+      "std": 0.00163,
+      "valid_pixel_count": 13219
+    },
+    "suspended_sediment": {
+      "median": 0.31539,
+      "mean": 0.3217,
+      "std": 0.02839,
+      "valid_pixel_count": 17098
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 8.2
+    }
+  },
+  {
+    "water_body_id": "godavari-river-segment",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20250620_0019",
+    "acquisition_date": "2025-06-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.874,
+    "valid_pixel_count": 15592,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.25532,
+      "mean": 0.26043,
+      "std": 0.02553,
+      "valid_pixel_count": 15357
+    },
+    "ndci": {
+      "median": 0.06709,
+      "mean": 0.06776,
+      "std": 0.00805,
+      "valid_pixel_count": 16833
+    },
+    "fai": {
+      "median": 0.01158,
+      "mean": 0.01193,
+      "std": 0.00174,
+      "valid_pixel_count": 17407
+    },
+    "suspended_sediment": {
+      "median": 0.34302,
+      "mean": 0.34988,
+      "std": 0.03087,
+      "valid_pixel_count": 15356
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 10.7
+    }
+  },
+  {
+    "water_body_id": "godavari-river-segment",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20250705_0020",
+    "acquisition_date": "2025-07-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 3.27,
+    "valid_pixel_count": 17289,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.30396,
+      "mean": 0.31004,
+      "std": 0.0304,
+      "valid_pixel_count": 16695
+    },
+    "ndci": {
+      "median": 0.05823,
+      "mean": 0.05881,
+      "std": 0.00699,
+      "valid_pixel_count": 13804
+    },
+    "fai": {
+      "median": 0.00906,
+      "mean": 0.00933,
+      "std": 0.00136,
+      "valid_pixel_count": 14150
+    },
+    "suspended_sediment": {
+      "median": 0.37827,
+      "mean": 0.38584,
+      "std": 0.03404,
+      "valid_pixel_count": 17121
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 8.4
+    }
+  },
+  {
+    "water_body_id": "godavari-river-segment",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20250720_0021",
+    "acquisition_date": "2025-07-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 3.104,
+    "valid_pixel_count": 12357,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.29888,
+      "mean": 0.30486,
+      "std": 0.02989,
+      "valid_pixel_count": 14910
+    },
+    "ndci": {
+      "median": 0.05341,
+      "mean": 0.05394,
+      "std": 0.00641,
+      "valid_pixel_count": 14431
+    },
+    "fai": {
+      "median": 0.00912,
+      "mean": 0.00939,
+      "std": 0.00137,
+      "valid_pixel_count": 17666
+    },
+    "suspended_sediment": {
+      "median": 0.3694,
+      "mean": 0.37679,
+      "std": 0.03325,
+      "valid_pixel_count": 13668
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 14.6
+    }
+  },
+  {
+    "water_body_id": "godavari-river-segment",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20250805_0022",
+    "acquisition_date": "2025-08-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 3.483,
+    "valid_pixel_count": 15976,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.30081,
+      "mean": 0.30683,
+      "std": 0.03008,
+      "valid_pixel_count": 17949
+    },
+    "ndci": {
+      "median": 0.05904,
+      "mean": 0.05963,
+      "std": 0.00708,
+      "valid_pixel_count": 17759
+    },
+    "fai": {
+      "median": 0.00804,
+      "mean": 0.00828,
+      "std": 0.00121,
+      "valid_pixel_count": 17609
+    },
+    "suspended_sediment": {
+      "median": 0.38253,
+      "mean": 0.39018,
+      "std": 0.03443,
+      "valid_pixel_count": 12127
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 2.5
+    }
+  },
+  {
+    "water_body_id": "godavari-river-segment",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20250820_0023",
+    "acquisition_date": "2025-08-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 3.055,
+    "valid_pixel_count": 16944,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.28808,
+      "mean": 0.29384,
+      "std": 0.02881,
+      "valid_pixel_count": 17692
+    },
+    "ndci": {
+      "median": 0.05876,
+      "mean": 0.05935,
+      "std": 0.00705,
+      "valid_pixel_count": 16284
+    },
+    "fai": {
+      "median": 0.00838,
+      "mean": 0.00863,
+      "std": 0.00126,
+      "valid_pixel_count": 17048
+    },
+    "suspended_sediment": {
+      "median": 0.3503,
+      "mean": 0.35731,
+      "std": 0.03153,
+      "valid_pixel_count": 14121
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 8.7
+    }
+  },
+  {
+    "water_body_id": "godavari-river-segment",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20250905_0024",
+    "acquisition_date": "2025-09-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.837,
+    "valid_pixel_count": 12543,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.26341,
+      "mean": 0.26868,
+      "std": 0.02634,
+      "valid_pixel_count": 14680
+    },
+    "ndci": {
+      "median": 0.06223,
+      "mean": 0.06285,
+      "std": 0.00747,
+      "valid_pixel_count": 15462
+    },
+    "fai": {
+      "median": 0.01071,
+      "mean": 0.01103,
+      "std": 0.00161,
+      "valid_pixel_count": 12891
+    },
+    "suspended_sediment": {
+      "median": 0.31627,
+      "mean": 0.3226,
+      "std": 0.02846,
+      "valid_pixel_count": 15761
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 3.0
+    }
+  },
+  {
+    "water_body_id": "godavari-river-segment",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20250920_0025",
+    "acquisition_date": "2025-09-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.538,
+    "valid_pixel_count": 15131,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.25509,
+      "mean": 0.26019,
+      "std": 0.02551,
+      "valid_pixel_count": 17206
+    },
+    "ndci": {
+      "median": 0.06204,
+      "mean": 0.06266,
+      "std": 0.00744,
+      "valid_pixel_count": 17562
+    },
+    "fai": {
+      "median": 0.0104,
+      "mean": 0.01071,
+      "std": 0.00156,
+      "valid_pixel_count": 12682
+    },
+    "suspended_sediment": {
+      "median": 0.3471,
+      "mean": 0.35404,
+      "std": 0.03124,
+      "valid_pixel_count": 15658
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 6.5
+    }
+  },
+  {
+    "water_body_id": "godavari-river-segment",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20251005_0026",
+    "acquisition_date": "2025-10-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.372,
+    "valid_pixel_count": 14160,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.20728,
+      "mean": 0.21143,
+      "std": 0.02073,
+      "valid_pixel_count": 14669
+    },
+    "ndci": {
+      "median": 0.06533,
+      "mean": 0.06598,
+      "std": 0.00784,
+      "valid_pixel_count": 14840
+    },
+    "fai": {
+      "median": 0.01042,
+      "mean": 0.01073,
+      "std": 0.00156,
+      "valid_pixel_count": 17395
+    },
+    "suspended_sediment": {
+      "median": 0.29215,
+      "mean": 0.29799,
+      "std": 0.02629,
+      "valid_pixel_count": 15603
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 11.1
+    }
+  },
+  {
+    "water_body_id": "godavari-river-segment",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20251020_0027",
+    "acquisition_date": "2025-10-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 3.343,
+    "valid_pixel_count": 17448,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.22966,
+      "mean": 0.23425,
+      "std": 0.02297,
+      "valid_pixel_count": 15092
+    },
+    "ndci": {
+      "median": 0.06614,
+      "mean": 0.0668,
+      "std": 0.00794,
+      "valid_pixel_count": 16855
+    },
+    "fai": {
+      "median": 0.01079,
+      "mean": 0.01111,
+      "std": 0.00162,
+      "valid_pixel_count": 17864
+    },
+    "suspended_sediment": {
+      "median": 0.29272,
+      "mean": 0.29857,
+      "std": 0.02634,
+      "valid_pixel_count": 16349
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 12.0
+    }
+  },
+  {
+    "water_body_id": "godavari-river-segment",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20251105_0028",
+    "acquisition_date": "2025-11-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.13,
+    "valid_pixel_count": 12799,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.17651,
+      "mean": 0.18004,
+      "std": 0.01765,
+      "valid_pixel_count": 16360
+    },
+    "ndci": {
+      "median": 0.06762,
+      "mean": 0.0683,
+      "std": 0.00811,
+      "valid_pixel_count": 12176
+    },
+    "fai": {
+      "median": 0.01013,
+      "mean": 0.01043,
+      "std": 0.00152,
+      "valid_pixel_count": 13793
+    },
+    "suspended_sediment": {
+      "median": 0.25979,
+      "mean": 0.26499,
+      "std": 0.02338,
+      "valid_pixel_count": 16449
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 7.6
+    }
+  },
+  {
+    "water_body_id": "godavari-river-segment",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20251120_0029",
+    "acquisition_date": "2025-11-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.8,
+    "valid_pixel_count": 14476,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.19001,
+      "mean": 0.19381,
+      "std": 0.019,
+      "valid_pixel_count": 15312
+    },
+    "ndci": {
+      "median": 0.06531,
+      "mean": 0.06596,
+      "std": 0.00784,
+      "valid_pixel_count": 12935
+    },
+    "fai": {
+      "median": 0.01069,
+      "mean": 0.01101,
+      "std": 0.0016,
+      "valid_pixel_count": 14166
+    },
+    "suspended_sediment": {
+      "median": 0.25113,
+      "mean": 0.25615,
+      "std": 0.0226,
+      "valid_pixel_count": 16652
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 13.0
+    }
+  },
+  {
+    "water_body_id": "godavari-river-segment",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20251205_0030",
+    "acquisition_date": "2025-12-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.562,
+    "valid_pixel_count": 16698,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.17639,
+      "mean": 0.17992,
+      "std": 0.01764,
+      "valid_pixel_count": 15169
+    },
+    "ndci": {
+      "median": 0.05615,
+      "mean": 0.05671,
+      "std": 0.00674,
+      "valid_pixel_count": 14177
+    },
+    "fai": {
+      "median": 0.01014,
+      "mean": 0.01044,
+      "std": 0.00152,
+      "valid_pixel_count": 16596
+    },
+    "suspended_sediment": {
+      "median": 0.2313,
+      "mean": 0.23593,
+      "std": 0.02082,
+      "valid_pixel_count": 13637
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 11.9
+    }
+  },
+  {
+    "water_body_id": "godavari-river-segment",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20251220_0031",
+    "acquisition_date": "2025-12-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.215,
+    "valid_pixel_count": 17550,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.16973,
+      "mean": 0.17312,
+      "std": 0.01697,
+      "valid_pixel_count": 17042
+    },
+    "ndci": {
+      "median": 0.06328,
+      "mean": 0.06391,
+      "std": 0.00759,
+      "valid_pixel_count": 17558
+    },
+    "fai": {
+      "median": 0.01002,
+      "mean": 0.01032,
+      "std": 0.0015,
+      "valid_pixel_count": 12245
+    },
+    "suspended_sediment": {
+      "median": 0.22617,
+      "mean": 0.23069,
+      "std": 0.02036,
+      "valid_pixel_count": 12388
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 12.0
+    }
+  },
+  {
+    "water_body_id": "godavari-river-segment",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20260105_0032",
+    "acquisition_date": "2026-01-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 3.208,
+    "valid_pixel_count": 14540,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.1888,
+      "mean": 0.19258,
+      "std": 0.01888,
+      "valid_pixel_count": 16383
+    },
+    "ndci": {
+      "median": 0.0625,
+      "mean": 0.06313,
+      "std": 0.0075,
+      "valid_pixel_count": 13783
+    },
+    "fai": {
+      "median": 0.01034,
+      "mean": 0.01065,
+      "std": 0.00155,
+      "valid_pixel_count": 13896
+    },
+    "suspended_sediment": {
+      "median": 0.22873,
+      "mean": 0.2333,
+      "std": 0.02059,
+      "valid_pixel_count": 14262
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 4.7
+    }
+  },
+  {
+    "water_body_id": "godavari-river-segment",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20260120_0033",
+    "acquisition_date": "2026-01-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.965,
+    "valid_pixel_count": 12988,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.18413,
+      "mean": 0.18781,
+      "std": 0.01841,
+      "valid_pixel_count": 14573
+    },
+    "ndci": {
+      "median": 0.06104,
+      "mean": 0.06165,
+      "std": 0.00732,
+      "valid_pixel_count": 15209
+    },
+    "fai": {
+      "median": 0.01024,
+      "mean": 0.01055,
+      "std": 0.00154,
+      "valid_pixel_count": 17863
+    },
+    "suspended_sediment": {
+      "median": 0.2334,
+      "mean": 0.23807,
+      "std": 0.02101,
+      "valid_pixel_count": 14027
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 4.3
+    }
+  },
+  {
+    "water_body_id": "godavari-river-segment",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20260205_0034",
+    "acquisition_date": "2026-02-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.599,
+    "valid_pixel_count": 16334,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.16824,
+      "mean": 0.1716,
+      "std": 0.01682,
+      "valid_pixel_count": 15199
+    },
+    "ndci": {
+      "median": 0.05826,
+      "mean": 0.05884,
+      "std": 0.00699,
+      "valid_pixel_count": 16952
+    },
+    "fai": {
+      "median": 0.00926,
+      "mean": 0.00954,
+      "std": 0.00139,
+      "valid_pixel_count": 15471
+    },
+    "suspended_sediment": {
+      "median": 0.21243,
+      "mean": 0.21668,
+      "std": 0.01912,
+      "valid_pixel_count": 17345
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 2.4
+    }
+  },
+  {
+    "water_body_id": "godavari-river-segment",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20260220_0035",
+    "acquisition_date": "2026-02-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 3.421,
+    "valid_pixel_count": 14602,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.18324,
+      "mean": 0.1869,
+      "std": 0.01832,
+      "valid_pixel_count": 17285
+    },
+    "ndci": {
+      "median": 0.05673,
+      "mean": 0.0573,
+      "std": 0.00681,
+      "valid_pixel_count": 15440
+    },
+    "fai": {
+      "median": 0.00994,
+      "mean": 0.01024,
+      "std": 0.00149,
+      "valid_pixel_count": 12681
+    },
+    "suspended_sediment": {
+      "median": 0.19065,
+      "mean": 0.19446,
+      "std": 0.01716,
+      "valid_pixel_count": 14989
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 13.8
+    }
+  },
+  {
+    "water_body_id": "godavari-river-segment",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20260305_0036",
+    "acquisition_date": "2026-03-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.372,
+    "valid_pixel_count": 17081,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.18137,
+      "mean": 0.185,
+      "std": 0.01814,
+      "valid_pixel_count": 15970
+    },
+    "ndci": {
+      "median": 0.06679,
+      "mean": 0.06746,
+      "std": 0.00801,
+      "valid_pixel_count": 12281
+    },
+    "fai": {
+      "median": 0.01098,
+      "mean": 0.01131,
+      "std": 0.00165,
+      "valid_pixel_count": 14568
+    },
+    "suspended_sediment": {
+      "median": 0.20663,
+      "mean": 0.21076,
+      "std": 0.0186,
+      "valid_pixel_count": 15235
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 13.8
+    }
+  },
+  {
+    "water_body_id": "godavari-river-segment",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20260320_0037",
+    "acquisition_date": "2026-03-20",
+    "sensor": "Sentinel-2",
     "water_area_km2": 3.27,
     "valid_pixel_count": 13068,
     "observation_status": "valid",
     "ndti": {
-      "median": 0.18999,
-      "mean": 0.19379,
-      "std": 0.019,
+      "median": 0.19949,
+      "mean": 0.20348,
+      "std": 0.01995,
       "valid_pixel_count": 13098
     },
     "ndci": {
-      "median": 0.06232,
-      "mean": 0.06294,
-      "std": 0.00748,
+      "median": 0.06856,
+      "mean": 0.06925,
+      "std": 0.00823,
       "valid_pixel_count": 13957
     },
     "fai": {
-      "median": 0.01027,
-      "mean": 0.01058,
-      "std": 0.00154,
+      "median": 0.01079,
+      "mean": 0.01111,
+      "std": 0.00162,
       "valid_pixel_count": 13310
     },
     "suspended_sediment": {
@@ -306,225 +1446,35 @@
   {
     "water_body_id": "godavari-river-segment",
     "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20250105_0008",
-    "acquisition_date": "2025-01-05",
+    "scene_id": "DEMO_S2_20260405_0038",
+    "acquisition_date": "2026-04-05",
     "sensor": "Sentinel-2",
-    "water_area_km2": 2.864,
-    "valid_pixel_count": 16293,
+    "water_area_km2": 2.472,
+    "valid_pixel_count": 13146,
     "observation_status": "valid",
     "ndti": {
-      "median": 0.18219,
-      "mean": 0.18583,
-      "std": 0.01822,
-      "valid_pixel_count": 15372
+      "median": 0.19213,
+      "mean": 0.19597,
+      "std": 0.01921,
+      "valid_pixel_count": 14019
     },
     "ndci": {
-      "median": 0.06099,
-      "mean": 0.0616,
-      "std": 0.00732,
-      "valid_pixel_count": 12166
+      "median": 0.075,
+      "mean": 0.07575,
+      "std": 0.009,
+      "valid_pixel_count": 14707
     },
     "fai": {
-      "median": 0.00929,
-      "mean": 0.00957,
-      "std": 0.00139,
-      "valid_pixel_count": 14243
+      "median": 0.01141,
+      "mean": 0.01175,
+      "std": 0.00171,
+      "valid_pixel_count": 13712
     },
     "suspended_sediment": {
-      "median": 0.23069,
-      "mean": 0.2353,
-      "std": 0.02076,
-      "valid_pixel_count": 14317
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 8.6
-    }
-  },
-  {
-    "water_body_id": "godavari-river-segment",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20250120_0009",
-    "acquisition_date": "2025-01-20",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 3.325,
-    "valid_pixel_count": 12594,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.19103,
-      "mean": 0.19485,
-      "std": 0.0191,
-      "valid_pixel_count": 12991
-    },
-    "ndci": {
-      "median": 0.0646,
-      "mean": 0.06525,
-      "std": 0.00775,
-      "valid_pixel_count": 12099
-    },
-    "fai": {
-      "median": 0.00941,
-      "mean": 0.00969,
-      "std": 0.00141,
-      "valid_pixel_count": 13060
-    },
-    "suspended_sediment": {
-      "median": 0.22638,
-      "mean": 0.23091,
-      "std": 0.02037,
-      "valid_pixel_count": 14818
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 2.7
-    }
-  },
-  {
-    "water_body_id": "godavari-river-segment",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20250205_0010",
-    "acquisition_date": "2025-02-05",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 2.702,
-    "valid_pixel_count": 16728,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.17013,
-      "mean": 0.17353,
-      "std": 0.01701,
-      "valid_pixel_count": 13317
-    },
-    "ndci": {
-      "median": 0.06435,
-      "mean": 0.06499,
-      "std": 0.00772,
-      "valid_pixel_count": 12926
-    },
-    "fai": {
-      "median": 0.00956,
-      "mean": 0.00985,
-      "std": 0.00143,
-      "valid_pixel_count": 17300
-    },
-    "suspended_sediment": {
-      "median": 0.19664,
-      "mean": 0.20057,
-      "std": 0.0177,
-      "valid_pixel_count": 12662
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 2.6
-    }
-  },
-  {
-    "water_body_id": "godavari-river-segment",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20250220_0011",
-    "acquisition_date": "2025-02-20",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 3.496,
-    "valid_pixel_count": 15320,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.18461,
-      "mean": 0.1883,
-      "std": 0.01846,
-      "valid_pixel_count": 17881
-    },
-    "ndci": {
-      "median": 0.05688,
-      "mean": 0.05745,
-      "std": 0.00683,
-      "valid_pixel_count": 14500
-    },
-    "fai": {
-      "median": 0.01048,
-      "mean": 0.01079,
-      "std": 0.00157,
-      "valid_pixel_count": 13014
-    },
-    "suspended_sediment": {
-      "median": 0.20279,
-      "mean": 0.20685,
-      "std": 0.01825,
-      "valid_pixel_count": 14867
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 14.7
-    }
-  },
-  {
-    "water_body_id": "godavari-river-segment",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20250305_0012",
-    "acquisition_date": "2025-03-05",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 2.583,
-    "valid_pixel_count": 17788,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.18562,
-      "mean": 0.18933,
-      "std": 0.01856,
-      "valid_pixel_count": 12366
-    },
-    "ndci": {
-      "median": 0.06356,
-      "mean": 0.0642,
-      "std": 0.00763,
-      "valid_pixel_count": 17434
-    },
-    "fai": {
-      "median": 0.01088,
-      "mean": 0.01121,
-      "std": 0.00163,
-      "valid_pixel_count": 14477
-    },
-    "suspended_sediment": {
-      "median": 0.23328,
-      "mean": 0.23795,
-      "std": 0.021,
-      "valid_pixel_count": 16416
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 6.0
-    }
-  },
-  {
-    "water_body_id": "godavari-river-segment",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20250320_0013",
-    "acquisition_date": "2025-03-20",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 3.129,
-    "valid_pixel_count": 16294,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.19665,
-      "mean": 0.20058,
-      "std": 0.01967,
-      "valid_pixel_count": 15871
-    },
-    "ndci": {
-      "median": 0.07043,
-      "mean": 0.07113,
-      "std": 0.00845,
-      "valid_pixel_count": 14145
-    },
-    "fai": {
-      "median": 0.00967,
-      "mean": 0.00996,
-      "std": 0.00145,
-      "valid_pixel_count": 17547
-    },
-    "suspended_sediment": {
-      "median": 0.23436,
-      "mean": 0.23905,
-      "std": 0.02109,
-      "valid_pixel_count": 17353
+      "median": 0.24026,
+      "mean": 0.24507,
+      "std": 0.02162,
+      "valid_pixel_count": 15254
     },
     "quality_metadata": {
       "data_source": "demo",
@@ -534,73 +1484,35 @@
   {
     "water_body_id": "godavari-river-segment",
     "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20250405_0014",
-    "acquisition_date": "2025-04-05",
+    "scene_id": "DEMO_S2_20260420_0039",
+    "acquisition_date": "2026-04-20",
     "sensor": "Sentinel-2",
-    "water_area_km2": 2.273,
-    "valid_pixel_count": 14794,
+    "water_area_km2": 2.06,
+    "valid_pixel_count": 15508,
     "observation_status": "valid",
     "ndti": {
-      "median": 0.18792,
-      "mean": 0.19168,
-      "std": 0.01879,
-      "valid_pixel_count": 14440
+      "median": 0.18342,
+      "mean": 0.18709,
+      "std": 0.01834,
+      "valid_pixel_count": 16284
     },
     "ndci": {
-      "median": 0.06712,
-      "mean": 0.06779,
-      "std": 0.00805,
-      "valid_pixel_count": 16713
+      "median": 0.07619,
+      "mean": 0.07695,
+      "std": 0.00914,
+      "valid_pixel_count": 17668
     },
     "fai": {
-      "median": 0.01161,
-      "mean": 0.01196,
-      "std": 0.00174,
-      "valid_pixel_count": 17276
+      "median": 0.01175,
+      "mean": 0.0121,
+      "std": 0.00176,
+      "valid_pixel_count": 16831
     },
     "suspended_sediment": {
-      "median": 0.2561,
-      "mean": 0.26122,
-      "std": 0.02305,
-      "valid_pixel_count": 17770
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 13.4
-    }
-  },
-  {
-    "water_body_id": "godavari-river-segment",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20250420_0015",
-    "acquisition_date": "2025-04-20",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 2.173,
-    "valid_pixel_count": 15789,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.18581,
-      "mean": 0.18953,
-      "std": 0.01858,
-      "valid_pixel_count": 16157
-    },
-    "ndci": {
-      "median": 0.07186,
-      "mean": 0.07258,
-      "std": 0.00862,
-      "valid_pixel_count": 12275
-    },
-    "fai": {
-      "median": 0.0113,
-      "mean": 0.01164,
-      "std": 0.00169,
-      "valid_pixel_count": 16540
-    },
-    "suspended_sediment": {
-      "median": 0.23222,
-      "mean": 0.23686,
-      "std": 0.0209,
-      "valid_pixel_count": 13785
+      "median": 0.24436,
+      "mean": 0.24925,
+      "std": 0.02199,
+      "valid_pixel_count": 17302
     },
     "quality_metadata": {
       "data_source": "demo",
@@ -610,111 +1522,225 @@
   {
     "water_body_id": "godavari-river-segment",
     "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20250505_0016",
-    "acquisition_date": "2025-05-05",
+    "scene_id": "DEMO_S2_20260505_0040",
+    "acquisition_date": "2026-05-05",
     "sensor": "Sentinel-2",
-    "water_area_km2": 2.947,
-    "valid_pixel_count": 17606,
+    "water_area_km2": 3.058,
+    "valid_pixel_count": 15040,
     "observation_status": "valid",
     "ndti": {
-      "median": 0.21134,
-      "mean": 0.21557,
-      "std": 0.02113,
-      "valid_pixel_count": 13862
+      "median": 0.2138,
+      "mean": 0.21808,
+      "std": 0.02138,
+      "valid_pixel_count": 13510
     },
     "ndci": {
-      "median": 0.07822,
-      "mean": 0.079,
-      "std": 0.00939,
-      "valid_pixel_count": 16008
-    },
-    "fai": {
-      "median": 0.01295,
-      "mean": 0.01334,
-      "std": 0.00194,
-      "valid_pixel_count": 14521
-    },
-    "suspended_sediment": {
-      "median": 0.25787,
-      "mean": 0.26303,
-      "std": 0.02321,
-      "valid_pixel_count": 17060
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 8.7
-    }
-  },
-  {
-    "water_body_id": "godavari-river-segment",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20250520_0017",
-    "acquisition_date": "2025-05-20",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 2.879,
-    "valid_pixel_count": 12535,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.20985,
-      "mean": 0.21405,
-      "std": 0.02099,
-      "valid_pixel_count": 17907
-    },
-    "ndci": {
-      "median": 0.07257,
-      "mean": 0.0733,
+      "median": 0.07258,
+      "mean": 0.07331,
       "std": 0.00871,
-      "valid_pixel_count": 14037
+      "valid_pixel_count": 14358
     },
     "fai": {
-      "median": 0.01258,
-      "mean": 0.01296,
-      "std": 0.00189,
-      "valid_pixel_count": 17248
+      "median": 0.01346,
+      "mean": 0.01386,
+      "std": 0.00202,
+      "valid_pixel_count": 16747
     },
     "suspended_sediment": {
-      "median": 0.25068,
-      "mean": 0.25569,
-      "std": 0.02256,
-      "valid_pixel_count": 13719
+      "median": 0.28176,
+      "mean": 0.2874,
+      "std": 0.02536,
+      "valid_pixel_count": 12934
     },
     "quality_metadata": {
       "data_source": "demo",
-      "cloud_pct": 6.3
+      "cloud_pct": 14.2
     }
   },
   {
     "water_body_id": "godavari-river-segment",
     "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20250605_0018",
-    "acquisition_date": "2025-06-05",
+    "scene_id": "DEMO_S2_20260520_0041",
+    "acquisition_date": "2026-05-20",
     "sensor": "Sentinel-2",
-    "water_area_km2": 2.742,
-    "valid_pixel_count": 15877,
+    "water_area_km2": 2.559,
+    "valid_pixel_count": 14997,
     "observation_status": "valid",
     "ndti": {
-      "median": 0.25179,
-      "mean": 0.25683,
-      "std": 0.02518,
-      "valid_pixel_count": 16002
+      "median": 0.20279,
+      "mean": 0.20685,
+      "std": 0.02028,
+      "valid_pixel_count": 13511
     },
     "ndci": {
-      "median": 0.06748,
-      "mean": 0.06815,
-      "std": 0.0081,
-      "valid_pixel_count": 17634
+      "median": 0.07754,
+      "mean": 0.07832,
+      "std": 0.0093,
+      "valid_pixel_count": 14137
     },
     "fai": {
-      "median": 0.01156,
-      "mean": 0.01191,
-      "std": 0.00173,
-      "valid_pixel_count": 14974
+      "median": 0.01366,
+      "mean": 0.01407,
+      "std": 0.00205,
+      "valid_pixel_count": 17550
     },
     "suspended_sediment": {
-      "median": 0.3435,
-      "mean": 0.35037,
-      "std": 0.03092,
-      "valid_pixel_count": 17271
+      "median": 0.26424,
+      "mean": 0.26952,
+      "std": 0.02378,
+      "valid_pixel_count": 14626
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 14.7
+    }
+  },
+  {
+    "water_body_id": "godavari-river-segment",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20260605_0042",
+    "acquisition_date": "2026-06-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.258,
+    "valid_pixel_count": 13194,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.23879,
+      "mean": 0.24357,
+      "std": 0.02388,
+      "valid_pixel_count": 15291
+    },
+    "ndci": {
+      "median": 0.06266,
+      "mean": 0.06329,
+      "std": 0.00752,
+      "valid_pixel_count": 12045
+    },
+    "fai": {
+      "median": 0.01097,
+      "mean": 0.0113,
+      "std": 0.00165,
+      "valid_pixel_count": 15099
+    },
+    "suspended_sediment": {
+      "median": 0.34672,
+      "mean": 0.35365,
+      "std": 0.0312,
+      "valid_pixel_count": 12289
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 2.2
+    }
+  },
+  {
+    "water_body_id": "godavari-river-segment",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20260620_0043",
+    "acquisition_date": "2026-06-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 3.248,
+    "valid_pixel_count": 12570,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.26539,
+      "mean": 0.2707,
+      "std": 0.02654,
+      "valid_pixel_count": 12795
+    },
+    "ndci": {
+      "median": 0.06142,
+      "mean": 0.06203,
+      "std": 0.00737,
+      "valid_pixel_count": 15231
+    },
+    "fai": {
+      "median": 0.01034,
+      "mean": 0.01065,
+      "std": 0.00155,
+      "valid_pixel_count": 14019
+    },
+    "suspended_sediment": {
+      "median": 0.35574,
+      "mean": 0.36285,
+      "std": 0.03202,
+      "valid_pixel_count": 12686
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 7.2
+    }
+  },
+  {
+    "water_body_id": "godavari-river-segment",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20260705_0044",
+    "acquisition_date": "2026-07-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.012,
+    "valid_pixel_count": 14032,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.26534,
+      "mean": 0.27065,
+      "std": 0.02653,
+      "valid_pixel_count": 13307
+    },
+    "ndci": {
+      "median": 0.05082,
+      "mean": 0.05133,
+      "std": 0.0061,
+      "valid_pixel_count": 16619
+    },
+    "fai": {
+      "median": 0.00912,
+      "mean": 0.00939,
+      "std": 0.00137,
+      "valid_pixel_count": 16079
+    },
+    "suspended_sediment": {
+      "median": 0.36629,
+      "mean": 0.37362,
+      "std": 0.03297,
+      "valid_pixel_count": 17395
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 5.6
+    }
+  },
+  {
+    "water_body_id": "godavari-river-segment",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20260720_0045",
+    "acquisition_date": "2026-07-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.202,
+    "valid_pixel_count": 16822,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.27117,
+      "mean": 0.27659,
+      "std": 0.02712,
+      "valid_pixel_count": 15244
+    },
+    "ndci": {
+      "median": 0.05683,
+      "mean": 0.0574,
+      "std": 0.00682,
+      "valid_pixel_count": 16356
+    },
+    "fai": {
+      "median": 0.00852,
+      "mean": 0.00878,
+      "std": 0.00128,
+      "valid_pixel_count": 15633
+    },
+    "suspended_sediment": {
+      "median": 0.39866,
+      "mean": 0.40663,
+      "std": 0.03588,
+      "valid_pixel_count": 16871
     },
     "quality_metadata": {
       "data_source": "demo",
@@ -724,909 +1750,35 @@
   {
     "water_body_id": "godavari-river-segment",
     "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20250620_0019",
-    "acquisition_date": "2025-06-20",
+    "scene_id": "DEMO_S2_20260805_0046",
+    "acquisition_date": "2026-08-05",
     "sensor": "Sentinel-2",
-    "water_area_km2": 3.351,
-    "valid_pixel_count": 15728,
+    "water_area_km2": 2.876,
+    "valid_pixel_count": 13564,
     "observation_status": "valid",
     "ndti": {
-      "median": 0.26817,
-      "mean": 0.27353,
-      "std": 0.02682,
-      "valid_pixel_count": 12653
+      "median": 0.28276,
+      "mean": 0.28842,
+      "std": 0.02828,
+      "valid_pixel_count": 15284
     },
     "ndci": {
-      "median": 0.0659,
-      "mean": 0.06656,
-      "std": 0.00791,
-      "valid_pixel_count": 17966
+      "median": 0.05741,
+      "mean": 0.05798,
+      "std": 0.00689,
+      "valid_pixel_count": 15666
     },
     "fai": {
-      "median": 0.01165,
-      "mean": 0.012,
-      "std": 0.00175,
-      "valid_pixel_count": 13968
+      "median": 0.00875,
+      "mean": 0.00901,
+      "std": 0.00131,
+      "valid_pixel_count": 14831
     },
     "suspended_sediment": {
-      "median": 0.35188,
-      "mean": 0.35892,
-      "std": 0.03167,
-      "valid_pixel_count": 16222
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 13.3
-    }
-  },
-  {
-    "water_body_id": "godavari-river-segment",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20250705_0020",
-    "acquisition_date": "2025-07-05",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 3.411,
-    "valid_pixel_count": 14129,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.30831,
-      "mean": 0.31448,
-      "std": 0.03083,
-      "valid_pixel_count": 15007
-    },
-    "ndci": {
-      "median": 0.05465,
-      "mean": 0.0552,
-      "std": 0.00656,
-      "valid_pixel_count": 14551
-    },
-    "fai": {
-      "median": 0.00881,
-      "mean": 0.00907,
-      "std": 0.00132,
-      "valid_pixel_count": 13303
-    },
-    "suspended_sediment": {
-      "median": 0.39441,
-      "mean": 0.4023,
-      "std": 0.0355,
-      "valid_pixel_count": 17775
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 3.6
-    }
-  },
-  {
-    "water_body_id": "godavari-river-segment",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20250720_0021",
-    "acquisition_date": "2025-07-20",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 2.971,
-    "valid_pixel_count": 13677,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.29479,
-      "mean": 0.30069,
-      "std": 0.02948,
-      "valid_pixel_count": 16127
-    },
-    "ndci": {
-      "median": 0.05097,
-      "mean": 0.05148,
-      "std": 0.00612,
-      "valid_pixel_count": 15107
-    },
-    "fai": {
-      "median": 0.00936,
-      "mean": 0.00964,
-      "std": 0.0014,
-      "valid_pixel_count": 14014
-    },
-    "suspended_sediment": {
-      "median": 0.36988,
-      "mean": 0.37728,
-      "std": 0.03329,
-      "valid_pixel_count": 15463
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 8.1
-    }
-  },
-  {
-    "water_body_id": "godavari-river-segment",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20250805_0022",
-    "acquisition_date": "2025-08-05",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 3.235,
-    "valid_pixel_count": 13089,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.29345,
-      "mean": 0.29932,
-      "std": 0.02934,
-      "valid_pixel_count": 17229
-    },
-    "ndci": {
-      "median": 0.0561,
-      "mean": 0.05666,
-      "std": 0.00673,
-      "valid_pixel_count": 15760
-    },
-    "fai": {
-      "median": 0.00838,
-      "mean": 0.00863,
-      "std": 0.00126,
-      "valid_pixel_count": 14875
-    },
-    "suspended_sediment": {
-      "median": 0.35873,
-      "mean": 0.3659,
-      "std": 0.03229,
-      "valid_pixel_count": 13684
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 9.8
-    }
-  },
-  {
-    "water_body_id": "godavari-river-segment",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20250820_0023",
-    "acquisition_date": "2025-08-20",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 2.638,
-    "valid_pixel_count": 12770,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.27568,
-      "mean": 0.28119,
-      "std": 0.02757,
-      "valid_pixel_count": 16919
-    },
-    "ndci": {
-      "median": 0.05684,
-      "mean": 0.05741,
-      "std": 0.00682,
-      "valid_pixel_count": 14155
-    },
-    "fai": {
-      "median": 0.00857,
-      "mean": 0.00883,
-      "std": 0.00129,
-      "valid_pixel_count": 13892
-    },
-    "suspended_sediment": {
-      "median": 0.37106,
-      "mean": 0.37848,
-      "std": 0.0334,
-      "valid_pixel_count": 16884
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 7.9
-    }
-  },
-  {
-    "water_body_id": "godavari-river-segment",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20250905_0024",
-    "acquisition_date": "2025-09-05",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 3.314,
-    "valid_pixel_count": 13454,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.27669,
-      "mean": 0.28222,
-      "std": 0.02767,
-      "valid_pixel_count": 15786
-    },
-    "ndci": {
-      "median": 0.0613,
-      "mean": 0.06191,
-      "std": 0.00736,
-      "valid_pixel_count": 12904
-    },
-    "fai": {
-      "median": 0.01003,
-      "mean": 0.01033,
-      "std": 0.0015,
-      "valid_pixel_count": 14675
-    },
-    "suspended_sediment": {
-      "median": 0.3279,
-      "mean": 0.33446,
-      "std": 0.02951,
-      "valid_pixel_count": 13075
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 5.4
-    }
-  },
-  {
-    "water_body_id": "godavari-river-segment",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20250920_0025",
-    "acquisition_date": "2025-09-20",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 2.652,
-    "valid_pixel_count": 12446,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.25827,
-      "mean": 0.26344,
-      "std": 0.02583,
-      "valid_pixel_count": 15938
-    },
-    "ndci": {
-      "median": 0.05845,
-      "mean": 0.05903,
-      "std": 0.00701,
-      "valid_pixel_count": 12300
-    },
-    "fai": {
-      "median": 0.00981,
-      "mean": 0.0101,
-      "std": 0.00147,
-      "valid_pixel_count": 14683
-    },
-    "suspended_sediment": {
-      "median": 0.31191,
-      "mean": 0.31815,
-      "std": 0.02807,
-      "valid_pixel_count": 12796
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 14.4
-    }
-  },
-  {
-    "water_body_id": "godavari-river-segment",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20251005_0026",
-    "acquisition_date": "2025-10-05",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 2.957,
-    "valid_pixel_count": 17094,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.22078,
-      "mean": 0.2252,
-      "std": 0.02208,
-      "valid_pixel_count": 13140
-    },
-    "ndci": {
-      "median": 0.06077,
-      "mean": 0.06138,
-      "std": 0.00729,
-      "valid_pixel_count": 16777
-    },
-    "fai": {
-      "median": 0.01058,
-      "mean": 0.0109,
-      "std": 0.00159,
-      "valid_pixel_count": 14525
-    },
-    "suspended_sediment": {
-      "median": 0.26535,
-      "mean": 0.27066,
-      "std": 0.02388,
-      "valid_pixel_count": 16428
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 10.9
-    }
-  },
-  {
-    "water_body_id": "godavari-river-segment",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20251020_0027",
-    "acquisition_date": "2025-10-20",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 3.264,
-    "valid_pixel_count": 13640,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.22785,
-      "mean": 0.23241,
-      "std": 0.02278,
-      "valid_pixel_count": 14896
-    },
-    "ndci": {
-      "median": 0.06857,
-      "mean": 0.06926,
-      "std": 0.00823,
-      "valid_pixel_count": 15119
-    },
-    "fai": {
-      "median": 0.0109,
-      "mean": 0.01123,
-      "std": 0.00163,
-      "valid_pixel_count": 16315
-    },
-    "suspended_sediment": {
-      "median": 0.30883,
-      "mean": 0.31501,
-      "std": 0.02779,
-      "valid_pixel_count": 13341
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 5.9
-    }
-  },
-  {
-    "water_body_id": "godavari-river-segment",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20251105_0028",
-    "acquisition_date": "2025-11-05",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 2.822,
-    "valid_pixel_count": 17229,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.19046,
-      "mean": 0.19427,
-      "std": 0.01905,
-      "valid_pixel_count": 12295
-    },
-    "ndci": {
-      "median": 0.0598,
-      "mean": 0.0604,
-      "std": 0.00718,
-      "valid_pixel_count": 12374
-    },
-    "fai": {
-      "median": 0.0099,
-      "mean": 0.0102,
-      "std": 0.00148,
-      "valid_pixel_count": 14986
-    },
-    "suspended_sediment": {
-      "median": 0.26065,
-      "mean": 0.26586,
-      "std": 0.02346,
-      "valid_pixel_count": 12702
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 5.3
-    }
-  },
-  {
-    "water_body_id": "godavari-river-segment",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20251120_0029",
-    "acquisition_date": "2025-11-20",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 2.079,
-    "valid_pixel_count": 17020,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.17546,
-      "mean": 0.17897,
-      "std": 0.01755,
-      "valid_pixel_count": 17004
-    },
-    "ndci": {
-      "median": 0.05828,
-      "mean": 0.05886,
-      "std": 0.00699,
-      "valid_pixel_count": 12989
-    },
-    "fai": {
-      "median": 0.0103,
-      "mean": 0.01061,
-      "std": 0.00154,
-      "valid_pixel_count": 17595
-    },
-    "suspended_sediment": {
-      "median": 0.23387,
-      "mean": 0.23855,
-      "std": 0.02105,
-      "valid_pixel_count": 12030
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 9.4
-    }
-  },
-  {
-    "water_body_id": "godavari-river-segment",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20251205_0030",
-    "acquisition_date": "2025-12-05",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 2.464,
-    "valid_pixel_count": 13931,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.17452,
-      "mean": 0.17801,
-      "std": 0.01745,
-      "valid_pixel_count": 12500
-    },
-    "ndci": {
-      "median": 0.0647,
-      "mean": 0.06535,
-      "std": 0.00776,
-      "valid_pixel_count": 16413
-    },
-    "fai": {
-      "median": 0.01022,
-      "mean": 0.01053,
-      "std": 0.00153,
-      "valid_pixel_count": 14246
-    },
-    "suspended_sediment": {
-      "median": 0.21172,
-      "mean": 0.21595,
-      "std": 0.01905,
-      "valid_pixel_count": 13484
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 12.0
-    }
-  },
-  {
-    "water_body_id": "godavari-river-segment",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20251220_0031",
-    "acquisition_date": "2025-12-20",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 2.209,
-    "valid_pixel_count": 17250,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.16962,
-      "mean": 0.17301,
-      "std": 0.01696,
-      "valid_pixel_count": 16598
-    },
-    "ndci": {
-      "median": 0.05766,
-      "mean": 0.05824,
-      "std": 0.00692,
-      "valid_pixel_count": 16871
-    },
-    "fai": {
-      "median": 0.01018,
-      "mean": 0.01049,
-      "std": 0.00153,
-      "valid_pixel_count": 14072
-    },
-    "suspended_sediment": {
-      "median": 0.22628,
-      "mean": 0.23081,
-      "std": 0.02037,
-      "valid_pixel_count": 13983
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 7.1
-    }
-  },
-  {
-    "water_body_id": "godavari-river-segment",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20260105_0032",
-    "acquisition_date": "2026-01-05",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 3.464,
-    "valid_pixel_count": 12039,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.19371,
-      "mean": 0.19758,
-      "std": 0.01937,
-      "valid_pixel_count": 12012
-    },
-    "ndci": {
-      "median": 0.05985,
-      "mean": 0.06045,
-      "std": 0.00718,
-      "valid_pixel_count": 16477
-    },
-    "fai": {
-      "median": 0.01025,
-      "mean": 0.01056,
-      "std": 0.00154,
-      "valid_pixel_count": 17890
-    },
-    "suspended_sediment": {
-      "median": 0.22311,
-      "mean": 0.22757,
-      "std": 0.02008,
-      "valid_pixel_count": 12223
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 8.6
-    }
-  },
-  {
-    "water_body_id": "godavari-river-segment",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20260120_0033",
-    "acquisition_date": "2026-01-20",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 2.435,
-    "valid_pixel_count": 13577,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.17395,
-      "mean": 0.17743,
-      "std": 0.0174,
-      "valid_pixel_count": 14672
-    },
-    "ndci": {
-      "median": 0.06169,
-      "mean": 0.06231,
-      "std": 0.0074,
-      "valid_pixel_count": 12508
-    },
-    "fai": {
-      "median": 0.01051,
-      "mean": 0.01083,
-      "std": 0.00158,
-      "valid_pixel_count": 14037
-    },
-    "suspended_sediment": {
-      "median": 0.20566,
-      "mean": 0.20977,
-      "std": 0.01851,
-      "valid_pixel_count": 12172
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 2.4
-    }
-  },
-  {
-    "water_body_id": "godavari-river-segment",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20260205_0034",
-    "acquisition_date": "2026-02-05",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 2.854,
-    "valid_pixel_count": 14398,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.1729,
-      "mean": 0.17636,
-      "std": 0.01729,
-      "valid_pixel_count": 17659
-    },
-    "ndci": {
-      "median": 0.06416,
-      "mean": 0.0648,
-      "std": 0.0077,
-      "valid_pixel_count": 13269
-    },
-    "fai": {
-      "median": 0.00993,
-      "mean": 0.01023,
-      "std": 0.00149,
-      "valid_pixel_count": 15346
-    },
-    "suspended_sediment": {
-      "median": 0.20333,
-      "mean": 0.2074,
-      "std": 0.0183,
-      "valid_pixel_count": 13526
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 10.2
-    }
-  },
-  {
-    "water_body_id": "godavari-river-segment",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20260220_0035",
-    "acquisition_date": "2026-02-20",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 2.199,
-    "valid_pixel_count": 16033,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.16096,
-      "mean": 0.16418,
-      "std": 0.0161,
-      "valid_pixel_count": 17051
-    },
-    "ndci": {
-      "median": 0.06257,
-      "mean": 0.0632,
-      "std": 0.00751,
-      "valid_pixel_count": 13021
-    },
-    "fai": {
-      "median": 0.01044,
-      "mean": 0.01075,
-      "std": 0.00157,
-      "valid_pixel_count": 14214
-    },
-    "suspended_sediment": {
-      "median": 0.20733,
-      "mean": 0.21148,
-      "std": 0.01866,
-      "valid_pixel_count": 12195
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 13.7
-    }
-  },
-  {
-    "water_body_id": "godavari-river-segment",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20260305_0036",
-    "acquisition_date": "2026-03-05",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 2.2,
-    "valid_pixel_count": 14140,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.17792,
-      "mean": 0.18148,
-      "std": 0.01779,
-      "valid_pixel_count": 12295
-    },
-    "ndci": {
-      "median": 0.06988,
-      "mean": 0.07058,
-      "std": 0.00839,
-      "valid_pixel_count": 12141
-    },
-    "fai": {
-      "median": 0.01043,
-      "mean": 0.01074,
-      "std": 0.00156,
-      "valid_pixel_count": 14764
-    },
-    "suspended_sediment": {
-      "median": 0.23308,
-      "mean": 0.23774,
-      "std": 0.02098,
-      "valid_pixel_count": 12261
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 6.5
-    }
-  },
-  {
-    "water_body_id": "godavari-river-segment",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20260320_0037",
-    "acquisition_date": "2026-03-20",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 2.656,
-    "valid_pixel_count": 12770,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.18711,
-      "mean": 0.19085,
-      "std": 0.01871,
-      "valid_pixel_count": 17805
-    },
-    "ndci": {
-      "median": 0.07074,
-      "mean": 0.07145,
-      "std": 0.00849,
-      "valid_pixel_count": 14021
-    },
-    "fai": {
-      "median": 0.01052,
-      "mean": 0.01084,
-      "std": 0.00158,
-      "valid_pixel_count": 16289
-    },
-    "suspended_sediment": {
-      "median": 0.20844,
-      "mean": 0.21261,
-      "std": 0.01876,
-      "valid_pixel_count": 14882
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 8.6
-    }
-  },
-  {
-    "water_body_id": "godavari-river-segment",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20260405_0038",
-    "acquisition_date": "2026-04-05",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 3.062,
-    "valid_pixel_count": 14604,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.20459,
-      "mean": 0.20868,
-      "std": 0.02046,
-      "valid_pixel_count": 12671
-    },
-    "ndci": {
-      "median": 0.07041,
-      "mean": 0.07111,
-      "std": 0.00845,
-      "valid_pixel_count": 13534
-    },
-    "fai": {
-      "median": 0.01232,
-      "mean": 0.01269,
-      "std": 0.00185,
-      "valid_pixel_count": 12028
-    },
-    "suspended_sediment": {
-      "median": 0.22272,
-      "mean": 0.22717,
-      "std": 0.02004,
-      "valid_pixel_count": 13889
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 9.9
-    }
-  },
-  {
-    "water_body_id": "godavari-river-segment",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20260420_0039",
-    "acquisition_date": "2026-04-20",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 2.908,
-    "valid_pixel_count": 13513,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.20133,
-      "mean": 0.20536,
-      "std": 0.02013,
-      "valid_pixel_count": 16481
-    },
-    "ndci": {
-      "median": 0.06799,
-      "mean": 0.06867,
-      "std": 0.00816,
-      "valid_pixel_count": 12239
-    },
-    "fai": {
-      "median": 0.01238,
-      "mean": 0.01275,
-      "std": 0.00186,
-      "valid_pixel_count": 12970
-    },
-    "suspended_sediment": {
-      "median": 0.2403,
-      "mean": 0.24511,
-      "std": 0.02163,
-      "valid_pixel_count": 12611
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 12.8
-    }
-  },
-  {
-    "water_body_id": "godavari-river-segment",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20260505_0040",
-    "acquisition_date": "2026-05-05",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 2.926,
-    "valid_pixel_count": 13431,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.21088,
-      "mean": 0.2151,
-      "std": 0.02109,
-      "valid_pixel_count": 12158
-    },
-    "ndci": {
-      "median": 0.07947,
-      "mean": 0.08026,
-      "std": 0.00954,
-      "valid_pixel_count": 17956
-    },
-    "fai": {
-      "median": 0.01265,
-      "mean": 0.01303,
-      "std": 0.0019,
-      "valid_pixel_count": 12330
-    },
-    "suspended_sediment": {
-      "median": 0.27934,
-      "mean": 0.28493,
-      "std": 0.02514,
-      "valid_pixel_count": 17945
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 3.8
-    }
-  },
-  {
-    "water_body_id": "godavari-river-segment",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20260520_0041",
-    "acquisition_date": "2026-05-20",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 3.051,
-    "valid_pixel_count": 16442,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.21365,
-      "mean": 0.21792,
-      "std": 0.02137,
-      "valid_pixel_count": 17610
-    },
-    "ndci": {
-      "median": 0.07304,
-      "mean": 0.07377,
-      "std": 0.00876,
-      "valid_pixel_count": 12975
-    },
-    "fai": {
-      "median": 0.01265,
-      "mean": 0.01303,
-      "std": 0.0019,
-      "valid_pixel_count": 12113
-    },
-    "suspended_sediment": {
-      "median": 0.28025,
-      "mean": 0.28586,
-      "std": 0.02522,
-      "valid_pixel_count": 13372
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 10.0
-    }
-  },
-  {
-    "water_body_id": "godavari-river-segment",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20260605_0042",
-    "acquisition_date": "2026-06-05",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 2.946,
-    "valid_pixel_count": 12585,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.25726,
-      "mean": 0.26241,
-      "std": 0.02573,
-      "valid_pixel_count": 14231
-    },
-    "ndci": {
-      "median": 0.06369,
-      "mean": 0.06433,
-      "std": 0.00764,
-      "valid_pixel_count": 14516
-    },
-    "fai": {
-      "median": 0.01099,
-      "mean": 0.01132,
-      "std": 0.00165,
-      "valid_pixel_count": 12121
-    },
-    "suspended_sediment": {
-      "median": 0.31114,
-      "mean": 0.31736,
-      "std": 0.028,
-      "valid_pixel_count": 16108
+      "median": 0.4035,
+      "mean": 0.41157,
+      "std": 0.03632,
+      "valid_pixel_count": 17807
     },
     "quality_metadata": {
       "data_source": "demo",
@@ -1636,191 +1788,39 @@
   {
     "water_body_id": "godavari-river-segment",
     "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20260620_0043",
-    "acquisition_date": "2026-06-20",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 2.718,
-    "valid_pixel_count": 12460,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.25114,
-      "mean": 0.25616,
-      "std": 0.02511,
-      "valid_pixel_count": 15936
-    },
-    "ndci": {
-      "median": 0.06129,
-      "mean": 0.0619,
-      "std": 0.00735,
-      "valid_pixel_count": 17007
-    },
-    "fai": {
-      "median": 0.01022,
-      "mean": 0.01053,
-      "std": 0.00153,
-      "valid_pixel_count": 17551
-    },
-    "suspended_sediment": {
-      "median": 0.30579,
-      "mean": 0.31191,
-      "std": 0.02752,
-      "valid_pixel_count": 17876
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 3.0
-    }
-  },
-  {
-    "water_body_id": "godavari-river-segment",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20260705_0044",
-    "acquisition_date": "2026-07-05",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 2.066,
-    "valid_pixel_count": 13034,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.26698,
-      "mean": 0.27232,
-      "std": 0.0267,
-      "valid_pixel_count": 13468
-    },
-    "ndci": {
-      "median": 0.05715,
-      "mean": 0.05772,
-      "std": 0.00686,
-      "valid_pixel_count": 15461
-    },
-    "fai": {
-      "median": 0.00966,
-      "mean": 0.00995,
-      "std": 0.00145,
-      "valid_pixel_count": 17886
-    },
-    "suspended_sediment": {
-      "median": 0.36722,
-      "mean": 0.37456,
-      "std": 0.03305,
-      "valid_pixel_count": 15741
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 6.2
-    }
-  },
-  {
-    "water_body_id": "godavari-river-segment",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20260720_0045",
-    "acquisition_date": "2026-07-20",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 2.89,
-    "valid_pixel_count": 15199,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.29231,
-      "mean": 0.29816,
-      "std": 0.02923,
-      "valid_pixel_count": 13357
-    },
-    "ndci": {
-      "median": 0.05148,
-      "mean": 0.05199,
-      "std": 0.00618,
-      "valid_pixel_count": 16315
-    },
-    "fai": {
-      "median": 0.00945,
-      "mean": 0.00973,
-      "std": 0.00142,
-      "valid_pixel_count": 15326
-    },
-    "suspended_sediment": {
-      "median": 0.3988,
-      "mean": 0.40678,
-      "std": 0.03589,
-      "valid_pixel_count": 13142
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 5.7
-    }
-  },
-  {
-    "water_body_id": "godavari-river-segment",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20260805_0046",
-    "acquisition_date": "2026-08-05",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 2.038,
-    "valid_pixel_count": 14845,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.2578,
-      "mean": 0.26296,
-      "std": 0.02578,
-      "valid_pixel_count": 12343
-    },
-    "ndci": {
-      "median": 0.05423,
-      "mean": 0.05477,
-      "std": 0.00651,
-      "valid_pixel_count": 15882
-    },
-    "fai": {
-      "median": 0.00869,
-      "mean": 0.00895,
-      "std": 0.0013,
-      "valid_pixel_count": 15508
-    },
-    "suspended_sediment": {
-      "median": 0.34937,
-      "mean": 0.35636,
-      "std": 0.03144,
-      "valid_pixel_count": 16991
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 13.9
-    }
-  },
-  {
-    "water_body_id": "godavari-river-segment",
-    "zone_id": "zone-main",
     "scene_id": "DEMO_S2_20260820_0047",
     "acquisition_date": "2026-08-20",
     "sensor": "Sentinel-2",
-    "water_area_km2": 2.048,
-    "valid_pixel_count": 16385,
+    "water_area_km2": 2.239,
+    "valid_pixel_count": 15985,
     "observation_status": "valid",
     "ndti": {
-      "median": 0.25812,
-      "mean": 0.26328,
-      "std": 0.02581,
-      "valid_pixel_count": 17670
+      "median": 0.2638,
+      "mean": 0.26908,
+      "std": 0.02638,
+      "valid_pixel_count": 17957
     },
     "ndci": {
-      "median": 0.05787,
-      "mean": 0.05845,
-      "std": 0.00694,
-      "valid_pixel_count": 14104
+      "median": 0.05725,
+      "mean": 0.05782,
+      "std": 0.00687,
+      "valid_pixel_count": 15733
     },
     "fai": {
-      "median": 0.0089,
-      "mean": 0.00917,
-      "std": 0.00134,
-      "valid_pixel_count": 16985
+      "median": 0.00901,
+      "mean": 0.00928,
+      "std": 0.00135,
+      "valid_pixel_count": 16329
     },
     "suspended_sediment": {
-      "median": 0.40108,
-      "mean": 0.4091,
-      "std": 0.0361,
-      "valid_pixel_count": 14966
+      "median": 0.39599,
+      "mean": 0.40391,
+      "std": 0.03564,
+      "valid_pixel_count": 17023
     },
     "quality_metadata": {
       "data_source": "demo",
-      "cloud_pct": 13.9
+      "cloud_pct": 8.6
     }
   }
 ]

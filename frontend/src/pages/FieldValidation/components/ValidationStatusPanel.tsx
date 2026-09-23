@@ -1,5 +1,5 @@
 import React from 'react';
-import { ValidationResult } from '../../../../types/validation';
+import type { ValidationResult } from '../../../types/validation';
 import { CheckCircle, AlertTriangle, HelpCircle, XCircle } from 'lucide-react';
 
 interface ValidationStatusPanelProps {

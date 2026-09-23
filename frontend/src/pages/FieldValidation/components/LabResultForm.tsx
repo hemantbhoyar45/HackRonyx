@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { LabResultCreate } from '../../../../types/validation';
+import type { LabResultCreate } from '../../../types/validation';
 
 interface LabResultFormProps {
   validationId: string;

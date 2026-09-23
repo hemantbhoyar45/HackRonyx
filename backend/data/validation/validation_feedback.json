@@ -88,5 +88,50 @@
     },
     "validation_label": "NOT_SUPPORTED",
     "created_at": "2026-09-23T05:24:55.120977+00:00"
+  },
+  {
+    "feedback_id": "FBK-D24E83D8",
+    "validation_id": "VAL-20260923-A36153",
+    "analysis_id": null,
+    "alert_id": null,
+    "water_body_id": "test-body",
+    "zone_id": "zone-c",
+    "feature_snapshot": {},
+    "validation_label": "INCONCLUSIVE",
+    "created_at": "2026-09-23T05:30:31.385638+00:00"
+  },
+  {
+    "feedback_id": "FBK-3D320C35",
+    "validation_id": "VAL-20260923-77DDA7",
+    "analysis_id": null,
+    "alert_id": null,
+    "water_body_id": "test-body-2",
+    "zone_id": "zone-a",
+    "feature_snapshot": {
+      "ndti_deviation": 0.1,
+      "satellite_value": 0.2,
+      "satellite_baseline": 0.1,
+      "temporal_difference_days": 0.0,
+      "spatial_relation": "INSIDE_ALERT_ZONE",
+      "validation_evidence_score": 100.0
+    },
+    "validation_label": "SUPPORTED",
+    "created_at": "2026-09-23T05:30:31.435048+00:00"
+  },
+  {
+    "feedback_id": "FBK-D3C716C3",
+    "validation_id": "VAL-20260923-409AF5",
+    "analysis_id": null,
+    "alert_id": null,
+    "water_body_id": "test-body-3",
+    "zone_id": "zone-main",
+    "feature_snapshot": {
+      "ndti_deviation": 0.3,
+      "temporal_difference_days": 0.0,
+      "spatial_relation": "INSIDE_ALERT_ZONE",
+      "validation_evidence_score": 75.0
+    },
+    "validation_label": "NOT_SUPPORTED",
+    "created_at": "2026-09-23T05:30:31.487361+00:00"
   }
 ]

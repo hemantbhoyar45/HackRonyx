@@ -3,14 +3,18 @@ import { Database, Activity, CheckCircle, Map, Layers, FileWarning, ShieldAlert,
 
 export default function Methodology() {
   const steps = [
-    { icon: Database, title: "1. Satellite Data Retrieval", desc: "Acquisition of Sentinel-2 (primary) and Landsat 8/9 data via Google Earth Engine." },
-    { icon: Layers, title: "2. Preprocessing & Water Mask", desc: "Cloud/shadow masking and generation of precise water boundaries using NDWI/MNDWI." },
-    { icon: Activity, title: "3. Spectral Indicators", desc: "Calculation of satellite-observable indicators (NDTI, Suspended Sediment, NDCI, FAI)." },
-    { icon: Map, title: "4. Historical Baseline & Time-Series", desc: "Comparison of current spectral values against multi-year historical seasonal baselines (median & MAD)." },
-    { icon: Cpu, title: "5. AI & Statistical Anomaly Detection", desc: "Two-stage detection using MAD Z-score thresholding and unsupervised Isolation Forest." },
-    { icon: ShieldAlert, title: "6. Multi-Indicator Evidence Fusion & Priority", desc: "Combines NDTI, Suspended Sediment, NDCI, and FAI into a deterministic 0–100 Investigation Priority Score." },
-    { icon: Activity, title: "7. Priority Queue & Investigation Workflow", desc: "Operational queue that prioritizes flagged zones for investigation. Maintains status and audit history for analysts." },
-    { icon: CheckCircle, title: "8. Ground Validation", desc: "Decision-support layer prioritizing ground investigation. The platform highlights potential anomalies, not confirmed contamination." },
+    { icon: Database, title: "1. Satellite Data", desc: "Acquisition of Sentinel-2 (primary) and Landsat 8/9 data via Google Earth Engine." },
+    { icon: Layers, title: "2. Preprocessing", desc: "Cloud/shadow masking and generation of precise water boundaries." },
+    { icon: Map, title: "3. Water Detection", desc: "Generation of precise water boundaries using NDWI/MNDWI." },
+    { icon: Activity, title: "4. Spectral Indicators", desc: "Calculation of satellite-observable indicators (NDTI, Suspended Sediment, NDCI, FAI)." },
+    { icon: Map, title: "5. Historical Baseline", desc: "Comparison of current spectral values against multi-year historical seasonal baselines (median & MAD)." },
+    { icon: Cpu, title: "6. Anomaly Detection", desc: "Two-stage detection using MAD Z-score thresholding and unsupervised Isolation Forest." },
+    { icon: ShieldAlert, title: "7. Multi-Indicator Evidence", desc: "Combines NDTI, Suspended Sediment, NDCI, and FAI into a deterministic 0–100 Investigation Priority Score." },
+    { icon: ShieldAlert, title: "8. Explainable Priority", desc: "Provides natural-language explainability for the exact drivers behind the priority score." },
+    { icon: FileWarning, title: "9. Alert", desc: "Generates standardized operational alerts based on priority and severity." },
+    { icon: Activity, title: "10. Investigation Queue", desc: "Operational queue that prioritizes flagged zones for investigation. Maintains status and audit history." },
+    { icon: FileWarning, title: "11. Report", desc: "Automated generation of detailed downloadable PDF investigation reports." },
+    { icon: CheckCircle, title: "12. Ground/Lab Validation", desc: "Secure input of field samples and laboratory results for ground-truthing satellite anomalies without retraining." },
   ];
 
   return (
@@ -29,8 +33,7 @@ export default function Methodology() {
             <div>
               <h4 className="font-semibold text-blue-900">Important Product &amp; Scientific Boundary</h4>
               <p className="text-sm text-blue-800 mt-1 leading-relaxed">
-                The investigation priority score is a decision-support metric used to prioritize ground investigation of satellite-observable anomalies. 
-                The Priority Queue prioritizes regions for investigation based on satellite-observable evidence. It does not independently confirm contamination, illegal discharge, or pollutant concentration.
+                The platform identifies and prioritizes significant changes in satellite-observable water-quality-related indicators. It does not independently confirm contamination or identify its source. Ground and laboratory investigation are required for validation.
               </p>
             </div>
           </div>

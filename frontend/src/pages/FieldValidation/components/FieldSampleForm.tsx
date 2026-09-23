@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { FieldSampleCreate } from '../../../../types/validation';
+import type { FieldSampleCreate } from '../../../types/validation';
 
 interface FieldSampleFormProps {
   initialAlertId?: string;

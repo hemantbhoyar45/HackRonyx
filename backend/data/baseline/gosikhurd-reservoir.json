@@ -5,32 +5,1666 @@
     "scene_id": "DEMO_S2_20240905_0000",
     "acquisition_date": "2024-09-05",
     "sensor": "Sentinel-2",
-    "water_area_km2": 2.915,
-    "valid_pixel_count": 12337,
+    "water_area_km2": 2.597,
+    "valid_pixel_count": 15569,
     "observation_status": "valid",
     "ndti": {
-      "median": 0.17705,
-      "mean": 0.18059,
-      "std": 0.01771,
-      "valid_pixel_count": 16393
+      "median": 0.17115,
+      "mean": 0.17457,
+      "std": 0.01712,
+      "valid_pixel_count": 16710
     },
     "ndci": {
-      "median": 0.07409,
-      "mean": 0.07483,
-      "std": 0.00889,
-      "valid_pixel_count": 16623
+      "median": 0.07526,
+      "mean": 0.07601,
+      "std": 0.00903,
+      "valid_pixel_count": 13694
     },
     "fai": {
-      "median": 0.01179,
-      "mean": 0.01214,
-      "std": 0.00177,
-      "valid_pixel_count": 14655
+      "median": 0.01203,
+      "mean": 0.01239,
+      "std": 0.0018,
+      "valid_pixel_count": 16532
     },
     "suspended_sediment": {
-      "median": 0.24172,
-      "mean": 0.24655,
-      "std": 0.02175,
-      "valid_pixel_count": 13106
+      "median": 0.23612,
+      "mean": 0.24084,
+      "std": 0.02125,
+      "valid_pixel_count": 15378
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 13.1
+    }
+  },
+  {
+    "water_body_id": "gosikhurd-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20240920_0001",
+    "acquisition_date": "2024-09-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.837,
+    "valid_pixel_count": 13048,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.17561,
+      "mean": 0.17912,
+      "std": 0.01756,
+      "valid_pixel_count": 15874
+    },
+    "ndci": {
+      "median": 0.07052,
+      "mean": 0.07123,
+      "std": 0.00846,
+      "valid_pixel_count": 16038
+    },
+    "fai": {
+      "median": 0.01202,
+      "mean": 0.01238,
+      "std": 0.0018,
+      "valid_pixel_count": 14449
+    },
+    "suspended_sediment": {
+      "median": 0.23971,
+      "mean": 0.2445,
+      "std": 0.02157,
+      "valid_pixel_count": 14799
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 8.0
+    }
+  },
+  {
+    "water_body_id": "gosikhurd-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20241005_0002",
+    "acquisition_date": "2024-10-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.056,
+    "valid_pixel_count": 15524,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.13334,
+      "mean": 0.13601,
+      "std": 0.01333,
+      "valid_pixel_count": 17122
+    },
+    "ndci": {
+      "median": 0.07453,
+      "mean": 0.07528,
+      "std": 0.00894,
+      "valid_pixel_count": 13996
+    },
+    "fai": {
+      "median": 0.01394,
+      "mean": 0.01436,
+      "std": 0.00209,
+      "valid_pixel_count": 14802
+    },
+    "suspended_sediment": {
+      "median": 0.21832,
+      "mean": 0.22269,
+      "std": 0.01965,
+      "valid_pixel_count": 16071
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 4.9
+    }
+  },
+  {
+    "water_body_id": "gosikhurd-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20241020_0003",
+    "acquisition_date": "2024-10-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.453,
+    "valid_pixel_count": 17300,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.13943,
+      "mean": 0.14222,
+      "std": 0.01394,
+      "valid_pixel_count": 14781
+    },
+    "ndci": {
+      "median": 0.07711,
+      "mean": 0.07788,
+      "std": 0.00925,
+      "valid_pixel_count": 13089
+    },
+    "fai": {
+      "median": 0.01225,
+      "mean": 0.01262,
+      "std": 0.00184,
+      "valid_pixel_count": 17049
+    },
+    "suspended_sediment": {
+      "median": 0.22416,
+      "mean": 0.22864,
+      "std": 0.02017,
+      "valid_pixel_count": 14759
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 13.0
+    }
+  },
+  {
+    "water_body_id": "gosikhurd-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20241105_0004",
+    "acquisition_date": "2024-11-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 3.205,
+    "valid_pixel_count": 13106,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.13212,
+      "mean": 0.13476,
+      "std": 0.01321,
+      "valid_pixel_count": 17486
+    },
+    "ndci": {
+      "median": 0.0771,
+      "mean": 0.07787,
+      "std": 0.00925,
+      "valid_pixel_count": 16434
+    },
+    "fai": {
+      "median": 0.0114,
+      "mean": 0.01174,
+      "std": 0.00171,
+      "valid_pixel_count": 16875
+    },
+    "suspended_sediment": {
+      "median": 0.16616,
+      "mean": 0.16948,
+      "std": 0.01495,
+      "valid_pixel_count": 13922
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 8.9
+    }
+  },
+  {
+    "water_body_id": "gosikhurd-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20241120_0005",
+    "acquisition_date": "2024-11-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.489,
+    "valid_pixel_count": 14025,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.1225,
+      "mean": 0.12495,
+      "std": 0.01225,
+      "valid_pixel_count": 15546
+    },
+    "ndci": {
+      "median": 0.06872,
+      "mean": 0.06941,
+      "std": 0.00825,
+      "valid_pixel_count": 14330
+    },
+    "fai": {
+      "median": 0.0112,
+      "mean": 0.01154,
+      "std": 0.00168,
+      "valid_pixel_count": 17819
+    },
+    "suspended_sediment": {
+      "median": 0.18298,
+      "mean": 0.18664,
+      "std": 0.01647,
+      "valid_pixel_count": 17131
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 2.1
+    }
+  },
+  {
+    "water_body_id": "gosikhurd-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20241205_0006",
+    "acquisition_date": "2024-12-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.274,
+    "valid_pixel_count": 15387,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.1139,
+      "mean": 0.11618,
+      "std": 0.01139,
+      "valid_pixel_count": 13419
+    },
+    "ndci": {
+      "median": 0.0697,
+      "mean": 0.0704,
+      "std": 0.00836,
+      "valid_pixel_count": 16263
+    },
+    "fai": {
+      "median": 0.0121,
+      "mean": 0.01246,
+      "std": 0.00181,
+      "valid_pixel_count": 15598
+    },
+    "suspended_sediment": {
+      "median": 0.14819,
+      "mean": 0.15115,
+      "std": 0.01334,
+      "valid_pixel_count": 14129
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 6.0
+    }
+  },
+  {
+    "water_body_id": "gosikhurd-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20241220_0007",
+    "acquisition_date": "2024-12-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.192,
+    "valid_pixel_count": 17215,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.11286,
+      "mean": 0.11512,
+      "std": 0.01129,
+      "valid_pixel_count": 15665
+    },
+    "ndci": {
+      "median": 0.07057,
+      "mean": 0.07128,
+      "std": 0.00847,
+      "valid_pixel_count": 16731
+    },
+    "fai": {
+      "median": 0.01237,
+      "mean": 0.01274,
+      "std": 0.00186,
+      "valid_pixel_count": 17808
+    },
+    "suspended_sediment": {
+      "median": 0.14929,
+      "mean": 0.15228,
+      "std": 0.01344,
+      "valid_pixel_count": 12396
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 3.7
+    }
+  },
+  {
+    "water_body_id": "gosikhurd-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20250105_0008",
+    "acquisition_date": "2025-01-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.174,
+    "valid_pixel_count": 17311,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.11263,
+      "mean": 0.11488,
+      "std": 0.01126,
+      "valid_pixel_count": 15478
+    },
+    "ndci": {
+      "median": 0.07071,
+      "mean": 0.07142,
+      "std": 0.00849,
+      "valid_pixel_count": 13692
+    },
+    "fai": {
+      "median": 0.01161,
+      "mean": 0.01196,
+      "std": 0.00174,
+      "valid_pixel_count": 14196
+    },
+    "suspended_sediment": {
+      "median": 0.14778,
+      "mean": 0.15074,
+      "std": 0.0133,
+      "valid_pixel_count": 16665
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 10.6
+    }
+  },
+  {
+    "water_body_id": "gosikhurd-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20250120_0009",
+    "acquisition_date": "2025-01-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.614,
+    "valid_pixel_count": 16554,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.11826,
+      "mean": 0.12063,
+      "std": 0.01183,
+      "valid_pixel_count": 15624
+    },
+    "ndci": {
+      "median": 0.07467,
+      "mean": 0.07542,
+      "std": 0.00896,
+      "valid_pixel_count": 17221
+    },
+    "fai": {
+      "median": 0.0118,
+      "mean": 0.01215,
+      "std": 0.00177,
+      "valid_pixel_count": 16241
+    },
+    "suspended_sediment": {
+      "median": 0.15217,
+      "mean": 0.15521,
+      "std": 0.0137,
+      "valid_pixel_count": 12508
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 2.3
+    }
+  },
+  {
+    "water_body_id": "gosikhurd-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20250205_0010",
+    "acquisition_date": "2025-02-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 3.205,
+    "valid_pixel_count": 14074,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.11953,
+      "mean": 0.12192,
+      "std": 0.01195,
+      "valid_pixel_count": 12041
+    },
+    "ndci": {
+      "median": 0.0714,
+      "mean": 0.07211,
+      "std": 0.00857,
+      "valid_pixel_count": 13835
+    },
+    "fai": {
+      "median": 0.01294,
+      "mean": 0.01333,
+      "std": 0.00194,
+      "valid_pixel_count": 16534
+    },
+    "suspended_sediment": {
+      "median": 0.13472,
+      "mean": 0.13741,
+      "std": 0.01212,
+      "valid_pixel_count": 14820
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 4.1
+    }
+  },
+  {
+    "water_body_id": "gosikhurd-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20250220_0011",
+    "acquisition_date": "2025-02-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 3.13,
+    "valid_pixel_count": 13077,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.11862,
+      "mean": 0.12099,
+      "std": 0.01186,
+      "valid_pixel_count": 14440
+    },
+    "ndci": {
+      "median": 0.07328,
+      "mean": 0.07401,
+      "std": 0.00879,
+      "valid_pixel_count": 15824
+    },
+    "fai": {
+      "median": 0.01189,
+      "mean": 0.01225,
+      "std": 0.00178,
+      "valid_pixel_count": 17298
+    },
+    "suspended_sediment": {
+      "median": 0.14318,
+      "mean": 0.14604,
+      "std": 0.01289,
+      "valid_pixel_count": 15130
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 6.5
+    }
+  },
+  {
+    "water_body_id": "gosikhurd-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20250305_0012",
+    "acquisition_date": "2025-03-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 3.003,
+    "valid_pixel_count": 14100,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.1294,
+      "mean": 0.13199,
+      "std": 0.01294,
+      "valid_pixel_count": 15627
+    },
+    "ndci": {
+      "median": 0.072,
+      "mean": 0.07272,
+      "std": 0.00864,
+      "valid_pixel_count": 15137
+    },
+    "fai": {
+      "median": 0.01306,
+      "mean": 0.01345,
+      "std": 0.00196,
+      "valid_pixel_count": 13896
+    },
+    "suspended_sediment": {
+      "median": 0.14973,
+      "mean": 0.15272,
+      "std": 0.01348,
+      "valid_pixel_count": 14618
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 2.1
+    }
+  },
+  {
+    "water_body_id": "gosikhurd-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20250320_0013",
+    "acquisition_date": "2025-03-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 3.064,
+    "valid_pixel_count": 14824,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.13022,
+      "mean": 0.13282,
+      "std": 0.01302,
+      "valid_pixel_count": 14838
+    },
+    "ndci": {
+      "median": 0.07262,
+      "mean": 0.07335,
+      "std": 0.00871,
+      "valid_pixel_count": 15953
+    },
+    "fai": {
+      "median": 0.01221,
+      "mean": 0.01258,
+      "std": 0.00183,
+      "valid_pixel_count": 14353
+    },
+    "suspended_sediment": {
+      "median": 0.16976,
+      "mean": 0.17316,
+      "std": 0.01528,
+      "valid_pixel_count": 13957
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 11.1
+    }
+  },
+  {
+    "water_body_id": "gosikhurd-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20250405_0014",
+    "acquisition_date": "2025-04-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 3.082,
+    "valid_pixel_count": 17175,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.13668,
+      "mean": 0.13941,
+      "std": 0.01367,
+      "valid_pixel_count": 17804
+    },
+    "ndci": {
+      "median": 0.08679,
+      "mean": 0.08766,
+      "std": 0.01041,
+      "valid_pixel_count": 13480
+    },
+    "fai": {
+      "median": 0.01333,
+      "mean": 0.01373,
+      "std": 0.002,
+      "valid_pixel_count": 12457
+    },
+    "suspended_sediment": {
+      "median": 0.18052,
+      "mean": 0.18413,
+      "std": 0.01625,
+      "valid_pixel_count": 16790
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 11.3
+    }
+  },
+  {
+    "water_body_id": "gosikhurd-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20250420_0015",
+    "acquisition_date": "2025-04-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.366,
+    "valid_pixel_count": 12331,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.12659,
+      "mean": 0.12912,
+      "std": 0.01266,
+      "valid_pixel_count": 14003
+    },
+    "ndci": {
+      "median": 0.08162,
+      "mean": 0.08244,
+      "std": 0.00979,
+      "valid_pixel_count": 12487
+    },
+    "fai": {
+      "median": 0.01456,
+      "mean": 0.015,
+      "std": 0.00218,
+      "valid_pixel_count": 17966
+    },
+    "suspended_sediment": {
+      "median": 0.17301,
+      "mean": 0.17647,
+      "std": 0.01557,
+      "valid_pixel_count": 14637
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 13.2
+    }
+  },
+  {
+    "water_body_id": "gosikhurd-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20250505_0016",
+    "acquisition_date": "2025-05-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.643,
+    "valid_pixel_count": 13280,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.13643,
+      "mean": 0.13916,
+      "std": 0.01364,
+      "valid_pixel_count": 14345
+    },
+    "ndci": {
+      "median": 0.09814,
+      "mean": 0.09912,
+      "std": 0.01178,
+      "valid_pixel_count": 16463
+    },
+    "fai": {
+      "median": 0.01466,
+      "mean": 0.0151,
+      "std": 0.0022,
+      "valid_pixel_count": 16134
+    },
+    "suspended_sediment": {
+      "median": 0.1818,
+      "mean": 0.18544,
+      "std": 0.01636,
+      "valid_pixel_count": 17717
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 12.8
+    }
+  },
+  {
+    "water_body_id": "gosikhurd-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20250520_0017",
+    "acquisition_date": "2025-05-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.189,
+    "valid_pixel_count": 13062,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.12975,
+      "mean": 0.13235,
+      "std": 0.01298,
+      "valid_pixel_count": 17767
+    },
+    "ndci": {
+      "median": 0.09141,
+      "mean": 0.09232,
+      "std": 0.01097,
+      "valid_pixel_count": 13081
+    },
+    "fai": {
+      "median": 0.01551,
+      "mean": 0.01598,
+      "std": 0.00233,
+      "valid_pixel_count": 16282
+    },
+    "suspended_sediment": {
+      "median": 0.18464,
+      "mean": 0.18833,
+      "std": 0.01662,
+      "valid_pixel_count": 12454
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 8.5
+    }
+  },
+  {
+    "water_body_id": "gosikhurd-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20250605_0018",
+    "acquisition_date": "2025-06-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.452,
+    "valid_pixel_count": 17019,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.16266,
+      "mean": 0.16591,
+      "std": 0.01627,
+      "valid_pixel_count": 15407
+    },
+    "ndci": {
+      "median": 0.08164,
+      "mean": 0.08246,
+      "std": 0.0098,
+      "valid_pixel_count": 13744
+    },
+    "fai": {
+      "median": 0.01325,
+      "mean": 0.01365,
+      "std": 0.00199,
+      "valid_pixel_count": 14175
+    },
+    "suspended_sediment": {
+      "median": 0.22543,
+      "mean": 0.22994,
+      "std": 0.02029,
+      "valid_pixel_count": 14864
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 8.8
+    }
+  },
+  {
+    "water_body_id": "gosikhurd-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20250620_0019",
+    "acquisition_date": "2025-06-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 3.051,
+    "valid_pixel_count": 16442,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.1734,
+      "mean": 0.17687,
+      "std": 0.01734,
+      "valid_pixel_count": 17610
+    },
+    "ndci": {
+      "median": 0.07211,
+      "mean": 0.07283,
+      "std": 0.00865,
+      "valid_pixel_count": 12975
+    },
+    "fai": {
+      "median": 0.01284,
+      "mean": 0.01323,
+      "std": 0.00193,
+      "valid_pixel_count": 12113
+    },
+    "suspended_sediment": {
+      "median": 0.25478,
+      "mean": 0.25988,
+      "std": 0.02293,
+      "valid_pixel_count": 13372
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 10.0
+    }
+  },
+  {
+    "water_body_id": "gosikhurd-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20250705_0020",
+    "acquisition_date": "2025-07-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.065,
+    "valid_pixel_count": 12316,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.17798,
+      "mean": 0.18154,
+      "std": 0.0178,
+      "valid_pixel_count": 16637
+    },
+    "ndci": {
+      "median": 0.06625,
+      "mean": 0.06691,
+      "std": 0.00795,
+      "valid_pixel_count": 12875
+    },
+    "fai": {
+      "median": 0.01038,
+      "mean": 0.01069,
+      "std": 0.00156,
+      "valid_pixel_count": 12793
+    },
+    "suspended_sediment": {
+      "median": 0.27725,
+      "mean": 0.2828,
+      "std": 0.02495,
+      "valid_pixel_count": 17608
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 13.6
+    }
+  },
+  {
+    "water_body_id": "gosikhurd-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20250720_0021",
+    "acquisition_date": "2025-07-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 3.408,
+    "valid_pixel_count": 12641,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.20547,
+      "mean": 0.20958,
+      "std": 0.02055,
+      "valid_pixel_count": 16268
+    },
+    "ndci": {
+      "median": 0.06486,
+      "mean": 0.06551,
+      "std": 0.00778,
+      "valid_pixel_count": 14380
+    },
+    "fai": {
+      "median": 0.01071,
+      "mean": 0.01103,
+      "std": 0.00161,
+      "valid_pixel_count": 17736
+    },
+    "suspended_sediment": {
+      "median": 0.27056,
+      "mean": 0.27597,
+      "std": 0.02435,
+      "valid_pixel_count": 16477
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 11.9
+    }
+  },
+  {
+    "water_body_id": "gosikhurd-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20250805_0022",
+    "acquisition_date": "2025-08-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.144,
+    "valid_pixel_count": 12677,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.17398,
+      "mean": 0.17746,
+      "std": 0.0174,
+      "valid_pixel_count": 15449
+    },
+    "ndci": {
+      "median": 0.06867,
+      "mean": 0.06936,
+      "std": 0.00824,
+      "valid_pixel_count": 12905
+    },
+    "fai": {
+      "median": 0.00967,
+      "mean": 0.00996,
+      "std": 0.00145,
+      "valid_pixel_count": 16084
+    },
+    "suspended_sediment": {
+      "median": 0.29149,
+      "mean": 0.29732,
+      "std": 0.02623,
+      "valid_pixel_count": 12628
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 12.9
+    }
+  },
+  {
+    "water_body_id": "gosikhurd-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20250820_0023",
+    "acquisition_date": "2025-08-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.56,
+    "valid_pixel_count": 14452,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.18223,
+      "mean": 0.18587,
+      "std": 0.01822,
+      "valid_pixel_count": 12713
+    },
+    "ndci": {
+      "median": 0.06716,
+      "mean": 0.06783,
+      "std": 0.00806,
+      "valid_pixel_count": 15823
+    },
+    "fai": {
+      "median": 0.01071,
+      "mean": 0.01103,
+      "std": 0.00161,
+      "valid_pixel_count": 14515
+    },
+    "suspended_sediment": {
+      "median": 0.27616,
+      "mean": 0.28168,
+      "std": 0.02485,
+      "valid_pixel_count": 15478
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 6.3
+    }
+  },
+  {
+    "water_body_id": "gosikhurd-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20250905_0024",
+    "acquisition_date": "2025-09-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 3.385,
+    "valid_pixel_count": 13622,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.18579,
+      "mean": 0.18951,
+      "std": 0.01858,
+      "valid_pixel_count": 12151
+    },
+    "ndci": {
+      "median": 0.07362,
+      "mean": 0.07436,
+      "std": 0.00883,
+      "valid_pixel_count": 13179
+    },
+    "fai": {
+      "median": 0.01181,
+      "mean": 0.01216,
+      "std": 0.00177,
+      "valid_pixel_count": 14871
+    },
+    "suspended_sediment": {
+      "median": 0.23668,
+      "mean": 0.24141,
+      "std": 0.0213,
+      "valid_pixel_count": 12112
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 12.7
+    }
+  },
+  {
+    "water_body_id": "gosikhurd-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20250920_0025",
+    "acquisition_date": "2025-09-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.223,
+    "valid_pixel_count": 14948,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.16422,
+      "mean": 0.1675,
+      "std": 0.01642,
+      "valid_pixel_count": 13041
+    },
+    "ndci": {
+      "median": 0.07294,
+      "mean": 0.07367,
+      "std": 0.00875,
+      "valid_pixel_count": 17302
+    },
+    "fai": {
+      "median": 0.01144,
+      "mean": 0.01178,
+      "std": 0.00172,
+      "valid_pixel_count": 16648
+    },
+    "suspended_sediment": {
+      "median": 0.24891,
+      "mean": 0.25389,
+      "std": 0.0224,
+      "valid_pixel_count": 12668
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 4.8
+    }
+  },
+  {
+    "water_body_id": "gosikhurd-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20251005_0026",
+    "acquisition_date": "2025-10-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.328,
+    "valid_pixel_count": 13732,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.13751,
+      "mean": 0.14026,
+      "std": 0.01375,
+      "valid_pixel_count": 16878
+    },
+    "ndci": {
+      "median": 0.07338,
+      "mean": 0.07411,
+      "std": 0.00881,
+      "valid_pixel_count": 15179
+    },
+    "fai": {
+      "median": 0.0142,
+      "mean": 0.01463,
+      "std": 0.00213,
+      "valid_pixel_count": 13919
+    },
+    "suspended_sediment": {
+      "median": 0.2176,
+      "mean": 0.22195,
+      "std": 0.01958,
+      "valid_pixel_count": 17352
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 7.3
+    }
+  },
+  {
+    "water_body_id": "gosikhurd-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20251020_0027",
+    "acquisition_date": "2025-10-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.922,
+    "valid_pixel_count": 13542,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.14665,
+      "mean": 0.14958,
+      "std": 0.01467,
+      "valid_pixel_count": 16114
+    },
+    "ndci": {
+      "median": 0.07886,
+      "mean": 0.07965,
+      "std": 0.00946,
+      "valid_pixel_count": 14879
+    },
+    "fai": {
+      "median": 0.01248,
+      "mean": 0.01285,
+      "std": 0.00187,
+      "valid_pixel_count": 12077
+    },
+    "suspended_sediment": {
+      "median": 0.21744,
+      "mean": 0.22179,
+      "std": 0.01957,
+      "valid_pixel_count": 15525
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 12.5
+    }
+  },
+  {
+    "water_body_id": "gosikhurd-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20251105_0028",
+    "acquisition_date": "2025-11-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 3.016,
+    "valid_pixel_count": 13580,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.12957,
+      "mean": 0.13216,
+      "std": 0.01296,
+      "valid_pixel_count": 13314
+    },
+    "ndci": {
+      "median": 0.07519,
+      "mean": 0.07594,
+      "std": 0.00902,
+      "valid_pixel_count": 16968
+    },
+    "fai": {
+      "median": 0.01228,
+      "mean": 0.01265,
+      "std": 0.00184,
+      "valid_pixel_count": 17529
+    },
+    "suspended_sediment": {
+      "median": 0.17835,
+      "mean": 0.18192,
+      "std": 0.01605,
+      "valid_pixel_count": 14931
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 7.2
+    }
+  },
+  {
+    "water_body_id": "gosikhurd-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20251120_0029",
+    "acquisition_date": "2025-11-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.849,
+    "valid_pixel_count": 17963,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.12733,
+      "mean": 0.12988,
+      "std": 0.01273,
+      "valid_pixel_count": 17135
+    },
+    "ndci": {
+      "median": 0.07275,
+      "mean": 0.07348,
+      "std": 0.00873,
+      "valid_pixel_count": 15431
+    },
+    "fai": {
+      "median": 0.01192,
+      "mean": 0.01228,
+      "std": 0.00179,
+      "valid_pixel_count": 13773
+    },
+    "suspended_sediment": {
+      "median": 0.16579,
+      "mean": 0.16911,
+      "std": 0.01492,
+      "valid_pixel_count": 13123
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 14.3
+    }
+  },
+  {
+    "water_body_id": "gosikhurd-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20251205_0030",
+    "acquisition_date": "2025-12-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 3.433,
+    "valid_pixel_count": 16180,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.12875,
+      "mean": 0.13132,
+      "std": 0.01288,
+      "valid_pixel_count": 12093
+    },
+    "ndci": {
+      "median": 0.07316,
+      "mean": 0.07389,
+      "std": 0.00878,
+      "valid_pixel_count": 15663
+    },
+    "fai": {
+      "median": 0.01155,
+      "mean": 0.0119,
+      "std": 0.00173,
+      "valid_pixel_count": 14051
+    },
+    "suspended_sediment": {
+      "median": 0.17098,
+      "mean": 0.1744,
+      "std": 0.01539,
+      "valid_pixel_count": 13292
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 3.6
+    }
+  },
+  {
+    "water_body_id": "gosikhurd-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20251220_0031",
+    "acquisition_date": "2025-12-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 3.225,
+    "valid_pixel_count": 15526,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.12608,
+      "mean": 0.1286,
+      "std": 0.01261,
+      "valid_pixel_count": 14596
+    },
+    "ndci": {
+      "median": 0.06737,
+      "mean": 0.06804,
+      "std": 0.00808,
+      "valid_pixel_count": 16333
+    },
+    "fai": {
+      "median": 0.01128,
+      "mean": 0.01162,
+      "std": 0.00169,
+      "valid_pixel_count": 15760
+    },
+    "suspended_sediment": {
+      "median": 0.1596,
+      "mean": 0.16279,
+      "std": 0.01436,
+      "valid_pixel_count": 14360
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 7.1
+    }
+  },
+  {
+    "water_body_id": "gosikhurd-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20260105_0032",
+    "acquisition_date": "2026-01-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 3.374,
+    "valid_pixel_count": 12492,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.12799,
+      "mean": 0.13055,
+      "std": 0.0128,
+      "valid_pixel_count": 14720
+    },
+    "ndci": {
+      "median": 0.07476,
+      "mean": 0.07551,
+      "std": 0.00897,
+      "valid_pixel_count": 15464
+    },
+    "fai": {
+      "median": 0.01209,
+      "mean": 0.01245,
+      "std": 0.00181,
+      "valid_pixel_count": 17628
+    },
+    "suspended_sediment": {
+      "median": 0.17122,
+      "mean": 0.17464,
+      "std": 0.01541,
+      "valid_pixel_count": 17656
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 12.4
+    }
+  },
+  {
+    "water_body_id": "gosikhurd-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20260120_0033",
+    "acquisition_date": "2026-01-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.078,
+    "valid_pixel_count": 16373,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.1114,
+      "mean": 0.11363,
+      "std": 0.01114,
+      "valid_pixel_count": 16712
+    },
+    "ndci": {
+      "median": 0.06744,
+      "mean": 0.06811,
+      "std": 0.00809,
+      "valid_pixel_count": 14143
+    },
+    "fai": {
+      "median": 0.01153,
+      "mean": 0.01188,
+      "std": 0.00173,
+      "valid_pixel_count": 16781
+    },
+    "suspended_sediment": {
+      "median": 0.15356,
+      "mean": 0.15663,
+      "std": 0.01382,
+      "valid_pixel_count": 17178
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 10.1
+    }
+  },
+  {
+    "water_body_id": "gosikhurd-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20260205_0034",
+    "acquisition_date": "2026-02-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.38,
+    "valid_pixel_count": 16412,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.1095,
+      "mean": 0.11169,
+      "std": 0.01095,
+      "valid_pixel_count": 12336
+    },
+    "ndci": {
+      "median": 0.07363,
+      "mean": 0.07437,
+      "std": 0.00884,
+      "valid_pixel_count": 14057
+    },
+    "fai": {
+      "median": 0.01249,
+      "mean": 0.01286,
+      "std": 0.00187,
+      "valid_pixel_count": 15889
+    },
+    "suspended_sediment": {
+      "median": 0.14365,
+      "mean": 0.14652,
+      "std": 0.01293,
+      "valid_pixel_count": 14712
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 12.2
+    }
+  },
+  {
+    "water_body_id": "gosikhurd-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20260220_0035",
+    "acquisition_date": "2026-02-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.884,
+    "valid_pixel_count": 17401,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.11562,
+      "mean": 0.11793,
+      "std": 0.01156,
+      "valid_pixel_count": 16767
+    },
+    "ndci": {
+      "median": 0.06801,
+      "mean": 0.06869,
+      "std": 0.00816,
+      "valid_pixel_count": 15926
+    },
+    "fai": {
+      "median": 0.0129,
+      "mean": 0.01329,
+      "std": 0.00193,
+      "valid_pixel_count": 13205
+    },
+    "suspended_sediment": {
+      "median": 0.14687,
+      "mean": 0.14981,
+      "std": 0.01322,
+      "valid_pixel_count": 16056
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 9.2
+    }
+  },
+  {
+    "water_body_id": "gosikhurd-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20260305_0036",
+    "acquisition_date": "2026-03-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 3.338,
+    "valid_pixel_count": 14352,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.1339,
+      "mean": 0.13658,
+      "std": 0.01339,
+      "valid_pixel_count": 14667
+    },
+    "ndci": {
+      "median": 0.07733,
+      "mean": 0.0781,
+      "std": 0.00928,
+      "valid_pixel_count": 15943
+    },
+    "fai": {
+      "median": 0.01163,
+      "mean": 0.01198,
+      "std": 0.00174,
+      "valid_pixel_count": 13673
+    },
+    "suspended_sediment": {
+      "median": 0.15155,
+      "mean": 0.15458,
+      "std": 0.01364,
+      "valid_pixel_count": 13535
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 6.8
+    }
+  },
+  {
+    "water_body_id": "gosikhurd-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20260320_0037",
+    "acquisition_date": "2026-03-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.772,
+    "valid_pixel_count": 14876,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.12629,
+      "mean": 0.12882,
+      "std": 0.01263,
+      "valid_pixel_count": 17486
+    },
+    "ndci": {
+      "median": 0.07267,
+      "mean": 0.0734,
+      "std": 0.00872,
+      "valid_pixel_count": 12778
+    },
+    "fai": {
+      "median": 0.01294,
+      "mean": 0.01333,
+      "std": 0.00194,
+      "valid_pixel_count": 16170
+    },
+    "suspended_sediment": {
+      "median": 0.15575,
+      "mean": 0.15887,
+      "std": 0.01402,
+      "valid_pixel_count": 15656
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 14.3
+    }
+  },
+  {
+    "water_body_id": "gosikhurd-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20260405_0038",
+    "acquisition_date": "2026-04-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.9,
+    "valid_pixel_count": 17785,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.13411,
+      "mean": 0.13679,
+      "std": 0.01341,
+      "valid_pixel_count": 16741
+    },
+    "ndci": {
+      "median": 0.08891,
+      "mean": 0.0898,
+      "std": 0.01067,
+      "valid_pixel_count": 15123
+    },
+    "fai": {
+      "median": 0.01489,
+      "mean": 0.01534,
+      "std": 0.00223,
+      "valid_pixel_count": 15952
+    },
+    "suspended_sediment": {
+      "median": 0.16263,
+      "mean": 0.16588,
+      "std": 0.01464,
+      "valid_pixel_count": 15070
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 13.6
+    }
+  },
+  {
+    "water_body_id": "gosikhurd-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20260420_0039",
+    "acquisition_date": "2026-04-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.713,
+    "valid_pixel_count": 16421,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.13148,
+      "mean": 0.13411,
+      "std": 0.01315,
+      "valid_pixel_count": 16009
+    },
+    "ndci": {
+      "median": 0.08382,
+      "mean": 0.08466,
+      "std": 0.01006,
+      "valid_pixel_count": 12456
+    },
+    "fai": {
+      "median": 0.01384,
+      "mean": 0.01426,
+      "std": 0.00208,
+      "valid_pixel_count": 16470
+    },
+    "suspended_sediment": {
+      "median": 0.18837,
+      "mean": 0.19214,
+      "std": 0.01695,
+      "valid_pixel_count": 17094
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 14.6
+    }
+  },
+  {
+    "water_body_id": "gosikhurd-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20260505_0040",
+    "acquisition_date": "2026-05-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.851,
+    "valid_pixel_count": 13132,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.13949,
+      "mean": 0.14228,
+      "std": 0.01395,
+      "valid_pixel_count": 15714
+    },
+    "ndci": {
+      "median": 0.09379,
+      "mean": 0.09473,
+      "std": 0.01125,
+      "valid_pixel_count": 14499
+    },
+    "fai": {
+      "median": 0.01518,
+      "mean": 0.01564,
+      "std": 0.00228,
+      "valid_pixel_count": 16840
+    },
+    "suspended_sediment": {
+      "median": 0.20272,
+      "mean": 0.20677,
+      "std": 0.01824,
+      "valid_pixel_count": 12008
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 6.4
+    }
+  },
+  {
+    "water_body_id": "gosikhurd-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20260520_0041",
+    "acquisition_date": "2026-05-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.836,
+    "valid_pixel_count": 14342,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.13927,
+      "mean": 0.14206,
+      "std": 0.01393,
+      "valid_pixel_count": 17620
+    },
+    "ndci": {
+      "median": 0.096,
+      "mean": 0.09696,
+      "std": 0.01152,
+      "valid_pixel_count": 16205
+    },
+    "fai": {
+      "median": 0.01562,
+      "mean": 0.01609,
+      "std": 0.00234,
+      "valid_pixel_count": 17031
+    },
+    "suspended_sediment": {
+      "median": 0.20428,
+      "mean": 0.20837,
+      "std": 0.01839,
+      "valid_pixel_count": 16024
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 4.3
+    }
+  },
+  {
+    "water_body_id": "gosikhurd-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20260605_0042",
+    "acquisition_date": "2026-06-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.866,
+    "valid_pixel_count": 14840,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.17008,
+      "mean": 0.17348,
+      "std": 0.01701,
+      "valid_pixel_count": 14447
+    },
+    "ndci": {
+      "median": 0.07885,
+      "mean": 0.07964,
+      "std": 0.00946,
+      "valid_pixel_count": 13082
+    },
+    "fai": {
+      "median": 0.01318,
+      "mean": 0.01358,
+      "std": 0.00198,
+      "valid_pixel_count": 15175
+    },
+    "suspended_sediment": {
+      "median": 0.25649,
+      "mean": 0.26162,
+      "std": 0.02308,
+      "valid_pixel_count": 12700
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 6.4
+    }
+  },
+  {
+    "water_body_id": "gosikhurd-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20260620_0043",
+    "acquisition_date": "2026-06-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.993,
+    "valid_pixel_count": 15899,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.17235,
+      "mean": 0.1758,
+      "std": 0.01724,
+      "valid_pixel_count": 16718
+    },
+    "ndci": {
+      "median": 0.07591,
+      "mean": 0.07667,
+      "std": 0.00911,
+      "valid_pixel_count": 15918
+    },
+    "fai": {
+      "median": 0.01311,
+      "mean": 0.0135,
+      "std": 0.00197,
+      "valid_pixel_count": 17644
+    },
+    "suspended_sediment": {
+      "median": 0.2579,
+      "mean": 0.26306,
+      "std": 0.02321,
+      "valid_pixel_count": 14088
     },
     "quality_metadata": {
       "data_source": "demo",
@@ -40,1673 +1674,39 @@
   {
     "water_body_id": "gosikhurd-reservoir",
     "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20240920_0001",
-    "acquisition_date": "2024-09-20",
+    "scene_id": "DEMO_S2_20260705_0044",
+    "acquisition_date": "2026-07-05",
     "sensor": "Sentinel-2",
-    "water_area_km2": 2.267,
-    "valid_pixel_count": 12332,
+    "water_area_km2": 2.722,
+    "valid_pixel_count": 13862,
     "observation_status": "valid",
     "ndti": {
-      "median": 0.16503,
-      "mean": 0.16833,
-      "std": 0.0165,
-      "valid_pixel_count": 17718
+      "median": 0.19143,
+      "mean": 0.19526,
+      "std": 0.01914,
+      "valid_pixel_count": 15133
     },
     "ndci": {
-      "median": 0.06939,
-      "mean": 0.07008,
-      "std": 0.00833,
-      "valid_pixel_count": 16407
+      "median": 0.06574,
+      "mean": 0.0664,
+      "std": 0.00789,
+      "valid_pixel_count": 16808
     },
     "fai": {
-      "median": 0.01157,
-      "mean": 0.01192,
-      "std": 0.00174,
-      "valid_pixel_count": 17008
+      "median": 0.01109,
+      "mean": 0.01142,
+      "std": 0.00166,
+      "valid_pixel_count": 13848
     },
     "suspended_sediment": {
-      "median": 0.25434,
-      "mean": 0.25943,
-      "std": 0.02289,
-      "valid_pixel_count": 16910
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 7.2
-    }
-  },
-  {
-    "water_body_id": "gosikhurd-reservoir",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20241005_0002",
-    "acquisition_date": "2024-10-05",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 2.624,
-    "valid_pixel_count": 13935,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.14207,
-      "mean": 0.14491,
-      "std": 0.01421,
-      "valid_pixel_count": 13851
-    },
-    "ndci": {
-      "median": 0.07964,
-      "mean": 0.08044,
-      "std": 0.00956,
-      "valid_pixel_count": 16409
-    },
-    "fai": {
-      "median": 0.01227,
-      "mean": 0.01264,
-      "std": 0.00184,
-      "valid_pixel_count": 16257
-    },
-    "suspended_sediment": {
-      "median": 0.2064,
-      "mean": 0.21053,
-      "std": 0.01858,
-      "valid_pixel_count": 14336
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 4.8
-    }
-  },
-  {
-    "water_body_id": "gosikhurd-reservoir",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20241020_0003",
-    "acquisition_date": "2024-10-20",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 3.443,
-    "valid_pixel_count": 17507,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.15465,
-      "mean": 0.15774,
-      "std": 0.01547,
-      "valid_pixel_count": 17930
-    },
-    "ndci": {
-      "median": 0.0826,
-      "mean": 0.08343,
-      "std": 0.00991,
-      "valid_pixel_count": 14828
-    },
-    "fai": {
-      "median": 0.01396,
-      "mean": 0.01438,
-      "std": 0.00209,
-      "valid_pixel_count": 14892
-    },
-    "suspended_sediment": {
-      "median": 0.21014,
-      "mean": 0.21434,
-      "std": 0.01891,
-      "valid_pixel_count": 17779
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 3.8
-    }
-  },
-  {
-    "water_body_id": "gosikhurd-reservoir",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20241105_0004",
-    "acquisition_date": "2024-11-05",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 2.434,
-    "valid_pixel_count": 15320,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.12175,
-      "mean": 0.12419,
-      "std": 0.01218,
-      "valid_pixel_count": 14151
-    },
-    "ndci": {
-      "median": 0.06965,
-      "mean": 0.07035,
-      "std": 0.00836,
-      "valid_pixel_count": 16509
-    },
-    "fai": {
-      "median": 0.01116,
-      "mean": 0.01149,
-      "std": 0.00167,
-      "valid_pixel_count": 17178
-    },
-    "suspended_sediment": {
-      "median": 0.16305,
-      "mean": 0.16631,
-      "std": 0.01467,
-      "valid_pixel_count": 16326
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 6.6
-    }
-  },
-  {
-    "water_body_id": "gosikhurd-reservoir",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20241120_0005",
-    "acquisition_date": "2024-11-20",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 3.156,
-    "valid_pixel_count": 14292,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.13145,
-      "mean": 0.13408,
-      "std": 0.01315,
-      "valid_pixel_count": 14736
-    },
-    "ndci": {
-      "median": 0.07367,
-      "mean": 0.07441,
-      "std": 0.00884,
-      "valid_pixel_count": 14188
-    },
-    "fai": {
-      "median": 0.01178,
-      "mean": 0.01213,
-      "std": 0.00177,
-      "valid_pixel_count": 13712
-    },
-    "suspended_sediment": {
-      "median": 0.17198,
-      "mean": 0.17542,
-      "std": 0.01548,
-      "valid_pixel_count": 13475
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 3.4
-    }
-  },
-  {
-    "water_body_id": "gosikhurd-reservoir",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20241205_0006",
-    "acquisition_date": "2024-12-05",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 3.366,
-    "valid_pixel_count": 13078,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.12789,
-      "mean": 0.13045,
-      "std": 0.01279,
-      "valid_pixel_count": 13587
-    },
-    "ndci": {
-      "median": 0.06621,
-      "mean": 0.06687,
-      "std": 0.00795,
-      "valid_pixel_count": 17813
-    },
-    "fai": {
-      "median": 0.01149,
-      "mean": 0.01183,
-      "std": 0.00172,
-      "valid_pixel_count": 12712
-    },
-    "suspended_sediment": {
-      "median": 0.16417,
-      "mean": 0.16745,
-      "std": 0.01478,
-      "valid_pixel_count": 13588
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 10.0
-    }
-  },
-  {
-    "water_body_id": "gosikhurd-reservoir",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20241220_0007",
-    "acquisition_date": "2024-12-20",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 2.887,
-    "valid_pixel_count": 14510,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.12175,
-      "mean": 0.12419,
-      "std": 0.01218,
-      "valid_pixel_count": 12530
-    },
-    "ndci": {
-      "median": 0.06521,
-      "mean": 0.06586,
-      "std": 0.00783,
-      "valid_pixel_count": 17522
-    },
-    "fai": {
-      "median": 0.01186,
-      "mean": 0.01222,
-      "std": 0.00178,
-      "valid_pixel_count": 15998
-    },
-    "suspended_sediment": {
-      "median": 0.16643,
-      "mean": 0.16976,
-      "std": 0.01498,
-      "valid_pixel_count": 12460
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 2.7
-    }
-  },
-  {
-    "water_body_id": "gosikhurd-reservoir",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20250105_0008",
-    "acquisition_date": "2025-01-05",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 2.344,
-    "valid_pixel_count": 14680,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.1148,
-      "mean": 0.1171,
-      "std": 0.01148,
-      "valid_pixel_count": 13539
-    },
-    "ndci": {
-      "median": 0.07202,
-      "mean": 0.07274,
-      "std": 0.00864,
-      "valid_pixel_count": 16073
-    },
-    "fai": {
-      "median": 0.0121,
-      "mean": 0.01246,
-      "std": 0.00181,
-      "valid_pixel_count": 13141
-    },
-    "suspended_sediment": {
-      "median": 0.16434,
-      "mean": 0.16763,
-      "std": 0.01479,
-      "valid_pixel_count": 16471
+      "median": 0.30915,
+      "mean": 0.31533,
+      "std": 0.02782,
+      "valid_pixel_count": 17115
     },
     "quality_metadata": {
       "data_source": "demo",
       "cloud_pct": 5.9
-    }
-  },
-  {
-    "water_body_id": "gosikhurd-reservoir",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20250120_0009",
-    "acquisition_date": "2025-01-20",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 2.206,
-    "valid_pixel_count": 12093,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.11304,
-      "mean": 0.1153,
-      "std": 0.0113,
-      "valid_pixel_count": 14373
-    },
-    "ndci": {
-      "median": 0.06625,
-      "mean": 0.06691,
-      "std": 0.00795,
-      "valid_pixel_count": 15655
-    },
-    "fai": {
-      "median": 0.01252,
-      "mean": 0.0129,
-      "std": 0.00188,
-      "valid_pixel_count": 12389
-    },
-    "suspended_sediment": {
-      "median": 0.15576,
-      "mean": 0.15888,
-      "std": 0.01402,
-      "valid_pixel_count": 15150
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 10.8
-    }
-  },
-  {
-    "water_body_id": "gosikhurd-reservoir",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20250205_0010",
-    "acquisition_date": "2025-02-05",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 2.295,
-    "valid_pixel_count": 13351,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.10846,
-      "mean": 0.11063,
-      "std": 0.01085,
-      "valid_pixel_count": 13549
-    },
-    "ndci": {
-      "median": 0.07001,
-      "mean": 0.07071,
-      "std": 0.0084,
-      "valid_pixel_count": 14568
-    },
-    "fai": {
-      "median": 0.01161,
-      "mean": 0.01196,
-      "std": 0.00174,
-      "valid_pixel_count": 12541
-    },
-    "suspended_sediment": {
-      "median": 0.13783,
-      "mean": 0.14059,
-      "std": 0.0124,
-      "valid_pixel_count": 14044
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 7.2
-    }
-  },
-  {
-    "water_body_id": "gosikhurd-reservoir",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20250220_0011",
-    "acquisition_date": "2025-02-20",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 2.82,
-    "valid_pixel_count": 12525,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.11485,
-      "mean": 0.11715,
-      "std": 0.01149,
-      "valid_pixel_count": 14961
-    },
-    "ndci": {
-      "median": 0.07374,
-      "mean": 0.07448,
-      "std": 0.00885,
-      "valid_pixel_count": 16735
-    },
-    "fai": {
-      "median": 0.01182,
-      "mean": 0.01217,
-      "std": 0.00177,
-      "valid_pixel_count": 12809
-    },
-    "suspended_sediment": {
-      "median": 0.1415,
-      "mean": 0.14433,
-      "std": 0.01273,
-      "valid_pixel_count": 15317
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 5.6
-    }
-  },
-  {
-    "water_body_id": "gosikhurd-reservoir",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20250305_0012",
-    "acquisition_date": "2025-03-05",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 2.271,
-    "valid_pixel_count": 14911,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.11957,
-      "mean": 0.12196,
-      "std": 0.01196,
-      "valid_pixel_count": 12667
-    },
-    "ndci": {
-      "median": 0.07627,
-      "mean": 0.07703,
-      "std": 0.00915,
-      "valid_pixel_count": 14669
-    },
-    "fai": {
-      "median": 0.01207,
-      "mean": 0.01243,
-      "std": 0.00181,
-      "valid_pixel_count": 12708
-    },
-    "suspended_sediment": {
-      "median": 0.15104,
-      "mean": 0.15406,
-      "std": 0.01359,
-      "valid_pixel_count": 16174
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 7.5
-    }
-  },
-  {
-    "water_body_id": "gosikhurd-reservoir",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20250320_0013",
-    "acquisition_date": "2025-03-20",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 2.43,
-    "valid_pixel_count": 13921,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.1217,
-      "mean": 0.12413,
-      "std": 0.01217,
-      "valid_pixel_count": 17482
-    },
-    "ndci": {
-      "median": 0.08105,
-      "mean": 0.08186,
-      "std": 0.00973,
-      "valid_pixel_count": 13600
-    },
-    "fai": {
-      "median": 0.01307,
-      "mean": 0.01346,
-      "std": 0.00196,
-      "valid_pixel_count": 17108
-    },
-    "suspended_sediment": {
-      "median": 0.15762,
-      "mean": 0.16077,
-      "std": 0.01419,
-      "valid_pixel_count": 13225
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 9.5
-    }
-  },
-  {
-    "water_body_id": "gosikhurd-reservoir",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20250405_0014",
-    "acquisition_date": "2025-04-05",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 2.012,
-    "valid_pixel_count": 15541,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.1216,
-      "mean": 0.12403,
-      "std": 0.01216,
-      "valid_pixel_count": 12357
-    },
-    "ndci": {
-      "median": 0.08408,
-      "mean": 0.08492,
-      "std": 0.01009,
-      "valid_pixel_count": 13322
-    },
-    "fai": {
-      "median": 0.01527,
-      "mean": 0.01573,
-      "std": 0.00229,
-      "valid_pixel_count": 15266
-    },
-    "suspended_sediment": {
-      "median": 0.17408,
-      "mean": 0.17756,
-      "std": 0.01567,
-      "valid_pixel_count": 17194
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 5.2
-    }
-  },
-  {
-    "water_body_id": "gosikhurd-reservoir",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20250420_0015",
-    "acquisition_date": "2025-04-20",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 3.058,
-    "valid_pixel_count": 14878,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.13633,
-      "mean": 0.13906,
-      "std": 0.01363,
-      "valid_pixel_count": 13901
-    },
-    "ndci": {
-      "median": 0.08415,
-      "mean": 0.08499,
-      "std": 0.0101,
-      "valid_pixel_count": 12834
-    },
-    "fai": {
-      "median": 0.01404,
-      "mean": 0.01446,
-      "std": 0.00211,
-      "valid_pixel_count": 13154
-    },
-    "suspended_sediment": {
-      "median": 0.16925,
-      "mean": 0.17264,
-      "std": 0.01523,
-      "valid_pixel_count": 17214
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 6.2
-    }
-  },
-  {
-    "water_body_id": "gosikhurd-reservoir",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20250505_0016",
-    "acquisition_date": "2025-05-05",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 2.519,
-    "valid_pixel_count": 14201,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.1346,
-      "mean": 0.13729,
-      "std": 0.01346,
-      "valid_pixel_count": 17415
-    },
-    "ndci": {
-      "median": 0.09795,
-      "mean": 0.09893,
-      "std": 0.01175,
-      "valid_pixel_count": 17367
-    },
-    "fai": {
-      "median": 0.01495,
-      "mean": 0.0154,
-      "std": 0.00224,
-      "valid_pixel_count": 17065
-    },
-    "suspended_sediment": {
-      "median": 0.20712,
-      "mean": 0.21126,
-      "std": 0.01864,
-      "valid_pixel_count": 16509
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 6.7
-    }
-  },
-  {
-    "water_body_id": "gosikhurd-reservoir",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20250520_0017",
-    "acquisition_date": "2025-05-20",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 3.485,
-    "valid_pixel_count": 13455,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.14881,
-      "mean": 0.15179,
-      "std": 0.01488,
-      "valid_pixel_count": 15823
-    },
-    "ndci": {
-      "median": 0.0839,
-      "mean": 0.08474,
-      "std": 0.01007,
-      "valid_pixel_count": 12367
-    },
-    "fai": {
-      "median": 0.01492,
-      "mean": 0.01537,
-      "std": 0.00224,
-      "valid_pixel_count": 15693
-    },
-    "suspended_sediment": {
-      "median": 0.18763,
-      "mean": 0.19138,
-      "std": 0.01689,
-      "valid_pixel_count": 13892
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 5.6
-    }
-  },
-  {
-    "water_body_id": "gosikhurd-reservoir",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20250605_0018",
-    "acquisition_date": "2025-06-05",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 3.441,
-    "valid_pixel_count": 16719,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.18038,
-      "mean": 0.18399,
-      "std": 0.01804,
-      "valid_pixel_count": 12959
-    },
-    "ndci": {
-      "median": 0.07125,
-      "mean": 0.07196,
-      "std": 0.00855,
-      "valid_pixel_count": 17726
-    },
-    "fai": {
-      "median": 0.01423,
-      "mean": 0.01466,
-      "std": 0.00213,
-      "valid_pixel_count": 16282
-    },
-    "suspended_sediment": {
-      "median": 0.22154,
-      "mean": 0.22597,
-      "std": 0.01994,
-      "valid_pixel_count": 15474
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 5.0
-    }
-  },
-  {
-    "water_body_id": "gosikhurd-reservoir",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20250620_0019",
-    "acquisition_date": "2025-06-20",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 2.295,
-    "valid_pixel_count": 13668,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.15984,
-      "mean": 0.16304,
-      "std": 0.01598,
-      "valid_pixel_count": 17766
-    },
-    "ndci": {
-      "median": 0.07714,
-      "mean": 0.07791,
-      "std": 0.00926,
-      "valid_pixel_count": 17702
-    },
-    "fai": {
-      "median": 0.01225,
-      "mean": 0.01262,
-      "std": 0.00184,
-      "valid_pixel_count": 16117
-    },
-    "suspended_sediment": {
-      "median": 0.22218,
-      "mean": 0.22662,
-      "std": 0.02,
-      "valid_pixel_count": 17266
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 4.8
-    }
-  },
-  {
-    "water_body_id": "gosikhurd-reservoir",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20250705_0020",
-    "acquisition_date": "2025-07-05",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 2.96,
-    "valid_pixel_count": 17763,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.19629,
-      "mean": 0.20022,
-      "std": 0.01963,
-      "valid_pixel_count": 13033
-    },
-    "ndci": {
-      "median": 0.0622,
-      "mean": 0.06282,
-      "std": 0.00746,
-      "valid_pixel_count": 16906
-    },
-    "fai": {
-      "median": 0.01153,
-      "mean": 0.01188,
-      "std": 0.00173,
-      "valid_pixel_count": 12264
-    },
-    "suspended_sediment": {
-      "median": 0.29547,
-      "mean": 0.30138,
-      "std": 0.02659,
-      "valid_pixel_count": 16452
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 12.2
-    }
-  },
-  {
-    "water_body_id": "gosikhurd-reservoir",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20250720_0021",
-    "acquisition_date": "2025-07-20",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 2.285,
-    "valid_pixel_count": 17342,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.18248,
-      "mean": 0.18613,
-      "std": 0.01825,
-      "valid_pixel_count": 15569
-    },
-    "ndci": {
-      "median": 0.0657,
-      "mean": 0.06636,
-      "std": 0.00788,
-      "valid_pixel_count": 14422
-    },
-    "fai": {
-      "median": 0.01009,
-      "mean": 0.01039,
-      "std": 0.00151,
-      "valid_pixel_count": 17621
-    },
-    "suspended_sediment": {
-      "median": 0.28982,
-      "mean": 0.29562,
-      "std": 0.02608,
-      "valid_pixel_count": 12027
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 4.6
-    }
-  },
-  {
-    "water_body_id": "gosikhurd-reservoir",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20250805_0022",
-    "acquisition_date": "2025-08-05",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 2.085,
-    "valid_pixel_count": 17911,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.1728,
-      "mean": 0.17626,
-      "std": 0.01728,
-      "valid_pixel_count": 15193
-    },
-    "ndci": {
-      "median": 0.06452,
-      "mean": 0.06517,
-      "std": 0.00774,
-      "valid_pixel_count": 13639
-    },
-    "fai": {
-      "median": 0.01053,
-      "mean": 0.01085,
-      "std": 0.00158,
-      "valid_pixel_count": 17336
-    },
-    "suspended_sediment": {
-      "median": 0.25643,
-      "mean": 0.26156,
-      "std": 0.02308,
-      "valid_pixel_count": 12030
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 2.8
-    }
-  },
-  {
-    "water_body_id": "gosikhurd-reservoir",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20250820_0023",
-    "acquisition_date": "2025-08-20",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 3.401,
-    "valid_pixel_count": 13135,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.19892,
-      "mean": 0.2029,
-      "std": 0.01989,
-      "valid_pixel_count": 15089
-    },
-    "ndci": {
-      "median": 0.06875,
-      "mean": 0.06944,
-      "std": 0.00825,
-      "valid_pixel_count": 13790
-    },
-    "fai": {
-      "median": 0.01044,
-      "mean": 0.01075,
-      "std": 0.00157,
-      "valid_pixel_count": 14744
-    },
-    "suspended_sediment": {
-      "median": 0.28502,
-      "mean": 0.29072,
-      "std": 0.02565,
-      "valid_pixel_count": 13162
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 7.3
-    }
-  },
-  {
-    "water_body_id": "gosikhurd-reservoir",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20250905_0024",
-    "acquisition_date": "2025-09-05",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 3.165,
-    "valid_pixel_count": 13790,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.1817,
-      "mean": 0.18533,
-      "std": 0.01817,
-      "valid_pixel_count": 15490
-    },
-    "ndci": {
-      "median": 0.07243,
-      "mean": 0.07315,
-      "std": 0.00869,
-      "valid_pixel_count": 15888
-    },
-    "fai": {
-      "median": 0.01142,
-      "mean": 0.01176,
-      "std": 0.00171,
-      "valid_pixel_count": 13334
-    },
-    "suspended_sediment": {
-      "median": 0.22648,
-      "mean": 0.23101,
-      "std": 0.02038,
-      "valid_pixel_count": 17250
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 2.9
-    }
-  },
-  {
-    "water_body_id": "gosikhurd-reservoir",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20250920_0025",
-    "acquisition_date": "2025-09-20",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 2.554,
-    "valid_pixel_count": 17092,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.17037,
-      "mean": 0.17378,
-      "std": 0.01704,
-      "valid_pixel_count": 15462
-    },
-    "ndci": {
-      "median": 0.06903,
-      "mean": 0.06972,
-      "std": 0.00828,
-      "valid_pixel_count": 14774
-    },
-    "fai": {
-      "median": 0.01182,
-      "mean": 0.01217,
-      "std": 0.00177,
-      "valid_pixel_count": 12971
-    },
-    "suspended_sediment": {
-      "median": 0.22689,
-      "mean": 0.23143,
-      "std": 0.02042,
-      "valid_pixel_count": 12426
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 8.2
-    }
-  },
-  {
-    "water_body_id": "gosikhurd-reservoir",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20251005_0026",
-    "acquisition_date": "2025-10-05",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 3.453,
-    "valid_pixel_count": 12738,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.15481,
-      "mean": 0.15791,
-      "std": 0.01548,
-      "valid_pixel_count": 14987
-    },
-    "ndci": {
-      "median": 0.07974,
-      "mean": 0.08054,
-      "std": 0.00957,
-      "valid_pixel_count": 12929
-    },
-    "fai": {
-      "median": 0.01299,
-      "mean": 0.01338,
-      "std": 0.00195,
-      "valid_pixel_count": 16554
-    },
-    "suspended_sediment": {
-      "median": 0.19378,
-      "mean": 0.19766,
-      "std": 0.01744,
-      "valid_pixel_count": 13891
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 2.2
-    }
-  },
-  {
-    "water_body_id": "gosikhurd-reservoir",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20251020_0027",
-    "acquisition_date": "2025-10-20",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 2.407,
-    "valid_pixel_count": 13971,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.13873,
-      "mean": 0.1415,
-      "std": 0.01387,
-      "valid_pixel_count": 13254
-    },
-    "ndci": {
-      "median": 0.07877,
-      "mean": 0.07956,
-      "std": 0.00945,
-      "valid_pixel_count": 13589
-    },
-    "fai": {
-      "median": 0.01258,
-      "mean": 0.01296,
-      "std": 0.00189,
-      "valid_pixel_count": 15603
-    },
-    "suspended_sediment": {
-      "median": 0.21461,
-      "mean": 0.2189,
-      "std": 0.01931,
-      "valid_pixel_count": 13458
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 6.0
-    }
-  },
-  {
-    "water_body_id": "gosikhurd-reservoir",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20251105_0028",
-    "acquisition_date": "2025-11-05",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 2.941,
-    "valid_pixel_count": 15692,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.12857,
-      "mean": 0.13114,
-      "std": 0.01286,
-      "valid_pixel_count": 13513
-    },
-    "ndci": {
-      "median": 0.06824,
-      "mean": 0.06892,
-      "std": 0.00819,
-      "valid_pixel_count": 16730
-    },
-    "fai": {
-      "median": 0.01278,
-      "mean": 0.01316,
-      "std": 0.00192,
-      "valid_pixel_count": 13780
-    },
-    "suspended_sediment": {
-      "median": 0.16705,
-      "mean": 0.17039,
-      "std": 0.01503,
-      "valid_pixel_count": 13334
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 7.1
-    }
-  },
-  {
-    "water_body_id": "gosikhurd-reservoir",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20251120_0029",
-    "acquisition_date": "2025-11-20",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 2.573,
-    "valid_pixel_count": 17695,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.12362,
-      "mean": 0.12609,
-      "std": 0.01236,
-      "valid_pixel_count": 12381
-    },
-    "ndci": {
-      "median": 0.07155,
-      "mean": 0.07227,
-      "std": 0.00859,
-      "valid_pixel_count": 16996
-    },
-    "fai": {
-      "median": 0.0122,
-      "mean": 0.01257,
-      "std": 0.00183,
-      "valid_pixel_count": 17858
-    },
-    "suspended_sediment": {
-      "median": 0.16335,
-      "mean": 0.16662,
-      "std": 0.0147,
-      "valid_pixel_count": 16099
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 12.1
-    }
-  },
-  {
-    "water_body_id": "gosikhurd-reservoir",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20251205_0030",
-    "acquisition_date": "2025-12-05",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 2.819,
-    "valid_pixel_count": 16996,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.12088,
-      "mean": 0.1233,
-      "std": 0.01209,
-      "valid_pixel_count": 14571
-    },
-    "ndci": {
-      "median": 0.06789,
-      "mean": 0.06857,
-      "std": 0.00815,
-      "valid_pixel_count": 13291
-    },
-    "fai": {
-      "median": 0.01118,
-      "mean": 0.01152,
-      "std": 0.00168,
-      "valid_pixel_count": 12337
-    },
-    "suspended_sediment": {
-      "median": 0.15232,
-      "mean": 0.15537,
-      "std": 0.01371,
-      "valid_pixel_count": 12382
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 14.8
-    }
-  },
-  {
-    "water_body_id": "gosikhurd-reservoir",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20251220_0031",
-    "acquisition_date": "2025-12-20",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 2.457,
-    "valid_pixel_count": 13919,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.11625,
-      "mean": 0.11858,
-      "std": 0.01163,
-      "valid_pixel_count": 17151
-    },
-    "ndci": {
-      "median": 0.07104,
-      "mean": 0.07175,
-      "std": 0.00852,
-      "valid_pixel_count": 15124
-    },
-    "fai": {
-      "median": 0.0126,
-      "mean": 0.01298,
-      "std": 0.00189,
-      "valid_pixel_count": 14423
-    },
-    "suspended_sediment": {
-      "median": 0.15072,
-      "mean": 0.15373,
-      "std": 0.01356,
-      "valid_pixel_count": 15820
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 2.7
-    }
-  },
-  {
-    "water_body_id": "gosikhurd-reservoir",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20260105_0032",
-    "acquisition_date": "2026-01-05",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 2.428,
-    "valid_pixel_count": 17637,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.11588,
-      "mean": 0.1182,
-      "std": 0.01159,
-      "valid_pixel_count": 12546
-    },
-    "ndci": {
-      "median": 0.07535,
-      "mean": 0.0761,
-      "std": 0.00904,
-      "valid_pixel_count": 17633
-    },
-    "fai": {
-      "median": 0.01146,
-      "mean": 0.0118,
-      "std": 0.00172,
-      "valid_pixel_count": 12020
-    },
-    "suspended_sediment": {
-      "median": 0.16194,
-      "mean": 0.16518,
-      "std": 0.01457,
-      "valid_pixel_count": 12091
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 13.5
-    }
-  },
-  {
-    "water_body_id": "gosikhurd-reservoir",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20260120_0033",
-    "acquisition_date": "2026-01-20",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 2.842,
-    "valid_pixel_count": 14260,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.12118,
-      "mean": 0.1236,
-      "std": 0.01212,
-      "valid_pixel_count": 15704
-    },
-    "ndci": {
-      "median": 0.06755,
-      "mean": 0.06823,
-      "std": 0.00811,
-      "valid_pixel_count": 16694
-    },
-    "fai": {
-      "median": 0.01284,
-      "mean": 0.01323,
-      "std": 0.00193,
-      "valid_pixel_count": 13982
-    },
-    "suspended_sediment": {
-      "median": 0.16475,
-      "mean": 0.16804,
-      "std": 0.01483,
-      "valid_pixel_count": 13436
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 2.9
-    }
-  },
-  {
-    "water_body_id": "gosikhurd-reservoir",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20260205_0034",
-    "acquisition_date": "2026-02-05",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 2.936,
-    "valid_pixel_count": 13112,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.11627,
-      "mean": 0.1186,
-      "std": 0.01163,
-      "valid_pixel_count": 17276
-    },
-    "ndci": {
-      "median": 0.06641,
-      "mean": 0.06707,
-      "std": 0.00797,
-      "valid_pixel_count": 12603
-    },
-    "fai": {
-      "median": 0.01142,
-      "mean": 0.01176,
-      "std": 0.00171,
-      "valid_pixel_count": 16651
-    },
-    "suspended_sediment": {
-      "median": 0.13591,
-      "mean": 0.13863,
-      "std": 0.01223,
-      "valid_pixel_count": 16283
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 4.5
-    }
-  },
-  {
-    "water_body_id": "gosikhurd-reservoir",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20260220_0035",
-    "acquisition_date": "2026-02-20",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 3.233,
-    "valid_pixel_count": 16837,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.11988,
-      "mean": 0.12228,
-      "std": 0.01199,
-      "valid_pixel_count": 12139
-    },
-    "ndci": {
-      "median": 0.0693,
-      "mean": 0.06999,
-      "std": 0.00832,
-      "valid_pixel_count": 12781
-    },
-    "fai": {
-      "median": 0.01233,
-      "mean": 0.0127,
-      "std": 0.00185,
-      "valid_pixel_count": 12062
-    },
-    "suspended_sediment": {
-      "median": 0.13471,
-      "mean": 0.1374,
-      "std": 0.01212,
-      "valid_pixel_count": 14531
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 4.4
-    }
-  },
-  {
-    "water_body_id": "gosikhurd-reservoir",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20260305_0036",
-    "acquisition_date": "2026-03-05",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 2.602,
-    "valid_pixel_count": 12988,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.12401,
-      "mean": 0.12649,
-      "std": 0.0124,
-      "valid_pixel_count": 17226
-    },
-    "ndci": {
-      "median": 0.07228,
-      "mean": 0.073,
-      "std": 0.00867,
-      "valid_pixel_count": 13862
-    },
-    "fai": {
-      "median": 0.01265,
-      "mean": 0.01303,
-      "std": 0.0019,
-      "valid_pixel_count": 15775
-    },
-    "suspended_sediment": {
-      "median": 0.1508,
-      "mean": 0.15382,
-      "std": 0.01357,
-      "valid_pixel_count": 17108
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 9.0
-    }
-  },
-  {
-    "water_body_id": "gosikhurd-reservoir",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20260320_0037",
-    "acquisition_date": "2026-03-20",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 2.049,
-    "valid_pixel_count": 17434,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.11658,
-      "mean": 0.11891,
-      "std": 0.01166,
-      "valid_pixel_count": 15860
-    },
-    "ndci": {
-      "median": 0.07738,
-      "mean": 0.07815,
-      "std": 0.00929,
-      "valid_pixel_count": 14979
-    },
-    "fai": {
-      "median": 0.01221,
-      "mean": 0.01258,
-      "std": 0.00183,
-      "valid_pixel_count": 14818
-    },
-    "suspended_sediment": {
-      "median": 0.16481,
-      "mean": 0.16811,
-      "std": 0.01483,
-      "valid_pixel_count": 16458
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 8.8
-    }
-  },
-  {
-    "water_body_id": "gosikhurd-reservoir",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20260405_0038",
-    "acquisition_date": "2026-04-05",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 3.473,
-    "valid_pixel_count": 15117,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.14218,
-      "mean": 0.14502,
-      "std": 0.01422,
-      "valid_pixel_count": 14724
-    },
-    "ndci": {
-      "median": 0.07861,
-      "mean": 0.0794,
-      "std": 0.00943,
-      "valid_pixel_count": 12223
-    },
-    "fai": {
-      "median": 0.01344,
-      "mean": 0.01384,
-      "std": 0.00202,
-      "valid_pixel_count": 14426
-    },
-    "suspended_sediment": {
-      "median": 0.18349,
-      "mean": 0.18716,
-      "std": 0.01651,
-      "valid_pixel_count": 15495
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 8.9
-    }
-  },
-  {
-    "water_body_id": "gosikhurd-reservoir",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20260420_0039",
-    "acquisition_date": "2026-04-20",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 3.286,
-    "valid_pixel_count": 14766,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.13955,
-      "mean": 0.14234,
-      "std": 0.01396,
-      "valid_pixel_count": 17998
-    },
-    "ndci": {
-      "median": 0.0868,
-      "mean": 0.08767,
-      "std": 0.01042,
-      "valid_pixel_count": 17789
-    },
-    "fai": {
-      "median": 0.01484,
-      "mean": 0.01529,
-      "std": 0.00223,
-      "valid_pixel_count": 12168
-    },
-    "suspended_sediment": {
-      "median": 0.16699,
-      "mean": 0.17033,
-      "std": 0.01503,
-      "valid_pixel_count": 16815
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 6.4
-    }
-  },
-  {
-    "water_body_id": "gosikhurd-reservoir",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20260505_0040",
-    "acquisition_date": "2026-05-05",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 2.22,
-    "valid_pixel_count": 12623,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.13019,
-      "mean": 0.13279,
-      "std": 0.01302,
-      "valid_pixel_count": 13139
-    },
-    "ndci": {
-      "median": 0.08568,
-      "mean": 0.08654,
-      "std": 0.01028,
-      "valid_pixel_count": 13386
-    },
-    "fai": {
-      "median": 0.01552,
-      "mean": 0.01599,
-      "std": 0.00233,
-      "valid_pixel_count": 15237
-    },
-    "suspended_sediment": {
-      "median": 0.19998,
-      "mean": 0.20398,
-      "std": 0.018,
-      "valid_pixel_count": 12543
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 5.6
-    }
-  },
-  {
-    "water_body_id": "gosikhurd-reservoir",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20260520_0041",
-    "acquisition_date": "2026-05-20",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 2.547,
-    "valid_pixel_count": 13420,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.13501,
-      "mean": 0.13771,
-      "std": 0.0135,
-      "valid_pixel_count": 15992
-    },
-    "ndci": {
-      "median": 0.09358,
-      "mean": 0.09452,
-      "std": 0.01123,
-      "valid_pixel_count": 15126
-    },
-    "fai": {
-      "median": 0.01634,
-      "mean": 0.01683,
-      "std": 0.00245,
-      "valid_pixel_count": 14967
-    },
-    "suspended_sediment": {
-      "median": 0.20633,
-      "mean": 0.21046,
-      "std": 0.01857,
-      "valid_pixel_count": 14729
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 7.1
-    }
-  },
-  {
-    "water_body_id": "gosikhurd-reservoir",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20260605_0042",
-    "acquisition_date": "2026-06-05",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 3.303,
-    "valid_pixel_count": 14168,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.17792,
-      "mean": 0.18148,
-      "std": 0.01779,
-      "valid_pixel_count": 15412
-    },
-    "ndci": {
-      "median": 0.07372,
-      "mean": 0.07446,
-      "std": 0.00885,
-      "valid_pixel_count": 12363
-    },
-    "fai": {
-      "median": 0.01302,
-      "mean": 0.01341,
-      "std": 0.00195,
-      "valid_pixel_count": 14479
-    },
-    "suspended_sediment": {
-      "median": 0.23276,
-      "mean": 0.23742,
-      "std": 0.02095,
-      "valid_pixel_count": 12523
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 7.3
-    }
-  },
-  {
-    "water_body_id": "gosikhurd-reservoir",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20260620_0043",
-    "acquisition_date": "2026-06-20",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 2.12,
-    "valid_pixel_count": 17057,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.15672,
-      "mean": 0.15985,
-      "std": 0.01567,
-      "valid_pixel_count": 17298
-    },
-    "ndci": {
-      "median": 0.07339,
-      "mean": 0.07412,
-      "std": 0.00881,
-      "valid_pixel_count": 16244
-    },
-    "fai": {
-      "median": 0.01315,
-      "mean": 0.01354,
-      "std": 0.00197,
-      "valid_pixel_count": 12551
-    },
-    "suspended_sediment": {
-      "median": 0.25611,
-      "mean": 0.26123,
-      "std": 0.02305,
-      "valid_pixel_count": 12000
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 8.9
-    }
-  },
-  {
-    "water_body_id": "gosikhurd-reservoir",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20260705_0044",
-    "acquisition_date": "2026-07-05",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 3.495,
-    "valid_pixel_count": 14185,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.20727,
-      "mean": 0.21142,
-      "std": 0.02073,
-      "valid_pixel_count": 17091
-    },
-    "ndci": {
-      "median": 0.06509,
-      "mean": 0.06574,
-      "std": 0.00781,
-      "valid_pixel_count": 15764
-    },
-    "fai": {
-      "median": 0.01095,
-      "mean": 0.01128,
-      "std": 0.00164,
-      "valid_pixel_count": 13674
-    },
-    "suspended_sediment": {
-      "median": 0.28368,
-      "mean": 0.28935,
-      "std": 0.02553,
-      "valid_pixel_count": 12955
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 11.9
     }
   },
   {
@@ -1715,36 +1715,36 @@
     "scene_id": "DEMO_S2_20260720_0045",
     "acquisition_date": "2026-07-20",
     "sensor": "Sentinel-2",
-    "water_area_km2": 2.976,
-    "valid_pixel_count": 15949,
+    "water_area_km2": 3.495,
+    "valid_pixel_count": 12514,
     "observation_status": "valid",
     "ndti": {
-      "median": 0.19662,
-      "mean": 0.20055,
-      "std": 0.01966,
-      "valid_pixel_count": 16423
+      "median": 0.20725,
+      "mean": 0.21139,
+      "std": 0.02073,
+      "valid_pixel_count": 17790
     },
     "ndci": {
-      "median": 0.05926,
-      "mean": 0.05985,
-      "std": 0.00711,
-      "valid_pixel_count": 12435
+      "median": 0.06194,
+      "mean": 0.06256,
+      "std": 0.00743,
+      "valid_pixel_count": 12562
     },
     "fai": {
-      "median": 0.01005,
-      "mean": 0.01035,
-      "std": 0.00151,
-      "valid_pixel_count": 13076
+      "median": 0.01105,
+      "mean": 0.01138,
+      "std": 0.00166,
+      "valid_pixel_count": 12213
     },
     "suspended_sediment": {
-      "median": 0.29686,
-      "mean": 0.3028,
-      "std": 0.02672,
-      "valid_pixel_count": 15795
+      "median": 0.2953,
+      "mean": 0.30121,
+      "std": 0.02658,
+      "valid_pixel_count": 14522
     },
     "quality_metadata": {
       "data_source": "demo",
-      "cloud_pct": 4.4
+      "cloud_pct": 14.1
     }
   },
   {
@@ -1753,36 +1753,36 @@
     "scene_id": "DEMO_S2_20260805_0046",
     "acquisition_date": "2026-08-05",
     "sensor": "Sentinel-2",
-    "water_area_km2": 2.045,
-    "valid_pixel_count": 12721,
+    "water_area_km2": 2.984,
+    "valid_pixel_count": 16157,
     "observation_status": "valid",
     "ndti": {
-      "median": 0.17201,
-      "mean": 0.17545,
-      "std": 0.0172,
-      "valid_pixel_count": 17533
+      "median": 0.19064,
+      "mean": 0.19445,
+      "std": 0.01906,
+      "valid_pixel_count": 16203
     },
     "ndci": {
-      "median": 0.0713,
-      "mean": 0.07201,
-      "std": 0.00856,
-      "valid_pixel_count": 12374
+      "median": 0.06914,
+      "mean": 0.06983,
+      "std": 0.0083,
+      "valid_pixel_count": 14779
     },
     "fai": {
-      "median": 0.01094,
-      "mean": 0.01127,
-      "std": 0.00164,
-      "valid_pixel_count": 12970
+      "median": 0.01052,
+      "mean": 0.01084,
+      "std": 0.00158,
+      "valid_pixel_count": 14115
     },
     "suspended_sediment": {
-      "median": 0.26257,
-      "mean": 0.26782,
-      "std": 0.02363,
-      "valid_pixel_count": 12530
+      "median": 0.26756,
+      "mean": 0.27291,
+      "std": 0.02408,
+      "valid_pixel_count": 16730
     },
     "quality_metadata": {
       "data_source": "demo",
-      "cloud_pct": 13.2
+      "cloud_pct": 9.9
     }
   },
   {
@@ -1791,36 +1791,36 @@
     "scene_id": "DEMO_S2_20260820_0047",
     "acquisition_date": "2026-08-20",
     "sensor": "Sentinel-2",
-    "water_area_km2": 2.831,
-    "valid_pixel_count": 12990,
+    "water_area_km2": 3.098,
+    "valid_pixel_count": 16122,
     "observation_status": "valid",
     "ndti": {
-      "median": 0.1876,
-      "mean": 0.19135,
-      "std": 0.01876,
-      "valid_pixel_count": 16939
+      "median": 0.1929,
+      "mean": 0.19676,
+      "std": 0.01929,
+      "valid_pixel_count": 14712
     },
     "ndci": {
-      "median": 0.06723,
-      "mean": 0.0679,
-      "std": 0.00807,
-      "valid_pixel_count": 14999
+      "median": 0.06546,
+      "mean": 0.06611,
+      "std": 0.00786,
+      "valid_pixel_count": 13856
     },
     "fai": {
-      "median": 0.01026,
-      "mean": 0.01057,
-      "std": 0.00154,
-      "valid_pixel_count": 14309
+      "median": 0.00944,
+      "mean": 0.00972,
+      "std": 0.00142,
+      "valid_pixel_count": 15549
     },
     "suspended_sediment": {
-      "median": 0.28459,
-      "mean": 0.29028,
-      "std": 0.02561,
-      "valid_pixel_count": 14163
+      "median": 0.28393,
+      "mean": 0.28961,
+      "std": 0.02555,
+      "valid_pixel_count": 16061
     },
     "quality_metadata": {
       "data_source": "demo",
-      "cloud_pct": 4.4
+      "cloud_pct": 12.0
     }
   },
   {
@@ -1829,36 +1829,36 @@
     "scene_id": "DEMO_S2_20241005_0000",
     "acquisition_date": "2024-10-05",
     "sensor": "Sentinel-2",
-    "water_area_km2": 2.624,
-    "valid_pixel_count": 13935,
+    "water_area_km2": 2.056,
+    "valid_pixel_count": 15524,
     "observation_status": "valid",
     "ndti": {
-      "median": 0.14207,
-      "mean": 0.14491,
-      "std": 0.01421,
-      "valid_pixel_count": 13851
+      "median": 0.13334,
+      "mean": 0.13601,
+      "std": 0.01333,
+      "valid_pixel_count": 17122
     },
     "ndci": {
-      "median": 0.07964,
-      "mean": 0.08044,
-      "std": 0.00956,
-      "valid_pixel_count": 16409
+      "median": 0.07453,
+      "mean": 0.07528,
+      "std": 0.00894,
+      "valid_pixel_count": 13996
     },
     "fai": {
-      "median": 0.01227,
-      "mean": 0.01264,
-      "std": 0.00184,
-      "valid_pixel_count": 16257
+      "median": 0.01394,
+      "mean": 0.01436,
+      "std": 0.00209,
+      "valid_pixel_count": 14802
     },
     "suspended_sediment": {
-      "median": 0.2064,
-      "mean": 0.21053,
-      "std": 0.01858,
-      "valid_pixel_count": 14336
+      "median": 0.21832,
+      "mean": 0.22269,
+      "std": 0.01965,
+      "valid_pixel_count": 16071
     },
     "quality_metadata": {
       "data_source": "demo",
-      "cloud_pct": 4.8
+      "cloud_pct": 4.9
     }
   },
   {
@@ -1867,36 +1867,36 @@
     "scene_id": "DEMO_S2_20241020_0001",
     "acquisition_date": "2024-10-20",
     "sensor": "Sentinel-2",
-    "water_area_km2": 3.443,
-    "valid_pixel_count": 17507,
+    "water_area_km2": 2.453,
+    "valid_pixel_count": 17300,
     "observation_status": "valid",
     "ndti": {
-      "median": 0.15465,
-      "mean": 0.15774,
-      "std": 0.01547,
-      "valid_pixel_count": 17930
+      "median": 0.13943,
+      "mean": 0.14222,
+      "std": 0.01394,
+      "valid_pixel_count": 14781
     },
     "ndci": {
-      "median": 0.0826,
-      "mean": 0.08343,
-      "std": 0.00991,
-      "valid_pixel_count": 14828
+      "median": 0.07711,
+      "mean": 0.07788,
+      "std": 0.00925,
+      "valid_pixel_count": 13089
     },
     "fai": {
-      "median": 0.01396,
-      "mean": 0.01438,
-      "std": 0.00209,
-      "valid_pixel_count": 14892
+      "median": 0.01225,
+      "mean": 0.01262,
+      "std": 0.00184,
+      "valid_pixel_count": 17049
     },
     "suspended_sediment": {
-      "median": 0.21014,
-      "mean": 0.21434,
-      "std": 0.01891,
-      "valid_pixel_count": 17779
+      "median": 0.22416,
+      "mean": 0.22864,
+      "std": 0.02017,
+      "valid_pixel_count": 14759
     },
     "quality_metadata": {
       "data_source": "demo",
-      "cloud_pct": 3.8
+      "cloud_pct": 13.0
     }
   },
   {
@@ -1905,36 +1905,36 @@
     "scene_id": "DEMO_S2_20241105_0002",
     "acquisition_date": "2024-11-05",
     "sensor": "Sentinel-2",
-    "water_area_km2": 2.434,
-    "valid_pixel_count": 15320,
+    "water_area_km2": 3.205,
+    "valid_pixel_count": 13106,
     "observation_status": "valid",
     "ndti": {
-      "median": 0.12175,
-      "mean": 0.12419,
-      "std": 0.01218,
-      "valid_pixel_count": 14151
+      "median": 0.13212,
+      "mean": 0.13476,
+      "std": 0.01321,
+      "valid_pixel_count": 17486
     },
     "ndci": {
-      "median": 0.06965,
-      "mean": 0.07035,
-      "std": 0.00836,
-      "valid_pixel_count": 16509
+      "median": 0.0771,
+      "mean": 0.07787,
+      "std": 0.00925,
+      "valid_pixel_count": 16434
     },
     "fai": {
-      "median": 0.01116,
-      "mean": 0.01149,
-      "std": 0.00167,
-      "valid_pixel_count": 17178
+      "median": 0.0114,
+      "mean": 0.01174,
+      "std": 0.00171,
+      "valid_pixel_count": 16875
     },
     "suspended_sediment": {
-      "median": 0.16305,
-      "mean": 0.16631,
-      "std": 0.01467,
-      "valid_pixel_count": 16326
+      "median": 0.16616,
+      "mean": 0.16948,
+      "std": 0.01495,
+      "valid_pixel_count": 13922
     },
     "quality_metadata": {
       "data_source": "demo",
-      "cloud_pct": 6.6
+      "cloud_pct": 8.9
     }
   },
   {
@@ -1943,36 +1943,36 @@
     "scene_id": "DEMO_S2_20241120_0003",
     "acquisition_date": "2024-11-20",
     "sensor": "Sentinel-2",
-    "water_area_km2": 3.156,
-    "valid_pixel_count": 14292,
+    "water_area_km2": 2.489,
+    "valid_pixel_count": 14025,
     "observation_status": "valid",
     "ndti": {
-      "median": 0.13145,
-      "mean": 0.13408,
-      "std": 0.01315,
-      "valid_pixel_count": 14736
+      "median": 0.1225,
+      "mean": 0.12495,
+      "std": 0.01225,
+      "valid_pixel_count": 15546
     },
     "ndci": {
-      "median": 0.07367,
-      "mean": 0.07441,
-      "std": 0.00884,
-      "valid_pixel_count": 14188
+      "median": 0.06872,
+      "mean": 0.06941,
+      "std": 0.00825,
+      "valid_pixel_count": 14330
     },
     "fai": {
-      "median": 0.01178,
-      "mean": 0.01213,
-      "std": 0.00177,
-      "valid_pixel_count": 13712
+      "median": 0.0112,
+      "mean": 0.01154,
+      "std": 0.00168,
+      "valid_pixel_count": 17819
     },
     "suspended_sediment": {
-      "median": 0.17198,
-      "mean": 0.17542,
-      "std": 0.01548,
-      "valid_pixel_count": 13475
+      "median": 0.18298,
+      "mean": 0.18664,
+      "std": 0.01647,
+      "valid_pixel_count": 17131
     },
     "quality_metadata": {
       "data_source": "demo",
-      "cloud_pct": 3.4
+      "cloud_pct": 2.1
     }
   },
   {
@@ -1981,830 +1981,32 @@
     "scene_id": "DEMO_S2_20241205_0004",
     "acquisition_date": "2024-12-05",
     "sensor": "Sentinel-2",
-    "water_area_km2": 3.366,
-    "valid_pixel_count": 13078,
+    "water_area_km2": 2.274,
+    "valid_pixel_count": 15387,
     "observation_status": "valid",
     "ndti": {
-      "median": 0.12789,
-      "mean": 0.13045,
-      "std": 0.01279,
-      "valid_pixel_count": 13587
+      "median": 0.1139,
+      "mean": 0.11618,
+      "std": 0.01139,
+      "valid_pixel_count": 13419
     },
     "ndci": {
-      "median": 0.06621,
-      "mean": 0.06687,
-      "std": 0.00795,
-      "valid_pixel_count": 17813
-    },
-    "fai": {
-      "median": 0.01149,
-      "mean": 0.01183,
-      "std": 0.00172,
-      "valid_pixel_count": 12712
-    },
-    "suspended_sediment": {
-      "median": 0.16417,
-      "mean": 0.16745,
-      "std": 0.01478,
-      "valid_pixel_count": 13588
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 10.0
-    }
-  },
-  {
-    "water_body_id": "gosikhurd-reservoir",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20241220_0005",
-    "acquisition_date": "2024-12-20",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 2.887,
-    "valid_pixel_count": 14510,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.12175,
-      "mean": 0.12419,
-      "std": 0.01218,
-      "valid_pixel_count": 12530
-    },
-    "ndci": {
-      "median": 0.06521,
-      "mean": 0.06586,
-      "std": 0.00783,
-      "valid_pixel_count": 17522
-    },
-    "fai": {
-      "median": 0.01186,
-      "mean": 0.01222,
-      "std": 0.00178,
-      "valid_pixel_count": 15998
-    },
-    "suspended_sediment": {
-      "median": 0.16643,
-      "mean": 0.16976,
-      "std": 0.01498,
-      "valid_pixel_count": 12460
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 2.7
-    }
-  },
-  {
-    "water_body_id": "gosikhurd-reservoir",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20250105_0006",
-    "acquisition_date": "2025-01-05",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 2.344,
-    "valid_pixel_count": 14680,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.1148,
-      "mean": 0.1171,
-      "std": 0.01148,
-      "valid_pixel_count": 13539
-    },
-    "ndci": {
-      "median": 0.07202,
-      "mean": 0.07274,
-      "std": 0.00864,
-      "valid_pixel_count": 16073
+      "median": 0.0697,
+      "mean": 0.0704,
+      "std": 0.00836,
+      "valid_pixel_count": 16263
     },
     "fai": {
       "median": 0.0121,
       "mean": 0.01246,
       "std": 0.00181,
-      "valid_pixel_count": 13141
+      "valid_pixel_count": 15598
     },
     "suspended_sediment": {
-      "median": 0.16434,
-      "mean": 0.16763,
-      "std": 0.01479,
-      "valid_pixel_count": 16471
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 5.9
-    }
-  },
-  {
-    "water_body_id": "gosikhurd-reservoir",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20250120_0007",
-    "acquisition_date": "2025-01-20",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 2.206,
-    "valid_pixel_count": 12093,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.11304,
-      "mean": 0.1153,
-      "std": 0.0113,
-      "valid_pixel_count": 14373
-    },
-    "ndci": {
-      "median": 0.06625,
-      "mean": 0.06691,
-      "std": 0.00795,
-      "valid_pixel_count": 15655
-    },
-    "fai": {
-      "median": 0.01252,
-      "mean": 0.0129,
-      "std": 0.00188,
-      "valid_pixel_count": 12389
-    },
-    "suspended_sediment": {
-      "median": 0.15576,
-      "mean": 0.15888,
-      "std": 0.01402,
-      "valid_pixel_count": 15150
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 10.8
-    }
-  },
-  {
-    "water_body_id": "gosikhurd-reservoir",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20250205_0008",
-    "acquisition_date": "2025-02-05",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 2.295,
-    "valid_pixel_count": 13351,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.10846,
-      "mean": 0.11063,
-      "std": 0.01085,
-      "valid_pixel_count": 13549
-    },
-    "ndci": {
-      "median": 0.07001,
-      "mean": 0.07071,
-      "std": 0.0084,
-      "valid_pixel_count": 14568
-    },
-    "fai": {
-      "median": 0.01161,
-      "mean": 0.01196,
-      "std": 0.00174,
-      "valid_pixel_count": 12541
-    },
-    "suspended_sediment": {
-      "median": 0.13783,
-      "mean": 0.14059,
-      "std": 0.0124,
-      "valid_pixel_count": 14044
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 7.2
-    }
-  },
-  {
-    "water_body_id": "gosikhurd-reservoir",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20250220_0009",
-    "acquisition_date": "2025-02-20",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 2.82,
-    "valid_pixel_count": 12525,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.11485,
-      "mean": 0.11715,
-      "std": 0.01149,
-      "valid_pixel_count": 14961
-    },
-    "ndci": {
-      "median": 0.07374,
-      "mean": 0.07448,
-      "std": 0.00885,
-      "valid_pixel_count": 16735
-    },
-    "fai": {
-      "median": 0.01182,
-      "mean": 0.01217,
-      "std": 0.00177,
-      "valid_pixel_count": 12809
-    },
-    "suspended_sediment": {
-      "median": 0.1415,
-      "mean": 0.14433,
-      "std": 0.01273,
-      "valid_pixel_count": 15317
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 5.6
-    }
-  },
-  {
-    "water_body_id": "gosikhurd-reservoir",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20250305_0010",
-    "acquisition_date": "2025-03-05",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 2.271,
-    "valid_pixel_count": 14911,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.11957,
-      "mean": 0.12196,
-      "std": 0.01196,
-      "valid_pixel_count": 12667
-    },
-    "ndci": {
-      "median": 0.07627,
-      "mean": 0.07703,
-      "std": 0.00915,
-      "valid_pixel_count": 14669
-    },
-    "fai": {
-      "median": 0.01207,
-      "mean": 0.01243,
-      "std": 0.00181,
-      "valid_pixel_count": 12708
-    },
-    "suspended_sediment": {
-      "median": 0.15104,
-      "mean": 0.15406,
-      "std": 0.01359,
-      "valid_pixel_count": 16174
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 7.5
-    }
-  },
-  {
-    "water_body_id": "gosikhurd-reservoir",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20250320_0011",
-    "acquisition_date": "2025-03-20",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 2.43,
-    "valid_pixel_count": 13921,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.1217,
-      "mean": 0.12413,
-      "std": 0.01217,
-      "valid_pixel_count": 17482
-    },
-    "ndci": {
-      "median": 0.08105,
-      "mean": 0.08186,
-      "std": 0.00973,
-      "valid_pixel_count": 13600
-    },
-    "fai": {
-      "median": 0.01307,
-      "mean": 0.01346,
-      "std": 0.00196,
-      "valid_pixel_count": 17108
-    },
-    "suspended_sediment": {
-      "median": 0.15762,
-      "mean": 0.16077,
-      "std": 0.01419,
-      "valid_pixel_count": 13225
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 9.5
-    }
-  },
-  {
-    "water_body_id": "gosikhurd-reservoir",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20250405_0012",
-    "acquisition_date": "2025-04-05",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 2.012,
-    "valid_pixel_count": 15541,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.1216,
-      "mean": 0.12403,
-      "std": 0.01216,
-      "valid_pixel_count": 12357
-    },
-    "ndci": {
-      "median": 0.08408,
-      "mean": 0.08492,
-      "std": 0.01009,
-      "valid_pixel_count": 13322
-    },
-    "fai": {
-      "median": 0.01527,
-      "mean": 0.01573,
-      "std": 0.00229,
-      "valid_pixel_count": 15266
-    },
-    "suspended_sediment": {
-      "median": 0.17408,
-      "mean": 0.17756,
-      "std": 0.01567,
-      "valid_pixel_count": 17194
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 5.2
-    }
-  },
-  {
-    "water_body_id": "gosikhurd-reservoir",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20250420_0013",
-    "acquisition_date": "2025-04-20",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 3.058,
-    "valid_pixel_count": 14878,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.13633,
-      "mean": 0.13906,
-      "std": 0.01363,
-      "valid_pixel_count": 13901
-    },
-    "ndci": {
-      "median": 0.08415,
-      "mean": 0.08499,
-      "std": 0.0101,
-      "valid_pixel_count": 12834
-    },
-    "fai": {
-      "median": 0.01404,
-      "mean": 0.01446,
-      "std": 0.00211,
-      "valid_pixel_count": 13154
-    },
-    "suspended_sediment": {
-      "median": 0.16925,
-      "mean": 0.17264,
-      "std": 0.01523,
-      "valid_pixel_count": 17214
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 6.2
-    }
-  },
-  {
-    "water_body_id": "gosikhurd-reservoir",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20250505_0014",
-    "acquisition_date": "2025-05-05",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 2.519,
-    "valid_pixel_count": 14201,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.1346,
-      "mean": 0.13729,
-      "std": 0.01346,
-      "valid_pixel_count": 17415
-    },
-    "ndci": {
-      "median": 0.09795,
-      "mean": 0.09893,
-      "std": 0.01175,
-      "valid_pixel_count": 17367
-    },
-    "fai": {
-      "median": 0.01495,
-      "mean": 0.0154,
-      "std": 0.00224,
-      "valid_pixel_count": 17065
-    },
-    "suspended_sediment": {
-      "median": 0.20712,
-      "mean": 0.21126,
-      "std": 0.01864,
-      "valid_pixel_count": 16509
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 6.7
-    }
-  },
-  {
-    "water_body_id": "gosikhurd-reservoir",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20250520_0015",
-    "acquisition_date": "2025-05-20",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 3.485,
-    "valid_pixel_count": 13455,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.14881,
-      "mean": 0.15179,
-      "std": 0.01488,
-      "valid_pixel_count": 15823
-    },
-    "ndci": {
-      "median": 0.0839,
-      "mean": 0.08474,
-      "std": 0.01007,
-      "valid_pixel_count": 12367
-    },
-    "fai": {
-      "median": 0.01492,
-      "mean": 0.01537,
-      "std": 0.00224,
-      "valid_pixel_count": 15693
-    },
-    "suspended_sediment": {
-      "median": 0.18763,
-      "mean": 0.19138,
-      "std": 0.01689,
-      "valid_pixel_count": 13892
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 5.6
-    }
-  },
-  {
-    "water_body_id": "gosikhurd-reservoir",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20250605_0016",
-    "acquisition_date": "2025-06-05",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 3.441,
-    "valid_pixel_count": 16719,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.18038,
-      "mean": 0.18399,
-      "std": 0.01804,
-      "valid_pixel_count": 12959
-    },
-    "ndci": {
-      "median": 0.07125,
-      "mean": 0.07196,
-      "std": 0.00855,
-      "valid_pixel_count": 17726
-    },
-    "fai": {
-      "median": 0.01423,
-      "mean": 0.01466,
-      "std": 0.00213,
-      "valid_pixel_count": 16282
-    },
-    "suspended_sediment": {
-      "median": 0.22154,
-      "mean": 0.22597,
-      "std": 0.01994,
-      "valid_pixel_count": 15474
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 5.0
-    }
-  },
-  {
-    "water_body_id": "gosikhurd-reservoir",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20250620_0017",
-    "acquisition_date": "2025-06-20",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 2.295,
-    "valid_pixel_count": 13668,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.15984,
-      "mean": 0.16304,
-      "std": 0.01598,
-      "valid_pixel_count": 17766
-    },
-    "ndci": {
-      "median": 0.07714,
-      "mean": 0.07791,
-      "std": 0.00926,
-      "valid_pixel_count": 17702
-    },
-    "fai": {
-      "median": 0.01225,
-      "mean": 0.01262,
-      "std": 0.00184,
-      "valid_pixel_count": 16117
-    },
-    "suspended_sediment": {
-      "median": 0.22218,
-      "mean": 0.22662,
-      "std": 0.02,
-      "valid_pixel_count": 17266
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 4.8
-    }
-  },
-  {
-    "water_body_id": "gosikhurd-reservoir",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20250705_0018",
-    "acquisition_date": "2025-07-05",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 2.96,
-    "valid_pixel_count": 17763,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.19629,
-      "mean": 0.20022,
-      "std": 0.01963,
-      "valid_pixel_count": 13033
-    },
-    "ndci": {
-      "median": 0.0622,
-      "mean": 0.06282,
-      "std": 0.00746,
-      "valid_pixel_count": 16906
-    },
-    "fai": {
-      "median": 0.01153,
-      "mean": 0.01188,
-      "std": 0.00173,
-      "valid_pixel_count": 12264
-    },
-    "suspended_sediment": {
-      "median": 0.29547,
-      "mean": 0.30138,
-      "std": 0.02659,
-      "valid_pixel_count": 16452
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 12.2
-    }
-  },
-  {
-    "water_body_id": "gosikhurd-reservoir",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20250720_0019",
-    "acquisition_date": "2025-07-20",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 2.285,
-    "valid_pixel_count": 17342,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.18248,
-      "mean": 0.18613,
-      "std": 0.01825,
-      "valid_pixel_count": 15569
-    },
-    "ndci": {
-      "median": 0.0657,
-      "mean": 0.06636,
-      "std": 0.00788,
-      "valid_pixel_count": 14422
-    },
-    "fai": {
-      "median": 0.01009,
-      "mean": 0.01039,
-      "std": 0.00151,
-      "valid_pixel_count": 17621
-    },
-    "suspended_sediment": {
-      "median": 0.28982,
-      "mean": 0.29562,
-      "std": 0.02608,
-      "valid_pixel_count": 12027
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 4.6
-    }
-  },
-  {
-    "water_body_id": "gosikhurd-reservoir",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20250805_0020",
-    "acquisition_date": "2025-08-05",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 2.085,
-    "valid_pixel_count": 17911,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.1728,
-      "mean": 0.17626,
-      "std": 0.01728,
-      "valid_pixel_count": 15193
-    },
-    "ndci": {
-      "median": 0.06452,
-      "mean": 0.06517,
-      "std": 0.00774,
-      "valid_pixel_count": 13639
-    },
-    "fai": {
-      "median": 0.01053,
-      "mean": 0.01085,
-      "std": 0.00158,
-      "valid_pixel_count": 17336
-    },
-    "suspended_sediment": {
-      "median": 0.25643,
-      "mean": 0.26156,
-      "std": 0.02308,
-      "valid_pixel_count": 12030
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 2.8
-    }
-  },
-  {
-    "water_body_id": "gosikhurd-reservoir",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20250820_0021",
-    "acquisition_date": "2025-08-20",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 3.401,
-    "valid_pixel_count": 13135,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.19892,
-      "mean": 0.2029,
-      "std": 0.01989,
-      "valid_pixel_count": 15089
-    },
-    "ndci": {
-      "median": 0.06875,
-      "mean": 0.06944,
-      "std": 0.00825,
-      "valid_pixel_count": 13790
-    },
-    "fai": {
-      "median": 0.01044,
-      "mean": 0.01075,
-      "std": 0.00157,
-      "valid_pixel_count": 14744
-    },
-    "suspended_sediment": {
-      "median": 0.28502,
-      "mean": 0.29072,
-      "std": 0.02565,
-      "valid_pixel_count": 13162
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 7.3
-    }
-  },
-  {
-    "water_body_id": "gosikhurd-reservoir",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20250905_0022",
-    "acquisition_date": "2025-09-05",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 3.165,
-    "valid_pixel_count": 13790,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.1817,
-      "mean": 0.18533,
-      "std": 0.01817,
-      "valid_pixel_count": 15490
-    },
-    "ndci": {
-      "median": 0.07243,
-      "mean": 0.07315,
-      "std": 0.00869,
-      "valid_pixel_count": 15888
-    },
-    "fai": {
-      "median": 0.01142,
-      "mean": 0.01176,
-      "std": 0.00171,
-      "valid_pixel_count": 13334
-    },
-    "suspended_sediment": {
-      "median": 0.22648,
-      "mean": 0.23101,
-      "std": 0.02038,
-      "valid_pixel_count": 17250
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 2.9
-    }
-  },
-  {
-    "water_body_id": "gosikhurd-reservoir",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20250920_0023",
-    "acquisition_date": "2025-09-20",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 2.554,
-    "valid_pixel_count": 17092,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.17037,
-      "mean": 0.17378,
-      "std": 0.01704,
-      "valid_pixel_count": 15462
-    },
-    "ndci": {
-      "median": 0.06903,
-      "mean": 0.06972,
-      "std": 0.00828,
-      "valid_pixel_count": 14774
-    },
-    "fai": {
-      "median": 0.01182,
-      "mean": 0.01217,
-      "std": 0.00177,
-      "valid_pixel_count": 12971
-    },
-    "suspended_sediment": {
-      "median": 0.22689,
-      "mean": 0.23143,
-      "std": 0.02042,
-      "valid_pixel_count": 12426
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 8.2
-    }
-  },
-  {
-    "water_body_id": "gosikhurd-reservoir",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20251005_0024",
-    "acquisition_date": "2025-10-05",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 3.453,
-    "valid_pixel_count": 12738,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.15481,
-      "mean": 0.15791,
-      "std": 0.01548,
-      "valid_pixel_count": 14987
-    },
-    "ndci": {
-      "median": 0.07974,
-      "mean": 0.08054,
-      "std": 0.00957,
-      "valid_pixel_count": 12929
-    },
-    "fai": {
-      "median": 0.01299,
-      "mean": 0.01338,
-      "std": 0.00195,
-      "valid_pixel_count": 16554
-    },
-    "suspended_sediment": {
-      "median": 0.19378,
-      "mean": 0.19766,
-      "std": 0.01744,
-      "valid_pixel_count": 13891
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 2.2
-    }
-  },
-  {
-    "water_body_id": "gosikhurd-reservoir",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20251020_0025",
-    "acquisition_date": "2025-10-20",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 2.407,
-    "valid_pixel_count": 13971,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.13873,
-      "mean": 0.1415,
-      "std": 0.01387,
-      "valid_pixel_count": 13254
-    },
-    "ndci": {
-      "median": 0.07877,
-      "mean": 0.07956,
-      "std": 0.00945,
-      "valid_pixel_count": 13589
-    },
-    "fai": {
-      "median": 0.01258,
-      "mean": 0.01296,
-      "std": 0.00189,
-      "valid_pixel_count": 15603
-    },
-    "suspended_sediment": {
-      "median": 0.21461,
-      "mean": 0.2189,
-      "std": 0.01931,
-      "valid_pixel_count": 13458
+      "median": 0.14819,
+      "mean": 0.15115,
+      "std": 0.01334,
+      "valid_pixel_count": 14129
     },
     "quality_metadata": {
       "data_source": "demo",
@@ -2814,719 +2016,339 @@
   {
     "water_body_id": "gosikhurd-reservoir",
     "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20251105_0026",
-    "acquisition_date": "2025-11-05",
+    "scene_id": "DEMO_S2_20241220_0005",
+    "acquisition_date": "2024-12-20",
     "sensor": "Sentinel-2",
-    "water_area_km2": 2.941,
-    "valid_pixel_count": 15692,
+    "water_area_km2": 2.192,
+    "valid_pixel_count": 17215,
     "observation_status": "valid",
     "ndti": {
-      "median": 0.12857,
-      "mean": 0.13114,
-      "std": 0.01286,
-      "valid_pixel_count": 13513
+      "median": 0.11286,
+      "mean": 0.11512,
+      "std": 0.01129,
+      "valid_pixel_count": 15665
     },
     "ndci": {
-      "median": 0.06824,
-      "mean": 0.06892,
-      "std": 0.00819,
-      "valid_pixel_count": 16730
+      "median": 0.07057,
+      "mean": 0.07128,
+      "std": 0.00847,
+      "valid_pixel_count": 16731
     },
     "fai": {
-      "median": 0.01278,
-      "mean": 0.01316,
-      "std": 0.00192,
-      "valid_pixel_count": 13780
+      "median": 0.01237,
+      "mean": 0.01274,
+      "std": 0.00186,
+      "valid_pixel_count": 17808
     },
     "suspended_sediment": {
-      "median": 0.16705,
-      "mean": 0.17039,
-      "std": 0.01503,
-      "valid_pixel_count": 13334
+      "median": 0.14929,
+      "mean": 0.15228,
+      "std": 0.01344,
+      "valid_pixel_count": 12396
     },
     "quality_metadata": {
       "data_source": "demo",
-      "cloud_pct": 7.1
+      "cloud_pct": 3.7
     }
   },
   {
     "water_body_id": "gosikhurd-reservoir",
     "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20251120_0027",
-    "acquisition_date": "2025-11-20",
+    "scene_id": "DEMO_S2_20250105_0006",
+    "acquisition_date": "2025-01-05",
     "sensor": "Sentinel-2",
-    "water_area_km2": 2.573,
-    "valid_pixel_count": 17695,
+    "water_area_km2": 2.174,
+    "valid_pixel_count": 17311,
     "observation_status": "valid",
     "ndti": {
-      "median": 0.12362,
-      "mean": 0.12609,
-      "std": 0.01236,
-      "valid_pixel_count": 12381
+      "median": 0.11263,
+      "mean": 0.11488,
+      "std": 0.01126,
+      "valid_pixel_count": 15478
     },
     "ndci": {
-      "median": 0.07155,
-      "mean": 0.07227,
-      "std": 0.00859,
-      "valid_pixel_count": 16996
+      "median": 0.07071,
+      "mean": 0.07142,
+      "std": 0.00849,
+      "valid_pixel_count": 13692
     },
     "fai": {
-      "median": 0.0122,
-      "mean": 0.01257,
-      "std": 0.00183,
-      "valid_pixel_count": 17858
+      "median": 0.01161,
+      "mean": 0.01196,
+      "std": 0.00174,
+      "valid_pixel_count": 14196
     },
     "suspended_sediment": {
-      "median": 0.16335,
-      "mean": 0.16662,
-      "std": 0.0147,
-      "valid_pixel_count": 16099
+      "median": 0.14778,
+      "mean": 0.15074,
+      "std": 0.0133,
+      "valid_pixel_count": 16665
     },
     "quality_metadata": {
       "data_source": "demo",
-      "cloud_pct": 12.1
+      "cloud_pct": 10.6
     }
   },
   {
     "water_body_id": "gosikhurd-reservoir",
     "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20251205_0028",
-    "acquisition_date": "2025-12-05",
+    "scene_id": "DEMO_S2_20250120_0007",
+    "acquisition_date": "2025-01-20",
     "sensor": "Sentinel-2",
-    "water_area_km2": 2.819,
-    "valid_pixel_count": 16996,
+    "water_area_km2": 2.614,
+    "valid_pixel_count": 16554,
     "observation_status": "valid",
     "ndti": {
-      "median": 0.12088,
-      "mean": 0.1233,
-      "std": 0.01209,
-      "valid_pixel_count": 14571
+      "median": 0.11826,
+      "mean": 0.12063,
+      "std": 0.01183,
+      "valid_pixel_count": 15624
     },
     "ndci": {
-      "median": 0.06789,
-      "mean": 0.06857,
-      "std": 0.00815,
-      "valid_pixel_count": 13291
+      "median": 0.07467,
+      "mean": 0.07542,
+      "std": 0.00896,
+      "valid_pixel_count": 17221
     },
     "fai": {
-      "median": 0.01118,
-      "mean": 0.01152,
-      "std": 0.00168,
-      "valid_pixel_count": 12337
+      "median": 0.0118,
+      "mean": 0.01215,
+      "std": 0.00177,
+      "valid_pixel_count": 16241
     },
     "suspended_sediment": {
-      "median": 0.15232,
-      "mean": 0.15537,
-      "std": 0.01371,
-      "valid_pixel_count": 12382
+      "median": 0.15217,
+      "mean": 0.15521,
+      "std": 0.0137,
+      "valid_pixel_count": 12508
     },
     "quality_metadata": {
       "data_source": "demo",
-      "cloud_pct": 14.8
+      "cloud_pct": 2.3
     }
   },
   {
     "water_body_id": "gosikhurd-reservoir",
     "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20251220_0029",
-    "acquisition_date": "2025-12-20",
+    "scene_id": "DEMO_S2_20250205_0008",
+    "acquisition_date": "2025-02-05",
     "sensor": "Sentinel-2",
-    "water_area_km2": 2.457,
-    "valid_pixel_count": 13919,
+    "water_area_km2": 3.205,
+    "valid_pixel_count": 14074,
     "observation_status": "valid",
     "ndti": {
-      "median": 0.11625,
-      "mean": 0.11858,
-      "std": 0.01163,
-      "valid_pixel_count": 17151
+      "median": 0.11953,
+      "mean": 0.12192,
+      "std": 0.01195,
+      "valid_pixel_count": 12041
     },
     "ndci": {
-      "median": 0.07104,
-      "mean": 0.07175,
-      "std": 0.00852,
-      "valid_pixel_count": 15124
+      "median": 0.0714,
+      "mean": 0.07211,
+      "std": 0.00857,
+      "valid_pixel_count": 13835
     },
     "fai": {
-      "median": 0.0126,
-      "mean": 0.01298,
-      "std": 0.00189,
-      "valid_pixel_count": 14423
+      "median": 0.01294,
+      "mean": 0.01333,
+      "std": 0.00194,
+      "valid_pixel_count": 16534
     },
     "suspended_sediment": {
-      "median": 0.15072,
-      "mean": 0.15373,
-      "std": 0.01356,
-      "valid_pixel_count": 15820
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 2.7
-    }
-  },
-  {
-    "water_body_id": "gosikhurd-reservoir",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20260105_0030",
-    "acquisition_date": "2026-01-05",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 2.428,
-    "valid_pixel_count": 17637,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.11588,
-      "mean": 0.1182,
-      "std": 0.01159,
-      "valid_pixel_count": 12546
-    },
-    "ndci": {
-      "median": 0.07535,
-      "mean": 0.0761,
-      "std": 0.00904,
-      "valid_pixel_count": 17633
-    },
-    "fai": {
-      "median": 0.01146,
-      "mean": 0.0118,
-      "std": 0.00172,
-      "valid_pixel_count": 12020
-    },
-    "suspended_sediment": {
-      "median": 0.16194,
-      "mean": 0.16518,
-      "std": 0.01457,
-      "valid_pixel_count": 12091
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 13.5
-    }
-  },
-  {
-    "water_body_id": "gosikhurd-reservoir",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20260120_0031",
-    "acquisition_date": "2026-01-20",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 2.842,
-    "valid_pixel_count": 14260,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.12118,
-      "mean": 0.1236,
+      "median": 0.13472,
+      "mean": 0.13741,
       "std": 0.01212,
-      "valid_pixel_count": 15704
-    },
-    "ndci": {
-      "median": 0.06755,
-      "mean": 0.06823,
-      "std": 0.00811,
-      "valid_pixel_count": 16694
-    },
-    "fai": {
-      "median": 0.01284,
-      "mean": 0.01323,
-      "std": 0.00193,
-      "valid_pixel_count": 13982
-    },
-    "suspended_sediment": {
-      "median": 0.16475,
-      "mean": 0.16804,
-      "std": 0.01483,
-      "valid_pixel_count": 13436
+      "valid_pixel_count": 14820
     },
     "quality_metadata": {
       "data_source": "demo",
-      "cloud_pct": 2.9
+      "cloud_pct": 4.1
     }
   },
   {
     "water_body_id": "gosikhurd-reservoir",
     "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20260205_0032",
-    "acquisition_date": "2026-02-05",
+    "scene_id": "DEMO_S2_20250220_0009",
+    "acquisition_date": "2025-02-20",
     "sensor": "Sentinel-2",
-    "water_area_km2": 2.936,
-    "valid_pixel_count": 13112,
+    "water_area_km2": 3.13,
+    "valid_pixel_count": 13077,
     "observation_status": "valid",
     "ndti": {
-      "median": 0.11627,
-      "mean": 0.1186,
-      "std": 0.01163,
-      "valid_pixel_count": 17276
+      "median": 0.11862,
+      "mean": 0.12099,
+      "std": 0.01186,
+      "valid_pixel_count": 14440
     },
     "ndci": {
-      "median": 0.06641,
-      "mean": 0.06707,
-      "std": 0.00797,
-      "valid_pixel_count": 12603
+      "median": 0.07328,
+      "mean": 0.07401,
+      "std": 0.00879,
+      "valid_pixel_count": 15824
     },
     "fai": {
-      "median": 0.01142,
-      "mean": 0.01176,
-      "std": 0.00171,
-      "valid_pixel_count": 16651
+      "median": 0.01189,
+      "mean": 0.01225,
+      "std": 0.00178,
+      "valid_pixel_count": 17298
     },
     "suspended_sediment": {
-      "median": 0.13591,
-      "mean": 0.13863,
-      "std": 0.01223,
-      "valid_pixel_count": 16283
+      "median": 0.14318,
+      "mean": 0.14604,
+      "std": 0.01289,
+      "valid_pixel_count": 15130
     },
     "quality_metadata": {
       "data_source": "demo",
-      "cloud_pct": 4.5
+      "cloud_pct": 6.5
     }
   },
   {
     "water_body_id": "gosikhurd-reservoir",
     "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20260220_0033",
-    "acquisition_date": "2026-02-20",
+    "scene_id": "DEMO_S2_20250305_0010",
+    "acquisition_date": "2025-03-05",
     "sensor": "Sentinel-2",
-    "water_area_km2": 3.233,
-    "valid_pixel_count": 16837,
+    "water_area_km2": 3.003,
+    "valid_pixel_count": 14100,
     "observation_status": "valid",
     "ndti": {
-      "median": 0.11988,
-      "mean": 0.12228,
-      "std": 0.01199,
-      "valid_pixel_count": 12139
+      "median": 0.1294,
+      "mean": 0.13199,
+      "std": 0.01294,
+      "valid_pixel_count": 15627
     },
     "ndci": {
-      "median": 0.0693,
-      "mean": 0.06999,
-      "std": 0.00832,
-      "valid_pixel_count": 12781
+      "median": 0.072,
+      "mean": 0.07272,
+      "std": 0.00864,
+      "valid_pixel_count": 15137
     },
     "fai": {
-      "median": 0.01233,
-      "mean": 0.0127,
-      "std": 0.00185,
-      "valid_pixel_count": 12062
+      "median": 0.01306,
+      "mean": 0.01345,
+      "std": 0.00196,
+      "valid_pixel_count": 13896
     },
     "suspended_sediment": {
-      "median": 0.13471,
-      "mean": 0.1374,
-      "std": 0.01212,
-      "valid_pixel_count": 14531
+      "median": 0.14973,
+      "mean": 0.15272,
+      "std": 0.01348,
+      "valid_pixel_count": 14618
     },
     "quality_metadata": {
       "data_source": "demo",
-      "cloud_pct": 4.4
+      "cloud_pct": 2.1
     }
   },
   {
     "water_body_id": "gosikhurd-reservoir",
     "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20260305_0034",
-    "acquisition_date": "2026-03-05",
+    "scene_id": "DEMO_S2_20250320_0011",
+    "acquisition_date": "2025-03-20",
     "sensor": "Sentinel-2",
-    "water_area_km2": 2.602,
-    "valid_pixel_count": 12988,
+    "water_area_km2": 3.064,
+    "valid_pixel_count": 14824,
     "observation_status": "valid",
     "ndti": {
-      "median": 0.12401,
-      "mean": 0.12649,
-      "std": 0.0124,
-      "valid_pixel_count": 17226
+      "median": 0.13022,
+      "mean": 0.13282,
+      "std": 0.01302,
+      "valid_pixel_count": 14838
     },
     "ndci": {
-      "median": 0.07228,
-      "mean": 0.073,
-      "std": 0.00867,
-      "valid_pixel_count": 13862
-    },
-    "fai": {
-      "median": 0.01265,
-      "mean": 0.01303,
-      "std": 0.0019,
-      "valid_pixel_count": 15775
-    },
-    "suspended_sediment": {
-      "median": 0.1508,
-      "mean": 0.15382,
-      "std": 0.01357,
-      "valid_pixel_count": 17108
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 9.0
-    }
-  },
-  {
-    "water_body_id": "gosikhurd-reservoir",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20260320_0035",
-    "acquisition_date": "2026-03-20",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 2.049,
-    "valid_pixel_count": 17434,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.11658,
-      "mean": 0.11891,
-      "std": 0.01166,
-      "valid_pixel_count": 15860
-    },
-    "ndci": {
-      "median": 0.07738,
-      "mean": 0.07815,
-      "std": 0.00929,
-      "valid_pixel_count": 14979
+      "median": 0.07262,
+      "mean": 0.07335,
+      "std": 0.00871,
+      "valid_pixel_count": 15953
     },
     "fai": {
       "median": 0.01221,
       "mean": 0.01258,
       "std": 0.00183,
-      "valid_pixel_count": 14818
+      "valid_pixel_count": 14353
     },
     "suspended_sediment": {
-      "median": 0.16481,
-      "mean": 0.16811,
-      "std": 0.01483,
-      "valid_pixel_count": 16458
+      "median": 0.16976,
+      "mean": 0.17316,
+      "std": 0.01528,
+      "valid_pixel_count": 13957
     },
     "quality_metadata": {
       "data_source": "demo",
-      "cloud_pct": 8.8
+      "cloud_pct": 11.1
     }
   },
   {
     "water_body_id": "gosikhurd-reservoir",
     "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20260405_0036",
-    "acquisition_date": "2026-04-05",
+    "scene_id": "DEMO_S2_20250405_0012",
+    "acquisition_date": "2025-04-05",
     "sensor": "Sentinel-2",
-    "water_area_km2": 3.473,
-    "valid_pixel_count": 15117,
+    "water_area_km2": 3.082,
+    "valid_pixel_count": 17175,
     "observation_status": "valid",
     "ndti": {
-      "median": 0.14218,
-      "mean": 0.14502,
-      "std": 0.01422,
-      "valid_pixel_count": 14724
+      "median": 0.13668,
+      "mean": 0.13941,
+      "std": 0.01367,
+      "valid_pixel_count": 17804
     },
     "ndci": {
-      "median": 0.07861,
-      "mean": 0.0794,
-      "std": 0.00943,
-      "valid_pixel_count": 12223
+      "median": 0.08679,
+      "mean": 0.08766,
+      "std": 0.01041,
+      "valid_pixel_count": 13480
     },
     "fai": {
-      "median": 0.01344,
-      "mean": 0.01384,
-      "std": 0.00202,
-      "valid_pixel_count": 14426
+      "median": 0.01333,
+      "mean": 0.01373,
+      "std": 0.002,
+      "valid_pixel_count": 12457
     },
     "suspended_sediment": {
-      "median": 0.18349,
-      "mean": 0.18716,
-      "std": 0.01651,
-      "valid_pixel_count": 15495
+      "median": 0.18052,
+      "mean": 0.18413,
+      "std": 0.01625,
+      "valid_pixel_count": 16790
     },
     "quality_metadata": {
       "data_source": "demo",
-      "cloud_pct": 8.9
+      "cloud_pct": 11.3
     }
   },
   {
     "water_body_id": "gosikhurd-reservoir",
     "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20260420_0037",
-    "acquisition_date": "2026-04-20",
+    "scene_id": "DEMO_S2_20250420_0013",
+    "acquisition_date": "2025-04-20",
     "sensor": "Sentinel-2",
-    "water_area_km2": 3.286,
-    "valid_pixel_count": 14766,
+    "water_area_km2": 2.366,
+    "valid_pixel_count": 12331,
     "observation_status": "valid",
     "ndti": {
-      "median": 0.13955,
-      "mean": 0.14234,
-      "std": 0.01396,
-      "valid_pixel_count": 17998
+      "median": 0.12659,
+      "mean": 0.12912,
+      "std": 0.01266,
+      "valid_pixel_count": 14003
     },
     "ndci": {
-      "median": 0.0868,
-      "mean": 0.08767,
-      "std": 0.01042,
-      "valid_pixel_count": 17789
+      "median": 0.08162,
+      "mean": 0.08244,
+      "std": 0.00979,
+      "valid_pixel_count": 12487
     },
     "fai": {
-      "median": 0.01484,
-      "mean": 0.01529,
-      "std": 0.00223,
-      "valid_pixel_count": 12168
+      "median": 0.01456,
+      "mean": 0.015,
+      "std": 0.00218,
+      "valid_pixel_count": 17966
     },
     "suspended_sediment": {
-      "median": 0.16699,
-      "mean": 0.17033,
-      "std": 0.01503,
-      "valid_pixel_count": 16815
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 6.4
-    }
-  },
-  {
-    "water_body_id": "gosikhurd-reservoir",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20260505_0038",
-    "acquisition_date": "2026-05-05",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 2.22,
-    "valid_pixel_count": 12623,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.13019,
-      "mean": 0.13279,
-      "std": 0.01302,
-      "valid_pixel_count": 13139
-    },
-    "ndci": {
-      "median": 0.08568,
-      "mean": 0.08654,
-      "std": 0.01028,
-      "valid_pixel_count": 13386
-    },
-    "fai": {
-      "median": 0.01552,
-      "mean": 0.01599,
-      "std": 0.00233,
-      "valid_pixel_count": 15237
-    },
-    "suspended_sediment": {
-      "median": 0.19998,
-      "mean": 0.20398,
-      "std": 0.018,
-      "valid_pixel_count": 12543
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 5.6
-    }
-  },
-  {
-    "water_body_id": "gosikhurd-reservoir",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20260520_0039",
-    "acquisition_date": "2026-05-20",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 2.547,
-    "valid_pixel_count": 13420,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.13501,
-      "mean": 0.13771,
-      "std": 0.0135,
-      "valid_pixel_count": 15992
-    },
-    "ndci": {
-      "median": 0.09358,
-      "mean": 0.09452,
-      "std": 0.01123,
-      "valid_pixel_count": 15126
-    },
-    "fai": {
-      "median": 0.01634,
-      "mean": 0.01683,
-      "std": 0.00245,
-      "valid_pixel_count": 14967
-    },
-    "suspended_sediment": {
-      "median": 0.20633,
-      "mean": 0.21046,
-      "std": 0.01857,
-      "valid_pixel_count": 14729
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 7.1
-    }
-  },
-  {
-    "water_body_id": "gosikhurd-reservoir",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20260605_0040",
-    "acquisition_date": "2026-06-05",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 3.303,
-    "valid_pixel_count": 14168,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.17792,
-      "mean": 0.18148,
-      "std": 0.01779,
-      "valid_pixel_count": 15412
-    },
-    "ndci": {
-      "median": 0.07372,
-      "mean": 0.07446,
-      "std": 0.00885,
-      "valid_pixel_count": 12363
-    },
-    "fai": {
-      "median": 0.01302,
-      "mean": 0.01341,
-      "std": 0.00195,
-      "valid_pixel_count": 14479
-    },
-    "suspended_sediment": {
-      "median": 0.23276,
-      "mean": 0.23742,
-      "std": 0.02095,
-      "valid_pixel_count": 12523
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 7.3
-    }
-  },
-  {
-    "water_body_id": "gosikhurd-reservoir",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20260620_0041",
-    "acquisition_date": "2026-06-20",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 2.12,
-    "valid_pixel_count": 17057,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.15672,
-      "mean": 0.15985,
-      "std": 0.01567,
-      "valid_pixel_count": 17298
-    },
-    "ndci": {
-      "median": 0.07339,
-      "mean": 0.07412,
-      "std": 0.00881,
-      "valid_pixel_count": 16244
-    },
-    "fai": {
-      "median": 0.01315,
-      "mean": 0.01354,
-      "std": 0.00197,
-      "valid_pixel_count": 12551
-    },
-    "suspended_sediment": {
-      "median": 0.25611,
-      "mean": 0.26123,
-      "std": 0.02305,
-      "valid_pixel_count": 12000
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 8.9
-    }
-  },
-  {
-    "water_body_id": "gosikhurd-reservoir",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20260705_0042",
-    "acquisition_date": "2026-07-05",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 3.495,
-    "valid_pixel_count": 14185,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.20727,
-      "mean": 0.21142,
-      "std": 0.02073,
-      "valid_pixel_count": 17091
-    },
-    "ndci": {
-      "median": 0.06509,
-      "mean": 0.06574,
-      "std": 0.00781,
-      "valid_pixel_count": 15764
-    },
-    "fai": {
-      "median": 0.01095,
-      "mean": 0.01128,
-      "std": 0.00164,
-      "valid_pixel_count": 13674
-    },
-    "suspended_sediment": {
-      "median": 0.28368,
-      "mean": 0.28935,
-      "std": 0.02553,
-      "valid_pixel_count": 12955
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 11.9
-    }
-  },
-  {
-    "water_body_id": "gosikhurd-reservoir",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20260720_0043",
-    "acquisition_date": "2026-07-20",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 2.976,
-    "valid_pixel_count": 15949,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.19662,
-      "mean": 0.20055,
-      "std": 0.01966,
-      "valid_pixel_count": 16423
-    },
-    "ndci": {
-      "median": 0.05926,
-      "mean": 0.05985,
-      "std": 0.00711,
-      "valid_pixel_count": 12435
-    },
-    "fai": {
-      "median": 0.01005,
-      "mean": 0.01035,
-      "std": 0.00151,
-      "valid_pixel_count": 13076
-    },
-    "suspended_sediment": {
-      "median": 0.29686,
-      "mean": 0.3028,
-      "std": 0.02672,
-      "valid_pixel_count": 15795
-    },
-    "quality_metadata": {
-      "data_source": "demo",
-      "cloud_pct": 4.4
-    }
-  },
-  {
-    "water_body_id": "gosikhurd-reservoir",
-    "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20260805_0044",
-    "acquisition_date": "2026-08-05",
-    "sensor": "Sentinel-2",
-    "water_area_km2": 2.045,
-    "valid_pixel_count": 12721,
-    "observation_status": "valid",
-    "ndti": {
-      "median": 0.17201,
-      "mean": 0.17545,
-      "std": 0.0172,
-      "valid_pixel_count": 17533
-    },
-    "ndci": {
-      "median": 0.0713,
-      "mean": 0.07201,
-      "std": 0.00856,
-      "valid_pixel_count": 12374
-    },
-    "fai": {
-      "median": 0.01094,
-      "mean": 0.01127,
-      "std": 0.00164,
-      "valid_pixel_count": 12970
-    },
-    "suspended_sediment": {
-      "median": 0.26257,
-      "mean": 0.26782,
-      "std": 0.02363,
-      "valid_pixel_count": 12530
+      "median": 0.17301,
+      "mean": 0.17647,
+      "std": 0.01557,
+      "valid_pixel_count": 14637
     },
     "quality_metadata": {
       "data_source": "demo",
@@ -3536,39 +2358,1217 @@
   {
     "water_body_id": "gosikhurd-reservoir",
     "zone_id": "zone-main",
-    "scene_id": "DEMO_S2_20260820_0045",
-    "acquisition_date": "2026-08-20",
+    "scene_id": "DEMO_S2_20250505_0014",
+    "acquisition_date": "2025-05-05",
     "sensor": "Sentinel-2",
-    "water_area_km2": 2.831,
-    "valid_pixel_count": 12990,
+    "water_area_km2": 2.643,
+    "valid_pixel_count": 13280,
     "observation_status": "valid",
     "ndti": {
-      "median": 0.1876,
-      "mean": 0.19135,
-      "std": 0.01876,
-      "valid_pixel_count": 16939
+      "median": 0.13643,
+      "mean": 0.13916,
+      "std": 0.01364,
+      "valid_pixel_count": 14345
     },
     "ndci": {
-      "median": 0.06723,
-      "mean": 0.0679,
-      "std": 0.00807,
-      "valid_pixel_count": 14999
+      "median": 0.09814,
+      "mean": 0.09912,
+      "std": 0.01178,
+      "valid_pixel_count": 16463
     },
     "fai": {
-      "median": 0.01026,
-      "mean": 0.01057,
-      "std": 0.00154,
-      "valid_pixel_count": 14309
+      "median": 0.01466,
+      "mean": 0.0151,
+      "std": 0.0022,
+      "valid_pixel_count": 16134
     },
     "suspended_sediment": {
-      "median": 0.28459,
-      "mean": 0.29028,
-      "std": 0.02561,
-      "valid_pixel_count": 14163
+      "median": 0.1818,
+      "mean": 0.18544,
+      "std": 0.01636,
+      "valid_pixel_count": 17717
     },
     "quality_metadata": {
       "data_source": "demo",
-      "cloud_pct": 4.4
+      "cloud_pct": 12.8
+    }
+  },
+  {
+    "water_body_id": "gosikhurd-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20250520_0015",
+    "acquisition_date": "2025-05-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.189,
+    "valid_pixel_count": 13062,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.12975,
+      "mean": 0.13235,
+      "std": 0.01298,
+      "valid_pixel_count": 17767
+    },
+    "ndci": {
+      "median": 0.09141,
+      "mean": 0.09232,
+      "std": 0.01097,
+      "valid_pixel_count": 13081
+    },
+    "fai": {
+      "median": 0.01551,
+      "mean": 0.01598,
+      "std": 0.00233,
+      "valid_pixel_count": 16282
+    },
+    "suspended_sediment": {
+      "median": 0.18464,
+      "mean": 0.18833,
+      "std": 0.01662,
+      "valid_pixel_count": 12454
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 8.5
+    }
+  },
+  {
+    "water_body_id": "gosikhurd-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20250605_0016",
+    "acquisition_date": "2025-06-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.452,
+    "valid_pixel_count": 17019,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.16266,
+      "mean": 0.16591,
+      "std": 0.01627,
+      "valid_pixel_count": 15407
+    },
+    "ndci": {
+      "median": 0.08164,
+      "mean": 0.08246,
+      "std": 0.0098,
+      "valid_pixel_count": 13744
+    },
+    "fai": {
+      "median": 0.01325,
+      "mean": 0.01365,
+      "std": 0.00199,
+      "valid_pixel_count": 14175
+    },
+    "suspended_sediment": {
+      "median": 0.22543,
+      "mean": 0.22994,
+      "std": 0.02029,
+      "valid_pixel_count": 14864
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 8.8
+    }
+  },
+  {
+    "water_body_id": "gosikhurd-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20250620_0017",
+    "acquisition_date": "2025-06-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 3.051,
+    "valid_pixel_count": 16442,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.1734,
+      "mean": 0.17687,
+      "std": 0.01734,
+      "valid_pixel_count": 17610
+    },
+    "ndci": {
+      "median": 0.07211,
+      "mean": 0.07283,
+      "std": 0.00865,
+      "valid_pixel_count": 12975
+    },
+    "fai": {
+      "median": 0.01284,
+      "mean": 0.01323,
+      "std": 0.00193,
+      "valid_pixel_count": 12113
+    },
+    "suspended_sediment": {
+      "median": 0.25478,
+      "mean": 0.25988,
+      "std": 0.02293,
+      "valid_pixel_count": 13372
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 10.0
+    }
+  },
+  {
+    "water_body_id": "gosikhurd-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20250705_0018",
+    "acquisition_date": "2025-07-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.065,
+    "valid_pixel_count": 12316,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.17798,
+      "mean": 0.18154,
+      "std": 0.0178,
+      "valid_pixel_count": 16637
+    },
+    "ndci": {
+      "median": 0.06625,
+      "mean": 0.06691,
+      "std": 0.00795,
+      "valid_pixel_count": 12875
+    },
+    "fai": {
+      "median": 0.01038,
+      "mean": 0.01069,
+      "std": 0.00156,
+      "valid_pixel_count": 12793
+    },
+    "suspended_sediment": {
+      "median": 0.27725,
+      "mean": 0.2828,
+      "std": 0.02495,
+      "valid_pixel_count": 17608
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 13.6
+    }
+  },
+  {
+    "water_body_id": "gosikhurd-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20250720_0019",
+    "acquisition_date": "2025-07-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 3.408,
+    "valid_pixel_count": 12641,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.20547,
+      "mean": 0.20958,
+      "std": 0.02055,
+      "valid_pixel_count": 16268
+    },
+    "ndci": {
+      "median": 0.06486,
+      "mean": 0.06551,
+      "std": 0.00778,
+      "valid_pixel_count": 14380
+    },
+    "fai": {
+      "median": 0.01071,
+      "mean": 0.01103,
+      "std": 0.00161,
+      "valid_pixel_count": 17736
+    },
+    "suspended_sediment": {
+      "median": 0.27056,
+      "mean": 0.27597,
+      "std": 0.02435,
+      "valid_pixel_count": 16477
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 11.9
+    }
+  },
+  {
+    "water_body_id": "gosikhurd-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20250805_0020",
+    "acquisition_date": "2025-08-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.144,
+    "valid_pixel_count": 12677,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.17398,
+      "mean": 0.17746,
+      "std": 0.0174,
+      "valid_pixel_count": 15449
+    },
+    "ndci": {
+      "median": 0.06867,
+      "mean": 0.06936,
+      "std": 0.00824,
+      "valid_pixel_count": 12905
+    },
+    "fai": {
+      "median": 0.00967,
+      "mean": 0.00996,
+      "std": 0.00145,
+      "valid_pixel_count": 16084
+    },
+    "suspended_sediment": {
+      "median": 0.29149,
+      "mean": 0.29732,
+      "std": 0.02623,
+      "valid_pixel_count": 12628
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 12.9
+    }
+  },
+  {
+    "water_body_id": "gosikhurd-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20250820_0021",
+    "acquisition_date": "2025-08-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.56,
+    "valid_pixel_count": 14452,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.18223,
+      "mean": 0.18587,
+      "std": 0.01822,
+      "valid_pixel_count": 12713
+    },
+    "ndci": {
+      "median": 0.06716,
+      "mean": 0.06783,
+      "std": 0.00806,
+      "valid_pixel_count": 15823
+    },
+    "fai": {
+      "median": 0.01071,
+      "mean": 0.01103,
+      "std": 0.00161,
+      "valid_pixel_count": 14515
+    },
+    "suspended_sediment": {
+      "median": 0.27616,
+      "mean": 0.28168,
+      "std": 0.02485,
+      "valid_pixel_count": 15478
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 6.3
+    }
+  },
+  {
+    "water_body_id": "gosikhurd-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20250905_0022",
+    "acquisition_date": "2025-09-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 3.385,
+    "valid_pixel_count": 13622,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.18579,
+      "mean": 0.18951,
+      "std": 0.01858,
+      "valid_pixel_count": 12151
+    },
+    "ndci": {
+      "median": 0.07362,
+      "mean": 0.07436,
+      "std": 0.00883,
+      "valid_pixel_count": 13179
+    },
+    "fai": {
+      "median": 0.01181,
+      "mean": 0.01216,
+      "std": 0.00177,
+      "valid_pixel_count": 14871
+    },
+    "suspended_sediment": {
+      "median": 0.23668,
+      "mean": 0.24141,
+      "std": 0.0213,
+      "valid_pixel_count": 12112
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 12.7
+    }
+  },
+  {
+    "water_body_id": "gosikhurd-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20250920_0023",
+    "acquisition_date": "2025-09-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.223,
+    "valid_pixel_count": 14948,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.16422,
+      "mean": 0.1675,
+      "std": 0.01642,
+      "valid_pixel_count": 13041
+    },
+    "ndci": {
+      "median": 0.07294,
+      "mean": 0.07367,
+      "std": 0.00875,
+      "valid_pixel_count": 17302
+    },
+    "fai": {
+      "median": 0.01144,
+      "mean": 0.01178,
+      "std": 0.00172,
+      "valid_pixel_count": 16648
+    },
+    "suspended_sediment": {
+      "median": 0.24891,
+      "mean": 0.25389,
+      "std": 0.0224,
+      "valid_pixel_count": 12668
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 4.8
+    }
+  },
+  {
+    "water_body_id": "gosikhurd-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20251005_0024",
+    "acquisition_date": "2025-10-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.328,
+    "valid_pixel_count": 13732,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.13751,
+      "mean": 0.14026,
+      "std": 0.01375,
+      "valid_pixel_count": 16878
+    },
+    "ndci": {
+      "median": 0.07338,
+      "mean": 0.07411,
+      "std": 0.00881,
+      "valid_pixel_count": 15179
+    },
+    "fai": {
+      "median": 0.0142,
+      "mean": 0.01463,
+      "std": 0.00213,
+      "valid_pixel_count": 13919
+    },
+    "suspended_sediment": {
+      "median": 0.2176,
+      "mean": 0.22195,
+      "std": 0.01958,
+      "valid_pixel_count": 17352
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 7.3
+    }
+  },
+  {
+    "water_body_id": "gosikhurd-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20251020_0025",
+    "acquisition_date": "2025-10-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.922,
+    "valid_pixel_count": 13542,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.14665,
+      "mean": 0.14958,
+      "std": 0.01467,
+      "valid_pixel_count": 16114
+    },
+    "ndci": {
+      "median": 0.07886,
+      "mean": 0.07965,
+      "std": 0.00946,
+      "valid_pixel_count": 14879
+    },
+    "fai": {
+      "median": 0.01248,
+      "mean": 0.01285,
+      "std": 0.00187,
+      "valid_pixel_count": 12077
+    },
+    "suspended_sediment": {
+      "median": 0.21744,
+      "mean": 0.22179,
+      "std": 0.01957,
+      "valid_pixel_count": 15525
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 12.5
+    }
+  },
+  {
+    "water_body_id": "gosikhurd-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20251105_0026",
+    "acquisition_date": "2025-11-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 3.016,
+    "valid_pixel_count": 13580,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.12957,
+      "mean": 0.13216,
+      "std": 0.01296,
+      "valid_pixel_count": 13314
+    },
+    "ndci": {
+      "median": 0.07519,
+      "mean": 0.07594,
+      "std": 0.00902,
+      "valid_pixel_count": 16968
+    },
+    "fai": {
+      "median": 0.01228,
+      "mean": 0.01265,
+      "std": 0.00184,
+      "valid_pixel_count": 17529
+    },
+    "suspended_sediment": {
+      "median": 0.17835,
+      "mean": 0.18192,
+      "std": 0.01605,
+      "valid_pixel_count": 14931
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 7.2
+    }
+  },
+  {
+    "water_body_id": "gosikhurd-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20251120_0027",
+    "acquisition_date": "2025-11-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.849,
+    "valid_pixel_count": 17963,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.12733,
+      "mean": 0.12988,
+      "std": 0.01273,
+      "valid_pixel_count": 17135
+    },
+    "ndci": {
+      "median": 0.07275,
+      "mean": 0.07348,
+      "std": 0.00873,
+      "valid_pixel_count": 15431
+    },
+    "fai": {
+      "median": 0.01192,
+      "mean": 0.01228,
+      "std": 0.00179,
+      "valid_pixel_count": 13773
+    },
+    "suspended_sediment": {
+      "median": 0.16579,
+      "mean": 0.16911,
+      "std": 0.01492,
+      "valid_pixel_count": 13123
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 14.3
+    }
+  },
+  {
+    "water_body_id": "gosikhurd-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20251205_0028",
+    "acquisition_date": "2025-12-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 3.433,
+    "valid_pixel_count": 16180,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.12875,
+      "mean": 0.13132,
+      "std": 0.01288,
+      "valid_pixel_count": 12093
+    },
+    "ndci": {
+      "median": 0.07316,
+      "mean": 0.07389,
+      "std": 0.00878,
+      "valid_pixel_count": 15663
+    },
+    "fai": {
+      "median": 0.01155,
+      "mean": 0.0119,
+      "std": 0.00173,
+      "valid_pixel_count": 14051
+    },
+    "suspended_sediment": {
+      "median": 0.17098,
+      "mean": 0.1744,
+      "std": 0.01539,
+      "valid_pixel_count": 13292
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 3.6
+    }
+  },
+  {
+    "water_body_id": "gosikhurd-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20251220_0029",
+    "acquisition_date": "2025-12-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 3.225,
+    "valid_pixel_count": 15526,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.12608,
+      "mean": 0.1286,
+      "std": 0.01261,
+      "valid_pixel_count": 14596
+    },
+    "ndci": {
+      "median": 0.06737,
+      "mean": 0.06804,
+      "std": 0.00808,
+      "valid_pixel_count": 16333
+    },
+    "fai": {
+      "median": 0.01128,
+      "mean": 0.01162,
+      "std": 0.00169,
+      "valid_pixel_count": 15760
+    },
+    "suspended_sediment": {
+      "median": 0.1596,
+      "mean": 0.16279,
+      "std": 0.01436,
+      "valid_pixel_count": 14360
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 7.1
+    }
+  },
+  {
+    "water_body_id": "gosikhurd-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20260105_0030",
+    "acquisition_date": "2026-01-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 3.374,
+    "valid_pixel_count": 12492,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.12799,
+      "mean": 0.13055,
+      "std": 0.0128,
+      "valid_pixel_count": 14720
+    },
+    "ndci": {
+      "median": 0.07476,
+      "mean": 0.07551,
+      "std": 0.00897,
+      "valid_pixel_count": 15464
+    },
+    "fai": {
+      "median": 0.01209,
+      "mean": 0.01245,
+      "std": 0.00181,
+      "valid_pixel_count": 17628
+    },
+    "suspended_sediment": {
+      "median": 0.17122,
+      "mean": 0.17464,
+      "std": 0.01541,
+      "valid_pixel_count": 17656
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 12.4
+    }
+  },
+  {
+    "water_body_id": "gosikhurd-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20260120_0031",
+    "acquisition_date": "2026-01-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.078,
+    "valid_pixel_count": 16373,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.1114,
+      "mean": 0.11363,
+      "std": 0.01114,
+      "valid_pixel_count": 16712
+    },
+    "ndci": {
+      "median": 0.06744,
+      "mean": 0.06811,
+      "std": 0.00809,
+      "valid_pixel_count": 14143
+    },
+    "fai": {
+      "median": 0.01153,
+      "mean": 0.01188,
+      "std": 0.00173,
+      "valid_pixel_count": 16781
+    },
+    "suspended_sediment": {
+      "median": 0.15356,
+      "mean": 0.15663,
+      "std": 0.01382,
+      "valid_pixel_count": 17178
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 10.1
+    }
+  },
+  {
+    "water_body_id": "gosikhurd-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20260205_0032",
+    "acquisition_date": "2026-02-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.38,
+    "valid_pixel_count": 16412,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.1095,
+      "mean": 0.11169,
+      "std": 0.01095,
+      "valid_pixel_count": 12336
+    },
+    "ndci": {
+      "median": 0.07363,
+      "mean": 0.07437,
+      "std": 0.00884,
+      "valid_pixel_count": 14057
+    },
+    "fai": {
+      "median": 0.01249,
+      "mean": 0.01286,
+      "std": 0.00187,
+      "valid_pixel_count": 15889
+    },
+    "suspended_sediment": {
+      "median": 0.14365,
+      "mean": 0.14652,
+      "std": 0.01293,
+      "valid_pixel_count": 14712
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 12.2
+    }
+  },
+  {
+    "water_body_id": "gosikhurd-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20260220_0033",
+    "acquisition_date": "2026-02-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.884,
+    "valid_pixel_count": 17401,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.11562,
+      "mean": 0.11793,
+      "std": 0.01156,
+      "valid_pixel_count": 16767
+    },
+    "ndci": {
+      "median": 0.06801,
+      "mean": 0.06869,
+      "std": 0.00816,
+      "valid_pixel_count": 15926
+    },
+    "fai": {
+      "median": 0.0129,
+      "mean": 0.01329,
+      "std": 0.00193,
+      "valid_pixel_count": 13205
+    },
+    "suspended_sediment": {
+      "median": 0.14687,
+      "mean": 0.14981,
+      "std": 0.01322,
+      "valid_pixel_count": 16056
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 9.2
+    }
+  },
+  {
+    "water_body_id": "gosikhurd-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20260305_0034",
+    "acquisition_date": "2026-03-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 3.338,
+    "valid_pixel_count": 14352,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.1339,
+      "mean": 0.13658,
+      "std": 0.01339,
+      "valid_pixel_count": 14667
+    },
+    "ndci": {
+      "median": 0.07733,
+      "mean": 0.0781,
+      "std": 0.00928,
+      "valid_pixel_count": 15943
+    },
+    "fai": {
+      "median": 0.01163,
+      "mean": 0.01198,
+      "std": 0.00174,
+      "valid_pixel_count": 13673
+    },
+    "suspended_sediment": {
+      "median": 0.15155,
+      "mean": 0.15458,
+      "std": 0.01364,
+      "valid_pixel_count": 13535
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 6.8
+    }
+  },
+  {
+    "water_body_id": "gosikhurd-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20260320_0035",
+    "acquisition_date": "2026-03-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.772,
+    "valid_pixel_count": 14876,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.12629,
+      "mean": 0.12882,
+      "std": 0.01263,
+      "valid_pixel_count": 17486
+    },
+    "ndci": {
+      "median": 0.07267,
+      "mean": 0.0734,
+      "std": 0.00872,
+      "valid_pixel_count": 12778
+    },
+    "fai": {
+      "median": 0.01294,
+      "mean": 0.01333,
+      "std": 0.00194,
+      "valid_pixel_count": 16170
+    },
+    "suspended_sediment": {
+      "median": 0.15575,
+      "mean": 0.15887,
+      "std": 0.01402,
+      "valid_pixel_count": 15656
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 14.3
+    }
+  },
+  {
+    "water_body_id": "gosikhurd-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20260405_0036",
+    "acquisition_date": "2026-04-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.9,
+    "valid_pixel_count": 17785,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.13411,
+      "mean": 0.13679,
+      "std": 0.01341,
+      "valid_pixel_count": 16741
+    },
+    "ndci": {
+      "median": 0.08891,
+      "mean": 0.0898,
+      "std": 0.01067,
+      "valid_pixel_count": 15123
+    },
+    "fai": {
+      "median": 0.01489,
+      "mean": 0.01534,
+      "std": 0.00223,
+      "valid_pixel_count": 15952
+    },
+    "suspended_sediment": {
+      "median": 0.16263,
+      "mean": 0.16588,
+      "std": 0.01464,
+      "valid_pixel_count": 15070
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 13.6
+    }
+  },
+  {
+    "water_body_id": "gosikhurd-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20260420_0037",
+    "acquisition_date": "2026-04-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.713,
+    "valid_pixel_count": 16421,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.13148,
+      "mean": 0.13411,
+      "std": 0.01315,
+      "valid_pixel_count": 16009
+    },
+    "ndci": {
+      "median": 0.08382,
+      "mean": 0.08466,
+      "std": 0.01006,
+      "valid_pixel_count": 12456
+    },
+    "fai": {
+      "median": 0.01384,
+      "mean": 0.01426,
+      "std": 0.00208,
+      "valid_pixel_count": 16470
+    },
+    "suspended_sediment": {
+      "median": 0.18837,
+      "mean": 0.19214,
+      "std": 0.01695,
+      "valid_pixel_count": 17094
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 14.6
+    }
+  },
+  {
+    "water_body_id": "gosikhurd-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20260505_0038",
+    "acquisition_date": "2026-05-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.851,
+    "valid_pixel_count": 13132,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.13949,
+      "mean": 0.14228,
+      "std": 0.01395,
+      "valid_pixel_count": 15714
+    },
+    "ndci": {
+      "median": 0.09379,
+      "mean": 0.09473,
+      "std": 0.01125,
+      "valid_pixel_count": 14499
+    },
+    "fai": {
+      "median": 0.01518,
+      "mean": 0.01564,
+      "std": 0.00228,
+      "valid_pixel_count": 16840
+    },
+    "suspended_sediment": {
+      "median": 0.20272,
+      "mean": 0.20677,
+      "std": 0.01824,
+      "valid_pixel_count": 12008
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 6.4
+    }
+  },
+  {
+    "water_body_id": "gosikhurd-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20260520_0039",
+    "acquisition_date": "2026-05-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.836,
+    "valid_pixel_count": 14342,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.13927,
+      "mean": 0.14206,
+      "std": 0.01393,
+      "valid_pixel_count": 17620
+    },
+    "ndci": {
+      "median": 0.096,
+      "mean": 0.09696,
+      "std": 0.01152,
+      "valid_pixel_count": 16205
+    },
+    "fai": {
+      "median": 0.01562,
+      "mean": 0.01609,
+      "std": 0.00234,
+      "valid_pixel_count": 17031
+    },
+    "suspended_sediment": {
+      "median": 0.20428,
+      "mean": 0.20837,
+      "std": 0.01839,
+      "valid_pixel_count": 16024
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 4.3
+    }
+  },
+  {
+    "water_body_id": "gosikhurd-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20260605_0040",
+    "acquisition_date": "2026-06-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.866,
+    "valid_pixel_count": 14840,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.17008,
+      "mean": 0.17348,
+      "std": 0.01701,
+      "valid_pixel_count": 14447
+    },
+    "ndci": {
+      "median": 0.07885,
+      "mean": 0.07964,
+      "std": 0.00946,
+      "valid_pixel_count": 13082
+    },
+    "fai": {
+      "median": 0.01318,
+      "mean": 0.01358,
+      "std": 0.00198,
+      "valid_pixel_count": 15175
+    },
+    "suspended_sediment": {
+      "median": 0.25649,
+      "mean": 0.26162,
+      "std": 0.02308,
+      "valid_pixel_count": 12700
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 6.4
+    }
+  },
+  {
+    "water_body_id": "gosikhurd-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20260620_0041",
+    "acquisition_date": "2026-06-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.993,
+    "valid_pixel_count": 15899,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.17235,
+      "mean": 0.1758,
+      "std": 0.01724,
+      "valid_pixel_count": 16718
+    },
+    "ndci": {
+      "median": 0.07591,
+      "mean": 0.07667,
+      "std": 0.00911,
+      "valid_pixel_count": 15918
+    },
+    "fai": {
+      "median": 0.01311,
+      "mean": 0.0135,
+      "std": 0.00197,
+      "valid_pixel_count": 17644
+    },
+    "suspended_sediment": {
+      "median": 0.2579,
+      "mean": 0.26306,
+      "std": 0.02321,
+      "valid_pixel_count": 14088
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 14.7
+    }
+  },
+  {
+    "water_body_id": "gosikhurd-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20260705_0042",
+    "acquisition_date": "2026-07-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.722,
+    "valid_pixel_count": 13862,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.19143,
+      "mean": 0.19526,
+      "std": 0.01914,
+      "valid_pixel_count": 15133
+    },
+    "ndci": {
+      "median": 0.06574,
+      "mean": 0.0664,
+      "std": 0.00789,
+      "valid_pixel_count": 16808
+    },
+    "fai": {
+      "median": 0.01109,
+      "mean": 0.01142,
+      "std": 0.00166,
+      "valid_pixel_count": 13848
+    },
+    "suspended_sediment": {
+      "median": 0.30915,
+      "mean": 0.31533,
+      "std": 0.02782,
+      "valid_pixel_count": 17115
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 5.9
+    }
+  },
+  {
+    "water_body_id": "gosikhurd-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20260720_0043",
+    "acquisition_date": "2026-07-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 3.495,
+    "valid_pixel_count": 12514,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.20725,
+      "mean": 0.21139,
+      "std": 0.02073,
+      "valid_pixel_count": 17790
+    },
+    "ndci": {
+      "median": 0.06194,
+      "mean": 0.06256,
+      "std": 0.00743,
+      "valid_pixel_count": 12562
+    },
+    "fai": {
+      "median": 0.01105,
+      "mean": 0.01138,
+      "std": 0.00166,
+      "valid_pixel_count": 12213
+    },
+    "suspended_sediment": {
+      "median": 0.2953,
+      "mean": 0.30121,
+      "std": 0.02658,
+      "valid_pixel_count": 14522
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 14.1
+    }
+  },
+  {
+    "water_body_id": "gosikhurd-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20260805_0044",
+    "acquisition_date": "2026-08-05",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 2.984,
+    "valid_pixel_count": 16157,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.19064,
+      "mean": 0.19445,
+      "std": 0.01906,
+      "valid_pixel_count": 16203
+    },
+    "ndci": {
+      "median": 0.06914,
+      "mean": 0.06983,
+      "std": 0.0083,
+      "valid_pixel_count": 14779
+    },
+    "fai": {
+      "median": 0.01052,
+      "mean": 0.01084,
+      "std": 0.00158,
+      "valid_pixel_count": 14115
+    },
+    "suspended_sediment": {
+      "median": 0.26756,
+      "mean": 0.27291,
+      "std": 0.02408,
+      "valid_pixel_count": 16730
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 9.9
+    }
+  },
+  {
+    "water_body_id": "gosikhurd-reservoir",
+    "zone_id": "zone-main",
+    "scene_id": "DEMO_S2_20260820_0045",
+    "acquisition_date": "2026-08-20",
+    "sensor": "Sentinel-2",
+    "water_area_km2": 3.098,
+    "valid_pixel_count": 16122,
+    "observation_status": "valid",
+    "ndti": {
+      "median": 0.1929,
+      "mean": 0.19676,
+      "std": 0.01929,
+      "valid_pixel_count": 14712
+    },
+    "ndci": {
+      "median": 0.06546,
+      "mean": 0.06611,
+      "std": 0.00786,
+      "valid_pixel_count": 13856
+    },
+    "fai": {
+      "median": 0.00944,
+      "mean": 0.00972,
+      "std": 0.00142,
+      "valid_pixel_count": 15549
+    },
+    "suspended_sediment": {
+      "median": 0.28393,
+      "mean": 0.28961,
+      "std": 0.02555,
+      "valid_pixel_count": 16061
+    },
+    "quality_metadata": {
+      "data_source": "demo",
+      "cloud_pct": 12.0
     }
   },
   {
@@ -3577,36 +3577,36 @@
     "scene_id": "DEMO_S2_20260905_0046",
     "acquisition_date": "2026-09-05",
     "sensor": "Sentinel-2",
-    "water_area_km2": 2.587,
-    "valid_pixel_count": 16620,
+    "water_area_km2": 2.677,
+    "valid_pixel_count": 15869,
     "observation_status": "valid",
     "ndti": {
-      "median": 0.17097,
-      "mean": 0.17439,
-      "std": 0.0171,
-      "valid_pixel_count": 15020
+      "median": 0.17264,
+      "mean": 0.17609,
+      "std": 0.01726,
+      "valid_pixel_count": 12039
     },
     "ndci": {
-      "median": 0.06976,
-      "mean": 0.07046,
-      "std": 0.00837,
-      "valid_pixel_count": 17739
+      "median": 0.06642,
+      "mean": 0.06708,
+      "std": 0.00797,
+      "valid_pixel_count": 14443
     },
     "fai": {
-      "median": 0.01119,
-      "mean": 0.01153,
-      "std": 0.00168,
-      "valid_pixel_count": 15023
+      "median": 0.01164,
+      "mean": 0.01199,
+      "std": 0.00175,
+      "valid_pixel_count": 14638
     },
     "suspended_sediment": {
-      "median": 0.25505,
-      "mean": 0.26015,
-      "std": 0.02295,
-      "valid_pixel_count": 12687
+      "median": 0.2538,
+      "mean": 0.25888,
+      "std": 0.02284,
+      "valid_pixel_count": 15838
     },
     "quality_metadata": {
       "data_source": "demo",
-      "cloud_pct": 11.7
+      "cloud_pct": 7.8
     }
   },
   {
@@ -3615,36 +3615,36 @@
     "scene_id": "DEMO_S2_20260920_0047",
     "acquisition_date": "2026-09-20",
     "sensor": "Sentinel-2",
-    "water_area_km2": 2.939,
-    "valid_pixel_count": 15683,
+    "water_area_km2": 2.151,
+    "valid_pixel_count": 17928,
     "observation_status": "valid",
     "ndti": {
-      "median": 0.17751,
-      "mean": 0.18106,
-      "std": 0.01775,
-      "valid_pixel_count": 16696
+      "median": 0.16288,
+      "mean": 0.16614,
+      "std": 0.01629,
+      "valid_pixel_count": 16033
     },
     "ndci": {
-      "median": 0.06982,
-      "mean": 0.07052,
-      "std": 0.00838,
-      "valid_pixel_count": 15385
+      "median": 0.07347,
+      "mean": 0.0742,
+      "std": 0.00882,
+      "valid_pixel_count": 12440
     },
     "fai": {
-      "median": 0.0121,
-      "mean": 0.01246,
+      "median": 0.01204,
+      "mean": 0.0124,
       "std": 0.00181,
-      "valid_pixel_count": 15845
+      "valid_pixel_count": 15982
     },
     "suspended_sediment": {
-      "median": 0.24945,
-      "mean": 0.25444,
-      "std": 0.02245,
-      "valid_pixel_count": 17140
+      "median": 0.23982,
+      "mean": 0.24462,
+      "std": 0.02158,
+      "valid_pixel_count": 16114
     },
     "quality_metadata": {
       "data_source": "demo",
-      "cloud_pct": 5.8
+      "cloud_pct": 6.9
     }
   }
 ]

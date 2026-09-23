@@ -1,5 +1,5 @@
 import React from 'react';
-import { LabResult } from '../../../../types/validation';
+import type { LabResult } from '../../../types/validation';
 
 interface LabResultsTableProps {
   results: LabResult[];

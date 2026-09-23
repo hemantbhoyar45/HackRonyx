@@ -124,5 +124,68 @@
     "changed_at": "2026-09-23T05:24:55.147663+00:00",
     "changed_by": "operator",
     "reason": "Need expert review"
+  },
+  {
+    "id": "HST-EBFE66B7",
+    "validation_id": "VAL-20260923-A36153",
+    "previous_status": "FIELD_COLLECTED",
+    "new_status": "LAB_AVAILABLE",
+    "changed_at": "2026-09-23T05:30:31.358489+00:00",
+    "changed_by": "system",
+    "reason": "Lab result added"
+  },
+  {
+    "id": "HST-AC764838",
+    "validation_id": "VAL-20260923-A36153",
+    "previous_status": "LAB_AVAILABLE",
+    "new_status": "INCONCLUSIVE",
+    "changed_at": "2026-09-23T05:30:31.379978+00:00",
+    "changed_by": "comparison_engine",
+    "reason": "Automatic rule-based comparison"
+  },
+  {
+    "id": "HST-E36B6C93",
+    "validation_id": "VAL-20260923-77DDA7",
+    "previous_status": "FIELD_COLLECTED",
+    "new_status": "LAB_AVAILABLE",
+    "changed_at": "2026-09-23T05:30:31.412977+00:00",
+    "changed_by": "system",
+    "reason": "Lab result added"
+  },
+  {
+    "id": "HST-A9306CA2",
+    "validation_id": "VAL-20260923-77DDA7",
+    "previous_status": "LAB_AVAILABLE",
+    "new_status": "SUPPORTED",
+    "changed_at": "2026-09-23T05:30:31.429264+00:00",
+    "changed_by": "comparison_engine",
+    "reason": "Automatic rule-based comparison"
+  },
+  {
+    "id": "HST-394CD726",
+    "validation_id": "VAL-20260923-409AF5",
+    "previous_status": "FIELD_COLLECTED",
+    "new_status": "LAB_AVAILABLE",
+    "changed_at": "2026-09-23T05:30:31.465278+00:00",
+    "changed_by": "system",
+    "reason": "Lab result added"
+  },
+  {
+    "id": "HST-424143DE",
+    "validation_id": "VAL-20260923-409AF5",
+    "previous_status": "LAB_AVAILABLE",
+    "new_status": "NOT_SUPPORTED",
+    "changed_at": "2026-09-23T05:30:31.481787+00:00",
+    "changed_by": "comparison_engine",
+    "reason": "Automatic rule-based comparison"
+  },
+  {
+    "id": "HST-F1AD73C0",
+    "validation_id": "VAL-20260923-F6E55F",
+    "previous_status": "FIELD_COLLECTED",
+    "new_status": "REVIEW_REQUIRED",
+    "changed_at": "2026-09-23T05:30:31.511858+00:00",
+    "changed_by": "operator",
+    "reason": "Need expert review"
   }
 ]

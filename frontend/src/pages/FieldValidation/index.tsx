@@ -6,7 +6,7 @@ import { LabResultsTable } from './components/LabResultsTable';
 import { ValidationStatusPanel } from './components/ValidationStatusPanel';
 import { validationService } from '../../services/api/validationService';
 import { queueService } from '../../services/api/queueService';
-import {
+import type {
   FieldSampleCreate,
   LabResultCreate,
   ValidationRecord,
