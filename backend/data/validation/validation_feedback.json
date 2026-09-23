@@ -1,0 +1,92 @@
+[
+  {
+    "feedback_id": "FBK-5D62DCA9",
+    "validation_id": "VAL-20260923-FED9BB",
+    "analysis_id": null,
+    "alert_id": null,
+    "water_body_id": "test-body",
+    "zone_id": "zone-c",
+    "feature_snapshot": {},
+    "validation_label": "INCONCLUSIVE",
+    "created_at": "2026-09-23T05:24:19.839644+00:00"
+  },
+  {
+    "feedback_id": "FBK-0ADED89D",
+    "validation_id": "VAL-20260923-29F419",
+    "analysis_id": null,
+    "alert_id": null,
+    "water_body_id": "test-body-2",
+    "zone_id": "zone-a",
+    "feature_snapshot": {
+      "ndti_deviation": 0.1,
+      "satellite_value": 0.2,
+      "satellite_baseline": 0.1,
+      "temporal_difference_days": 0.0,
+      "spatial_relation": "INSIDE_ALERT_ZONE",
+      "validation_evidence_score": 100.0
+    },
+    "validation_label": "SUPPORTED",
+    "created_at": "2026-09-23T05:24:19.937752+00:00"
+  },
+  {
+    "feedback_id": "FBK-8B7D2407",
+    "validation_id": "VAL-20260923-46B1FD",
+    "analysis_id": null,
+    "alert_id": null,
+    "water_body_id": "test-body-3",
+    "zone_id": "zone-main",
+    "feature_snapshot": {
+      "ndti_deviation": 0.3,
+      "temporal_difference_days": 0.0,
+      "spatial_relation": "INSIDE_ALERT_ZONE",
+      "validation_evidence_score": 75.0
+    },
+    "validation_label": "NOT_SUPPORTED",
+    "created_at": "2026-09-23T05:24:20.008306+00:00"
+  },
+  {
+    "feedback_id": "FBK-D3ACAE0C",
+    "validation_id": "VAL-20260923-697BA3",
+    "analysis_id": null,
+    "alert_id": null,
+    "water_body_id": "test-body",
+    "zone_id": "zone-c",
+    "feature_snapshot": {},
+    "validation_label": "INCONCLUSIVE",
+    "created_at": "2026-09-23T05:24:55.018903+00:00"
+  },
+  {
+    "feedback_id": "FBK-95D95B5A",
+    "validation_id": "VAL-20260923-656511",
+    "analysis_id": null,
+    "alert_id": null,
+    "water_body_id": "test-body-2",
+    "zone_id": "zone-a",
+    "feature_snapshot": {
+      "ndti_deviation": 0.1,
+      "satellite_value": 0.2,
+      "satellite_baseline": 0.1,
+      "temporal_difference_days": 0.0,
+      "spatial_relation": "INSIDE_ALERT_ZONE",
+      "validation_evidence_score": 100.0
+    },
+    "validation_label": "SUPPORTED",
+    "created_at": "2026-09-23T05:24:55.074989+00:00"
+  },
+  {
+    "feedback_id": "FBK-1BA5911E",
+    "validation_id": "VAL-20260923-513B6C",
+    "analysis_id": null,
+    "alert_id": null,
+    "water_body_id": "test-body-3",
+    "zone_id": "zone-main",
+    "feature_snapshot": {
+      "ndti_deviation": 0.3,
+      "temporal_difference_days": 0.0,
+      "spatial_relation": "INSIDE_ALERT_ZONE",
+      "validation_evidence_score": 75.0
+    },
+    "validation_label": "NOT_SUPPORTED",
+    "created_at": "2026-09-23T05:24:55.120977+00:00"
+  }
+]

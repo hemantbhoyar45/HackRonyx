@@ -7,6 +7,7 @@ import Dashboard from '../../pages/Dashboard';
 import PriorityQueue from '../../pages/PriorityQueue';
 import Methodology from '../../pages/Methodology';
 import DownloadReport from '../../pages/DownloadReport';
+import FieldValidationPage from '../../pages/FieldValidation';
 
 export default function AppRouter() {
   return (
@@ -21,6 +22,7 @@ export default function AppRouter() {
               <Route path="/priority-queue" element={<PriorityQueue />} />
               <Route path="/methodology" element={<Methodology />} />
               <Route path="/download-report" element={<DownloadReport />} />
+              <Route path="/field-validation" element={<FieldValidationPage />} />
               <Route path="/" element={<Navigate to="/dashboard" replace />} />
             </Routes>
           </PageContainer>

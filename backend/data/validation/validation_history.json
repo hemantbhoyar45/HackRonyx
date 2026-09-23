@@ -1,0 +1,128 @@
+[
+  {
+    "id": "HST-149F3AB1",
+    "validation_id": "VAL-20260923-FED9BB",
+    "previous_status": "FIELD_COLLECTED",
+    "new_status": "LAB_AVAILABLE",
+    "changed_at": "2026-09-23T05:24:19.799451+00:00",
+    "changed_by": "system",
+    "reason": "Lab result added"
+  },
+  {
+    "id": "HST-2C669D42",
+    "validation_id": "VAL-20260923-FED9BB",
+    "previous_status": "LAB_AVAILABLE",
+    "new_status": "INCONCLUSIVE",
+    "changed_at": "2026-09-23T05:24:19.834089+00:00",
+    "changed_by": "comparison_engine",
+    "reason": "Automatic rule-based comparison"
+  },
+  {
+    "id": "HST-25BC7F20",
+    "validation_id": "VAL-20260923-29F419",
+    "previous_status": "FIELD_COLLECTED",
+    "new_status": "LAB_AVAILABLE",
+    "changed_at": "2026-09-23T05:24:19.888693+00:00",
+    "changed_by": "system",
+    "reason": "Lab result added"
+  },
+  {
+    "id": "HST-D9E113CB",
+    "validation_id": "VAL-20260923-29F419",
+    "previous_status": "LAB_AVAILABLE",
+    "new_status": "SUPPORTED",
+    "changed_at": "2026-09-23T05:24:19.931696+00:00",
+    "changed_by": "comparison_engine",
+    "reason": "Automatic rule-based comparison"
+  },
+  {
+    "id": "HST-23A00FA0",
+    "validation_id": "VAL-20260923-46B1FD",
+    "previous_status": "FIELD_COLLECTED",
+    "new_status": "LAB_AVAILABLE",
+    "changed_at": "2026-09-23T05:24:19.979552+00:00",
+    "changed_by": "system",
+    "reason": "Lab result added"
+  },
+  {
+    "id": "HST-0CEE9C2F",
+    "validation_id": "VAL-20260923-46B1FD",
+    "previous_status": "LAB_AVAILABLE",
+    "new_status": "NOT_SUPPORTED",
+    "changed_at": "2026-09-23T05:24:20.001719+00:00",
+    "changed_by": "comparison_engine",
+    "reason": "Automatic rule-based comparison"
+  },
+  {
+    "id": "HST-B6FF05D9",
+    "validation_id": "VAL-20260923-933671",
+    "previous_status": "FIELD_COLLECTED",
+    "new_status": "REVIEW_REQUIRED",
+    "changed_at": "2026-09-23T05:24:20.042279+00:00",
+    "changed_by": "operator",
+    "reason": "Need expert review"
+  },
+  {
+    "id": "HST-0BFBAA7D",
+    "validation_id": "VAL-20260923-697BA3",
+    "previous_status": "FIELD_COLLECTED",
+    "new_status": "LAB_AVAILABLE",
+    "changed_at": "2026-09-23T05:24:54.980301+00:00",
+    "changed_by": "system",
+    "reason": "Lab result added"
+  },
+  {
+    "id": "HST-732086A9",
+    "validation_id": "VAL-20260923-697BA3",
+    "previous_status": "LAB_AVAILABLE",
+    "new_status": "INCONCLUSIVE",
+    "changed_at": "2026-09-23T05:24:55.009779+00:00",
+    "changed_by": "comparison_engine",
+    "reason": "Automatic rule-based comparison"
+  },
+  {
+    "id": "HST-41CF07BD",
+    "validation_id": "VAL-20260923-656511",
+    "previous_status": "FIELD_COLLECTED",
+    "new_status": "LAB_AVAILABLE",
+    "changed_at": "2026-09-23T05:24:55.050973+00:00",
+    "changed_by": "system",
+    "reason": "Lab result added"
+  },
+  {
+    "id": "HST-C50111D6",
+    "validation_id": "VAL-20260923-656511",
+    "previous_status": "LAB_AVAILABLE",
+    "new_status": "SUPPORTED",
+    "changed_at": "2026-09-23T05:24:55.069174+00:00",
+    "changed_by": "comparison_engine",
+    "reason": "Automatic rule-based comparison"
+  },
+  {
+    "id": "HST-067CFB30",
+    "validation_id": "VAL-20260923-513B6C",
+    "previous_status": "FIELD_COLLECTED",
+    "new_status": "LAB_AVAILABLE",
+    "changed_at": "2026-09-23T05:24:55.100633+00:00",
+    "changed_by": "system",
+    "reason": "Lab result added"
+  },
+  {
+    "id": "HST-2EE1CE6B",
+    "validation_id": "VAL-20260923-513B6C",
+    "previous_status": "LAB_AVAILABLE",
+    "new_status": "NOT_SUPPORTED",
+    "changed_at": "2026-09-23T05:24:55.116532+00:00",
+    "changed_by": "comparison_engine",
+    "reason": "Automatic rule-based comparison"
+  },
+  {
+    "id": "HST-EB182789",
+    "validation_id": "VAL-20260923-D55A72",
+    "previous_status": "FIELD_COLLECTED",
+    "new_status": "REVIEW_REQUIRED",
+    "changed_at": "2026-09-23T05:24:55.147663+00:00",
+    "changed_by": "operator",
+    "reason": "Need expert review"
+  }
+]

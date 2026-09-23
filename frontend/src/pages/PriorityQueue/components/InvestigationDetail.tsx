@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { X, ShieldAlert, CheckCircle2, Clock, MapPin, Search } from 'lucide-react';
+import { X, ShieldAlert, CheckCircle2, Clock, MapPin, Search, FlaskConical } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
 import type { PriorityQueueItem, AlertStatusHistory } from '../../../types/queue';
 import { queueService } from '../../../services/api/queueService';
 
@@ -13,6 +14,7 @@ export function InvestigationDetail({ item, onClose, onStatusChange }: Props) {
   const [history, setHistory] = useState<AlertStatusHistory[]>([]);
   const [reason, setReason] = useState('');
   const [updating, setUpdating] = useState(false);
+  const navigate = useNavigate();
 
   useEffect(() => {
     if (item) {
@@ -119,7 +121,7 @@ export function InvestigationDetail({ item, onClose, onStatusChange }: Props) {
           <div className="pt-6 border-t border-slate-200">
             <h3 className="text-sm font-bold text-slate-800 uppercase tracking-wider mb-4">INVESTIGATION STATUS</h3>
             
-            <div className="mb-4">
+            <div className="mb-4 flex items-center justify-between">
               <span className={`px-3 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider border ${
                 item.investigation_status === 'ACTIVE' ? 'bg-red-50 border-red-200 text-red-700' :
                 item.investigation_status === 'ACKNOWLEDGED' ? 'bg-orange-50 border-orange-200 text-orange-700' :
@@ -129,6 +131,14 @@ export function InvestigationDetail({ item, onClose, onStatusChange }: Props) {
               }`}>
                 CURRENT: {item.investigation_status.replace('_', ' ')}
               </span>
+              
+              <button 
+                onClick={() => navigate(`/field-validation?alert_id=${item.alert_id}&water_body_id=${item.water_body_id}&zone_id=${item.zone_id}`)}
+                className="flex items-center gap-2 px-3 py-1.5 bg-slate-800 hover:bg-slate-900 text-white text-xs font-bold rounded-md shadow-sm transition-colors"
+              >
+                <FlaskConical className="w-4 h-4" />
+                Add Field Validation
+              </button>
             </div>
 
             <textarea
